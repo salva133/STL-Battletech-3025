@@ -11,6 +11,13 @@
 
 - Clan Federation "Clans" -> Martial Alliance
 
+## Scenario
+### Layout
+
+- recreate scenario with new factions
+- new placement of stars
+    - peripherial states
+    - clans
 
 ## Lore Progression
 ### Static Historical

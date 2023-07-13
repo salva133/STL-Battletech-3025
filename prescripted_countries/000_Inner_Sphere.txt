@@ -113,7 +113,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="default_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_xenophobe"
 	ethic="ethic_fanatic_militarist"
 	civics={
@@ -236,7 +236,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="default_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_fanatic_militarist"
 	civics={
@@ -368,7 +368,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="default_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_xenophobe"
 	ethic="ethic_militarist"
@@ -501,7 +501,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="default_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_xenophobe"
 	ethic="ethic_materialist"
@@ -635,7 +635,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="default_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_xenophobe"
 	ethic="ethic_militarist"
 	ethic="ethic_materialist"
@@ -769,7 +769,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="default_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_xenophobe"
 	ethic="ethic_militarist"
 	civics={
@@ -893,7 +893,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="default_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_pacifist"
 	ethic="ethic_spiritualist"
 	civics={
@@ -1017,7 +1017,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="default_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_egalitarian"
 	ethic="ethic_xenophobe"
 	civics={

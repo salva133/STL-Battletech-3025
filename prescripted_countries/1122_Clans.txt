@@ -61,12 +61,12 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="human"
-			file="flag_human_1.dds"
+			category="BattleTech"
+			file="Clan_Wolf.dds"
 		}
 		background={
 			category="backgrounds"
-			file="circle.dds"
+			file="00_solid.dds"
 		}
 		colors={
 			"black"
@@ -178,16 +178,16 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="human"
-			file="flag_human_1.dds"
+			category="BattleTech"
+			file="Clan_Jade_Falcon.dds"
 		}
 		background={
 			category="backgrounds"
-			file="circle.dds"
+			file="00_solid.dds"
 		}
 		colors={
 			"black"
-			"red"
+			"green"
 			"black"
 			"null"
 		}
@@ -295,16 +295,16 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="human"
-			file="flag_human_1.dds"
+			category="BattleTech"
+			file="Clan_Ghost_Bear.dds"
 		}
 		background={
 			category="backgrounds"
-			file="circle.dds"
+			file="00_solid.dds"
 		}
 		colors={
 			"black"
-			"red"
+			"ice_turquoise"
 			"black"
 			"null"
 		}
@@ -412,16 +412,16 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="human"
-			file="flag_human_1.dds"
+			category="BattleTech"
+			file="Clan_Smoke_Jaguar.dds"
 		}
 		background={
 			category="backgrounds"
-			file="circle.dds"
+			file="00_solid.dds"
 		}
 		colors={
 			"black"
-			"red"
+			"grey"
 			"black"
 			"null"
 		}
@@ -529,16 +529,16 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="human"
-			file="flag_human_1.dds"
+			category="BattleTech"
+			file="Clan_Diamond_Shark.dds"
 		}
 		background={
 			category="backgrounds"
-			file="circle.dds"
+			file="00_solid.dds"
 		}
 		colors={
 			"black"
-			"red"
+			"blue"
 			"black"
 			"null"
 		}
@@ -646,16 +646,16 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="human"
-			file="flag_human_1.dds"
+			category="BattleTech"
+			file="Clan_Nova_Cat_(old).dds"
 		}
 		background={
 			category="backgrounds"
-			file="circle.dds"
+			file="00_solid.dds"
 		}
 		colors={
 			"black"
-			"red"
+			"shadow_purple"
 			"black"
 			"null"
 		}
@@ -763,16 +763,16 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="human"
-			file="flag_human_1.dds"
+			category="BattleTech"
+			file="Clan_Steel_Viper.dds"
 		}
 		background={
 			category="backgrounds"
-			file="circle.dds"
+			file="00_solid.dds"
 		}
 		colors={
 			"black"
-			"red"
+			"dark_grey"
 			"black"
 			"null"
 		}
@@ -880,16 +880,16 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="human"
-			file="flag_human_1.dds"
+			category="BattleTech"
+			file="Clan_Ice_Hellion.dds"
 		}
 		background={
 			category="backgrounds"
-			file="circle.dds"
+			file="00_solid.dds"
 		}
 		colors={
 			"black"
-			"red"
+			"ice_turquoise"
 			"black"
 			"null"
 		}
@@ -997,16 +997,16 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="human"
-			file="flag_human_1.dds"
+			category="BattleTech"
+			file="Clan_Fire_Mandrill.dds"
 		}
 		background={
 			category="backgrounds"
-			file="circle.dds"
+			file="00_solid.dds"
 		}
 		colors={
 			"black"
-			"red"
+			"intense_orange"
 			"black"
 			"null"
 		}
@@ -1114,16 +1114,16 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="human"
-			file="flag_human_1.dds"
+			category="BattleTech"
+			file="Clan_Hell's_Horses.dds"
 		}
 		background={
 			category="backgrounds"
-			file="circle.dds"
+			file="00_solid.dds"
 		}
 		colors={
 			"black"
-			"red"
+			"intense_red"
 			"black"
 			"null"
 		}

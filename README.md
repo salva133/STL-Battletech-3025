@@ -25,6 +25,10 @@ We welcome contributions from the community. If you'd like to help improve the m
 
 ### Changelog
 
+0.1.4
+    - Added map options
+    - Merged BattleTech Great House Flags into the project
+
 0.1.3
 
     - Added the Periphery States

@@ -105,7 +105,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_honorbound_warriors_room"
-	spawn_enabled=no
+	spawn_enabled=yes
 	ethic="ethic_authoritarian"
 	ethic="ethic_militarist"
 	ethic="ethic_materialist"
@@ -222,7 +222,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_honorbound_warriors_room"
-	spawn_enabled=no
+	spawn_enabled=yes
 	ethic="ethic_authoritarian"
 	ethic="ethic_militarist"
 	ethic="ethic_materialist"
@@ -339,7 +339,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_honorbound_warriors_room"
-	spawn_enabled=no
+	spawn_enabled=yes
 	ethic="ethic_authoritarian"
 	ethic="ethic_militarist"
 	ethic="ethic_materialist"
@@ -456,7 +456,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_honorbound_warriors_room"
-	spawn_enabled=no
+	spawn_enabled=yes
 	ethic="ethic_authoritarian"
 	ethic="ethic_militarist"
 	ethic="ethic_materialist"
@@ -573,7 +573,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_honorbound_warriors_room"
-	spawn_enabled=no
+	spawn_enabled=yes
 	ethic="ethic_authoritarian"
 	ethic="ethic_militarist"
 	ethic="ethic_materialist"
@@ -690,7 +690,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_honorbound_warriors_room"
-	spawn_enabled=no
+	spawn_enabled=yes
 	ethic="ethic_authoritarian"
 	ethic="ethic_militarist"
 	ethic="ethic_spiritualist"
@@ -807,7 +807,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_honorbound_warriors_room"
-	spawn_enabled=no
+	spawn_enabled=yes
 	ethic="ethic_authoritarian"
 	ethic="ethic_militarist"
 	ethic="ethic_materialist"
@@ -924,7 +924,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_honorbound_warriors_room"
-	spawn_enabled=no
+	spawn_enabled=yes
 	ethic="ethic_authoritarian"
 	ethic="ethic_militarist"
 	ethic="ethic_materialist"
@@ -1041,7 +1041,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_honorbound_warriors_room"
-	spawn_enabled=no
+	spawn_enabled=yes
 	ethic="ethic_authoritarian"
 	ethic="ethic_militarist"
 	ethic="ethic_materialist"
@@ -1158,7 +1158,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_honorbound_warriors_room"
-	spawn_enabled=no
+	spawn_enabled=yes
 	ethic="ethic_authoritarian"
 	ethic="ethic_militarist"
 	ethic="ethic_materialist"

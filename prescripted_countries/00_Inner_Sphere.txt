@@ -1,127 +1,3 @@
-"Republic of the Sphere"={
-	key="Republic of the Sphere"
-	ship_prefix={
-		key="RSS"
-		literal=yes
-	}
-	species={
-		class="HUM"
-		portrait="human"
-		species_name={
-			key="Terran"
-			literal=yes
-		}
-		species_plural={
-			key="Terrans"
-			literal=yes
-		}
-		species_adjective={
-			key="%ADJECTIVE%"
-			variables={
-				{
-					key="adjective"
-					value={
-						key="Terran"
-						literal=yes
-					}
-				}
- 
-			}
-		}
-		species_bio="Terrans are known for their diversity and adaptability, both in terms of their cultures and the different environments in which they live. They are fundamentally intelligent and curious, which makes them excellent scientists and researchers. However, they often have difficulty learning quickly and adapting to new technologies. They believe in equality and cooperation and are known for their efforts to spread these values throughout the human sphere. They are very open-minded towards aliens and are eager to establish peaceful and cooperative relations with them."
-		name_list="HUMAN1"
-		gender=not_set
-		trait="trait_intelligent"
-		trait="trait_adaptive"
-		trait="trait_slow_learners"
-		trait="trait_quarrelsome"
-	}
-	name={
-		key="Republic of the Sphere"
-		literal=yes
-	}
-	adjective={
-		key="%ADJ%"
-		variables={
-			{
-				key="adjective"
-				value={
-					key="Republican"
-					literal=yes
-				}
-			}
- 
-		}
-	}
-	authority="auth_democratic"
-	government="gov_representative_democracy"
-	planet_name={
-		key="Terra"
-		literal=yes
-	}
-	planet_class="pc_continental"
-	system_name={
-		key="Sol"
-		literal=yes
-	}
-	initializer="sol_system_initializer"
-	graphical_culture="humanoid_01"
-	city_graphical_culture="humanoid_01"
-	empire_flag={
-		icon={
-			category="human"
-			file="flag_human_9.dds"
-		}
-		background={
-			category="backgrounds"
-			file="sinus.dds"
-		}
-		colors={
-			"grey"
-			"blue"
-			"black"
-			"null"
-		}
-	}
-	ruler={
-		gender=male
-		name={
-			full_names={
-				key="Devlin Stone"
-				literal=yes
-			}
-		}
-		portrait="human_male_01"
-		texture=2
-		attachment=22
-		clothes=4
-		ruler_title={
-			key="Exarch"
-			literal=yes
-		}
-		ruler_title_female={
-			key="Exarch"
-			literal=yes
-		}
-		custom_biography={
-			key="Devlin Stone is a visionary and idealistic leader. He emerged from the ashes of the Word of Blake Jihad and led the effort to create the Republic of the Sphere. Devlin is known for his commitment to peace, unity, and cooperation among the diverse worlds of the Inner Sphere"
-			literal=yes
-		}
-		trait="trait_ruler_charismatic"
-		leader_class="governor"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="default_room"
-	spawn_enabled=no
-	ethic="ethic_fanatic_egalitarian"
-	ethic="ethic_xenophobe"
-	civics={
-		"civic_heroic_tales"
-		"civic_parliamentary_system"
-	}
-	origin="origin_default"
-}
 "Federated Suns"={
 	key="Federated Suns"
 	ship_prefix={
@@ -1023,6 +899,130 @@
 	civics={
 		"civic_media_conglomerate"
 		"civic_gospel_of_the_masses"
+	}
+	origin="origin_default"
+}
+"Republic of the Sphere"={
+	key="Republic of the Sphere"
+	ship_prefix={
+		key="RSS"
+		literal=yes
+	}
+	species={
+		class="HUM"
+		portrait="human"
+		species_name={
+			key="Terran"
+			literal=yes
+		}
+		species_plural={
+			key="Terrans"
+			literal=yes
+		}
+		species_adjective={
+			key="%ADJECTIVE%"
+			variables={
+				{
+					key="adjective"
+					value={
+						key="Terran"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		species_bio="Terrans are known for their diversity and adaptability, both in terms of their cultures and the different environments in which they live. They are fundamentally intelligent and curious, which makes them excellent scientists and researchers. However, they often have difficulty learning quickly and adapting to new technologies. They believe in equality and cooperation and are known for their efforts to spread these values throughout the human sphere. They are very open-minded towards aliens and are eager to establish peaceful and cooperative relations with them."
+		name_list="HUMAN1"
+		gender=not_set
+		trait="trait_intelligent"
+		trait="trait_adaptive"
+		trait="trait_slow_learners"
+		trait="trait_quarrelsome"
+	}
+	name={
+		key="Republic of the Sphere"
+		literal=yes
+	}
+	adjective={
+		key="%ADJ%"
+		variables={
+			{
+				key="adjective"
+				value={
+					key="Republican"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_democratic"
+	government="gov_representative_democracy"
+	planet_name={
+		key="Terra"
+		literal=yes
+	}
+	planet_class="pc_continental"
+	system_name={
+		key="Sol"
+		literal=yes
+	}
+	initializer="sol_system_initializer"
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="human"
+			file="flag_human_9.dds"
+		}
+		background={
+			category="backgrounds"
+			file="sinus.dds"
+		}
+		colors={
+			"grey"
+			"blue"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name={
+			full_names={
+				key="Devlin Stone"
+				literal=yes
+			}
+		}
+		portrait="human_male_01"
+		texture=2
+		attachment=22
+		clothes=4
+		ruler_title={
+			key="Exarch"
+			literal=yes
+		}
+		ruler_title_female={
+			key="Exarch"
+			literal=yes
+		}
+		custom_biography={
+			key="Devlin Stone is a visionary and idealistic leader. He emerged from the ashes of the Word of Blake Jihad and led the effort to create the Republic of the Sphere. Devlin is known for his commitment to peace, unity, and cooperation among the diverse worlds of the Inner Sphere"
+			literal=yes
+		}
+		trait="trait_ruler_charismatic"
+		leader_class="governor"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=no
+	ethic="ethic_fanatic_egalitarian"
+	ethic="ethic_xenophobe"
+	civics={
+		"civic_heroic_tales"
+		"civic_parliamentary_system"
 	}
 	origin="origin_default"
 }

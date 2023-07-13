@@ -68,16 +68,16 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="domination"
-			file="domination_24.dds"
+			category="human"
+			file="flag_human_4.dds"
 		}
 		background={
 			category="backgrounds"
-			file="flag_BG_27.dds"
+			file="circle.dds"
 		}
 		colors={
-			"dark_grey"
-			"red_orange"
+			"shadow_purple"
+			"white"
 			"orange"
 			"null"
 		}
@@ -187,16 +187,16 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="domination"
-			file="domination_24.dds"
+			category="zoological"
+			file="flag_zoological_24.dds"
 		}
 		background={
 			category="backgrounds"
-			file="flag_BG_27.dds"
+			file="circle.dds"
 		}
 		colors={
-			"dark_grey"
-			"red_orange"
+			"shadow_blue"
+			"yellow"
 			"orange"
 			"null"
 		}
@@ -310,16 +310,16 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="domination"
-			file="domination_24.dds"
+			category="human"
+			file="flag_human_8.dds"
 		}
 		background={
 			category="backgrounds"
-			file="flag_BG_27.dds"
+			file="circle.dds"
 		}
 		colors={
-			"dark_grey"
-			"red_orange"
+			"dark_green"
+			"white"
 			"orange"
 			"null"
 		}
@@ -434,15 +434,15 @@
 	empire_flag={
 		icon={
 			category="domination"
-			file="domination_24.dds"
+			file="domination_6.dds"
 		}
 		background={
 			category="backgrounds"
-			file="flag_BG_27.dds"
+			file="circle.dds"
 		}
 		colors={
-			"dark_grey"
-			"red_orange"
+			"red"
+			"yellow"
 			"orange"
 			"null"
 		}

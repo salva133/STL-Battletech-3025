@@ -7,7 +7,7 @@ This mod for Stellaris brings the universe of BattleTech into your game by addin
 Adds the five major houses of the Inner Sphere: House Davion (Federated Suns), House Steiner (Lyran Commonwealth), House Marik (Free Worlds League), House Liao (Capellan Confederation), and House Kurita (Draconis Combine), and the Terran Republic as playable empires.
 Adds ten major Clans: Clan Wolf, Clan Jade Falcon, Clan Ghost Bear, Clan Smoke Jaguar, Clan Diamond Shark, Clan Nova Cat, Clan Steel Viper, Clan Ice Hellion, Clan Fire Mandrill, Clan Hell's Horses as playable empires.
 Custom empire designs for each house and clan, including unique flags, leaders, and home systems.
-Vanilla species traits for each empire, reflecting their unique cultural and societal traits from the BattleTech lore.
+Species traits for each empire, reflecting their unique cultural and societal traits from the BattleTech lore.
 
 ## Installation
 
@@ -29,7 +29,7 @@ We welcome contributions from the community. If you'd like to help improve the m
 
     - Initial release
 
-0.1.1
+0.2
 
     - Added Independence of the Free Rasalhague Republic event
     - Added the Periphery States

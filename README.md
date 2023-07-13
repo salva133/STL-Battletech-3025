@@ -25,14 +25,14 @@ We welcome contributions from the community. If you'd like to help improve the m
 
 ### Changelog
 
-0.1
-
-    - Initial release
-
-0.2
+0.1.1
 
     - Added Independence of the Free Rasalhague Republic event
     - Added the Periphery States
+
+0.1.0
+
+    - Initial release
 
 Credits
 

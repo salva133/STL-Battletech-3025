@@ -1,7 +1,139 @@
+"Aurigan Coalition"={
+	key="Aurigan Coalition"
+	ship_prefix={
+		key="AC"
+		literal=yes
+	}
+	species={
+		class="HUM"
+		portrait="human"
+		species_name={
+			key="Aurigan"
+			literal=yes
+		}
+		species_plural={
+			key="Aurigans"
+			literal=yes
+		}
+		species_adjective={
+			key="%ADJECTIVE%"
+			variables={
+				{
+					key="adjective"
+					value={
+						key="Aurigan"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		species_bio="The Aurigans, hailing from the Aurigan Reach, a sprawling coalition of systems in the periphery. They have a strong will and independence streak, cherishing their freedom above all else."
+		name_list="HUMAN1"
+		gender=not_set
+		trait="trait_adaptive"
+		trait="trait_nomadic"
+		trait="trait_wasteful"
+	}
+	name={
+		key="Aurigan Coalition"
+		literal=yes
+	}
+	adjective={
+		key="%ADJ%"
+		variables={
+			{
+				key="adjective"
+				value={
+					key="Aurigan"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_imperial"
+	government="gov_star_empire"
+	planet_name={
+		key="Coromodir"
+		literal=yes
+	}
+	planet_class="pc_continental"
+	system_name={
+		key="Coromodir"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="domination"
+			file="domination_9.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"yellow"
+			"shadow_blue"
+			"orange"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name={
+			full_names={
+				key="Kamea Arano"
+				literal=yes
+			}
+		}
+		portrait="human_female_04"
+		texture=4
+		attachment=21
+		clothes=6
+		ruler_title={
+			key="High Lord"
+			literal=yes
+		}
+		heir_title={
+			key="Lord"
+			literal=yes
+		}
+		ruler_title_female={
+			key="High Lady"
+			literal=yes
+		}
+		heir_title_female={
+			key="Lady"
+			literal=yes
+		}
+		custom_biography={
+			key="Kamea Arano, the rightful ruler of the Aurigan Coalition, is a visionary leader who fought against a coup to restore the Arano family rule over the Aurigan Reach."
+			literal=yes
+		}
+		trait="leader_trait_principled"
+		leader_class="governor"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_erudite_explorers_room"
+	spawn_enabled=always
+	ethic="ethic_xenophile"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
+	civics={
+		"civic_aristocratic_elite"
+		"civic_diplomatic_corps"
+	}
+	origin="origin_default"
+}
 "Magistracy of Canopus"={
 	key="Magistracy of Canopus"
 	ship_prefix={
-		key="MCS"
+		key="MC"
 		literal=yes
 	}
 	species={
@@ -120,7 +252,7 @@
 "Taurian Concordat"={
 	key="Taurian Concordat"
 	ship_prefix={
-		key="TCS"
+		key="TC"
 		literal=yes
 	}
 	species={

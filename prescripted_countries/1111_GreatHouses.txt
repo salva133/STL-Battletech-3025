@@ -1,7 +1,7 @@
 "Federated Suns"={
 	key="Federated Suns"
 	ship_prefix={
-		key="RSS"
+		key="FS"
 		literal=yes
 	}
 	species={
@@ -125,7 +125,7 @@
 "Draconis Combine"={
 	key="Draconis Combine"
 	ship_prefix={
-		key="RSS"
+		key="DC"
 		literal=yes
 	}
 	species={
@@ -258,7 +258,7 @@
 "Capellan Confederation"={
 	key="Capellan Confederation"
 	ship_prefix={
-		key="RSS"
+		key="CCS"
 		literal=yes
 	}
 	species={
@@ -391,7 +391,7 @@
 "Lyran Commonwealth"={
 	key="Lyran Commonwealth"
 	ship_prefix={
-		key="RSS"
+		key="LC"
 		literal=yes
 	}
 	species={
@@ -525,7 +525,7 @@
 "Free Worlds League"={
 	key="Free Worlds League"
 	ship_prefix={
-		key="RSS"
+		key="FWLS"
 		literal=yes
 	}
 	species={

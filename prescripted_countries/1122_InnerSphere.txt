@@ -1,7 +1,7 @@
 "ComStar"={
 	key="ComStar"
 	ship_prefix={
-		key="RSS"
+		key="CS"
 		literal=yes
 	}
 	species={
@@ -248,7 +248,7 @@
 "Republic of the Sphere"={
 	key="Republic of the Sphere"
 	ship_prefix={
-		key="RSS"
+		key="RS"
 		literal=yes
 	}
 	species={

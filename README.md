@@ -25,6 +25,10 @@ We welcome contributions from the community. If you'd like to help improve the m
 
 ### Changelog
 
+0.1.5
+    - Added scenario file
+    - Added minor periphery states
+
 0.1.4
     - Added map options
     - Merged BattleTech Great House Flags into the project

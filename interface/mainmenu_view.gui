@@ -88,7 +88,7 @@ guiTypes = {
 			iconType = {
 				name = "ironman_icon_scenarios"
 				spriteType = "GFX_ironman_icon"
-				position = { x= 80 y = 134 }
+				position = { x= 80 y = 194 }
 				Orientation = "CENTER_UP"
 				alwaystransparent = yes
 			}

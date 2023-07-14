@@ -1,5 +1,7 @@
 # Further Plans without a specific version or branch
 
+## Somehow prevent random ai empires from spawning
+
 ## UI
 ### Main Menu
 - disable "New Game"

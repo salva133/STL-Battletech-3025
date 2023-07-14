@@ -4,10 +4,11 @@ This mod for Stellaris brings the universe of BattleTech into your game by addin
 
 ## Features
 
-Adds the five major houses of the Inner Sphere: House Davion (Federated Suns), House Steiner (Lyran Commonwealth), House Marik (Free Worlds League), House Liao (Capellan Confederation), and House Kurita (Draconis Combine), and the Terran Republic as playable empires.
-Adds ten major Clans: Clan Wolf, Clan Jade Falcon, Clan Ghost Bear, Clan Smoke Jaguar, Clan Diamond Shark, Clan Nova Cat, Clan Steel Viper, Clan Ice Hellion, Clan Fire Mandrill, Clan Hell's Horses as playable empires.
-Custom empire designs for each house and clan, including unique flags, leaders, and home systems.
-Species traits for each empire, reflecting their unique cultural and societal traits from the BattleTech lore.
+Adds the five major houses of the Inner Sphere: House Davion (Federated Suns), House Steiner (Lyran Commonwealth), House Marik (Free Worlds League), House Liao (Capellan Confederation), and House Kurita (Draconis Combine), the Terran Republic, and the Free Rasalhague Republic as playable empires. The mod also includes the major Periphery States: the Magistracy of Canopus, the Taurian Concordat, the Outworlds Alliance, the Marian Hegemony, and the Aurigan Coalition, along with other notable factions such as the Circinus Federation, the Lothian League, the Illyrian Palatinate, Morgraine's Valkyrate, the Chainelane Isles, the Oberon Confederation, the Elysian Fields, the Tortuga Dominions, and the JàrnFòlk.
+
+Adds ten major Clans: Clan Wolf, Clan Jade Falcon, Clan Ghost Bear, Clan Smoke Jaguar, Clan Diamond Shark, Clan Nova Cat, Clan Steel Viper, Clan Ice Hellion, Clan Fire Mandrill, Clan Hell's Horses, Clan Goliath Scorpion, Clan Snow Raven, Clan Coyote, Clan Star Adder, and Clan Blood Spirit as playable empires.
+
+Custom empire designs for each house, clan, and other factions, including unique flags (mostly), leaders, and home systems. Species traits for each empire, reflecting their unique cultural and societal traits from the BattleTech lore. Also added are custom ship prefixes for each house, clan, and other factions, providing an additional layer of authenticity to your BattleTech-inspired Stellaris experience.
 
 ## Installation
 

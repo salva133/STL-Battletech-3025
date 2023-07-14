@@ -1,0 +1,74 @@
+﻿l_german:
+# The following names are applied to generic ships, Megastructures, and space creatures ('fauna') which populate the galaxy and are related to features, rather than particular events.
+
+# Generic ships
+ NAME_Constructor:0 "Konstruktor"
+
+# Space Fauna 'countries' (describing e.g. the Tiyanki, Space Crystals, Mining Drones...)
+
+# Galactic Imperium
+ NAME_Rebellion:0 "Rebellenkoalition" #federation
+ NAME_Loyalists:0 "Imperiale Loyalisten" #federation
+ NAME_The_Civil_War:0 "Galaktische Rebellion" #war
+ NAME_Declared_Crisis_War:0 "[This.MainDefender.GetAdj]er Krisen-Krieg" #war
+ NAME_Crisis_Star_Eater:0 "Verschlinger"
+ NAME_GDF:0 "Galaktischer Verteidigungstrupp"
+ NAME_Imperial_Crusade_War:0 "Galaktischer Imperialer Kreuzzug" #war
+
+#################
+# MEGASTRUCTURES
+#################
+
+# Ring World sections
+ NAME_Ring_Section_A:0 "Ringsektion A"
+ NAME_Ring_Section_B:0 "Ringsektion B"
+ NAME_Ring_Section_C:0 "Ringsektion C"
+ NAME_Ring_Section_D:0 "Ringsektion D"
+ NAME_Ring_Section_E:0 "Ringsektion E"
+ NAME_Ring_Section_F:0 "Ringsektion F"
+ NAME_Ring_Section_G:0 "Ringsektion G"
+ NAME_Ring_Section_H:0 "Ringsektion H"
+ NAME_Ring_Section_I:0 "Ringsektion I"
+ NAME_Ring_Section_K:0 "Ringsektion K"
+ NAME_Ring_Section_L:0 "Ringsektion L"
+ NAME_Ring_Section:0 "Ringsektion"
+ NAME_Habitable_Section_A:0 "Habitatsektion A"
+ NAME_Habitable_Section_B:0 "Habitatsektion B"
+ NAME_Habitable_Section_C:0 "Habitatsektion C"
+ NAME_Habitable_Section_D:0 "Habitatsektion D"
+
+##########
+# ORIGINS
+##########
+
+# Galactic Doorstep
+ NAME_Galactic_Doorstep:0 "Schwarze Krone" #megastructure
+ NAME_Gateway_Vermin:0 "Sternentor-Plage" #empire
+
+# On the Shoulders of Giants
+ NAME_Theros:0 "Theros" #planet
+ NAME_Melidas:0 "Melidas" #planet
+ NAME_Koras:0 "Koras" #planet
+ NAME_Haradas:0 "Haradas" #planet
+ NAME_Islena:0 "Islena" #planet
+
+# Shattered Ring
+ NAME_Irreparable_Damage:0 "Irreparabler Schaden" #ringworld segment
+ NAME_The_Interloper:0 "Der Eindringling" #shattered planet
+
+# Here Be Dragons
+ NAME_Sky_Dragon:0 "Himmelsdrache"
+ NAME_Sky_Dragon_Baby:0 "Himmelsdrachenjunges"
+ NAME_Hrozgar_of_the_Endless_Flames:0 "Hrozgar von den Endlosen Flammen"
+
+# Imperial Fiefdom
+ NAME_Imperial_Origin_Empire:0 "Heiliges [origin_imperial_species.GetAdj]es Reich"
+ NAME_Imperial_Origin_Empire_2:0 "Königreich der [origin_imperial_species_2.GetNamePlural]"
+ NAME_Imperial_Origin_Empire_3:0 "Kurfürstentum der [origin_imperial_species_3.GetNamePlural]"
+ NAME_Imperial_Origin_Empire_4:0 "Reichslehen der [origin_imperial_species_4.GetNamePlural]"
+ NAME_Imperial_Origin_Empire_5:0 "[origin_imperial_species_5.GetAdj]e Liga"
+ NAME_Aix:0 "Aix" #planet
+
+ # Toxic Knights
+ NAME_Sinople:0 "Sinople"
+ NAME_Syamelle:0 "Syamelle"

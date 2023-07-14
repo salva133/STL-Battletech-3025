@@ -1,0 +1,598 @@
+﻿l_german:
+ #########################
+ # Progenitor Hive Origin
+ #########################
+
+ origin_progenitor_hive:0 "Vorläufer-Schwarm"
+ origin_progenitor_hive_desc:1 "Dieser Schwarm hat sich durch seine halb selbstständigen Anführer einen evolutionären Vorteil verschafft. Diese "Nachkommen", wie man sie nennt, verbessern die Gesamtleistung erheblich, obwohl sie ständig beaufsichtigt werden müssen."
+ START_SCREEN_PROGENITOR_HIVE:1 "Am Anfang war der Vorläufer.\n\nDas Leben auf [Root.GetHomeWorldName] war hart und von großer Konkurrenz geprägt, und dennoch schaffte es der mächtige Vorläufer, sein Territorium auszudehnen. Die Führung eines so großen Herrschaftsgebiets war bald nicht mehr allein zu bewältigen, und so schuf der Vorläufer die ersten Nachkommen. Mit der Zeit wurde deutlich, dass die Nachkommen nicht allein zurechtkamen, weshalb auch sie Drohnen produzierten, die ihnen bei der Zähmung unserer Heimat halfen.\n\nAls wir unsere ersten vorsichtigen Schritte durch das [capital_scope.System.GetName]-System unternahmen, zog sich unser Vorläufer in ein einst für ihn geschaffenes Nest zurück. Durch diese größere, rationalisierte Kontrolle sind wir nun bereit, den Einfluss unseres Vorläufers auf alle Sterne der Galaxie auszudehnen - alles, was war, ist oder sein wird, ist für unseren Vorläufer. [Root.GetName] wird es bezeugen."
+ origin_tooltip_progenitor_hive_effects:4 "- Beschäftigt spezielle §HNachkommen-Anführer§!, die passiv Erfahrungspunkte sammeln.\n- Ersetzt £building£ §HLaichbecken§! durch £building£ §HNachwuchsnester§!, die eine mächtige Verteidigungsarmee und diverse Boni für Arbeiterdrohnen bieten.\n- Erlaubt den Bau von £building£ §HNachkommen-Nestern§! auf Untertanenwelten.\n- Kann §HSektoren§! als §HUntertanen§! entlassen, solange diese nicht das Staatselement §H$civic_hive_devouring_swarm$§! besitzen.\nErlaubt den Bau von §HNachkommen-Schiffen§!, die die Kampfeffektivität von Schiffen in der Nähe verbessern.\n- Flotten ohne Nachkommen-Schiffe sind nur halb so effektiv und erhalten die folgenden Mali:\n\n"
+ #Progenitor deposits, armies and decisions
+ progenitor_defense:0 "Schwarm-Vorläufer"
+ progenitor_defense_plural:0 "$progenitor_defense$"
+ progenitor_defense_desc:0 "Der Vorläufer des Schwarms. Das größte und am höchsten entwickelte Mitglied des Schwarms."
+ d_progenitor:0 "Vorläufer-Nest"
+ d_progenitor_desc:0 "Das Nest des Vorläufers, in dem jeder einzelne Nachkomme geboren wird."
+ d_progenitor_empty:0 "Leeres Vorläufer-Nest"
+ d_progenitor_empty_desc:0 "Der einst mächtige Vorläufer wurde besiegt, was den Schwarm ins Chaos gestürzt hat."
+
+ decision_grow_progenitor:0 "Neuen Vorläufer heranzüchten"
+ decision_grow_progenitor_desc:0 "Unser ältester Nachkomme könnte in der Lage sein, den Mantel unseres verstorbenen Vorläufers überzustreifen."
+
+ missing_progenitor_modifier:0 "Fehlender Vorläufer"
+ missing_progenitor_modifier_desc:0 "Diesem Schwarm fehlt sein Vorläufer, wodurch er ins Chaos gestürzt ist."
+
+ ship_progenitor_hive_modifier:0 "Lähmender Mangel an Autonomie"
+ ship_progenitor_hive_modifier_desc:0 "Dieser Schwarm ist bei stellaren Schlachten benachteiligt, wenn die Flotte nicht von einem Nachkommen-Schiff begleitet wird."
+
+ #Events
+ origin.3210.name:0 "Der Vorläufer ist gefallen"
+ origin.3210.desc:1 "Das Unvorstellbare ist geschehen: Unsere Hauptwelt ist in die abscheulichen [From.species.GetHandNamePlural] von [From.GetName] gefallen. Während der letzten verzweifelten Verteidigung von [Root.GetName] fiel unser Vorläufer den Eindringlingen zum Opfer, doch nicht bevor er viele der [From.GetSpeciesAdj]en Truppen mit sich nahm.\n\nFür diesen eigentlich undenkbaren Fall hatte unser stets vorausschauender Vorläufer einen Nachfolger unter den Nachkommen bestimmt. Dem neuen Vorläufer ist es gelungen, Teile unseres Bewusstseins zu stabilisieren, aber die Komplexität und der Druck sind zu groß, als dass er die Aufgaben unseres ehemaligen Vorläufers vollständig übernehmen könnte. Wir müssen diesen Nachkommen heranzüchten und ihn als neuen Vorläufer die Kontrolle übernehmen lassen, ehe noch mehr unserer Feinde unsere derzeitige Uneinigkeit ausnutzen können."
+ origin.3215.name:0 "Migration"
+ origin.3215.desc:0 "Das Unvorstellbare ist geschehen: Unsere Heimatwelt ist in die abscheulichen [From.species.GetHandNamePlural] von [From.GetName] gefallen. Wir sind jetzt dazu gezwungen, unsere gesamte Verwaltung nach [capital_scope.GetName] zu verlegen, einschließlich der Einrichtung eines neuen Vorläufer-Nests. Wir müssen einen unserer Nachkommen heranzüchten und ihn als neuen Vorläufer die Kontrolle übernehmen lassen, ehe noch mehr unserer Feinde unsere derzeitige Uneinigkeit ausnutzen können."
+ origin.3215.a:0 "Wir werden uns erholen."
+ origin.3245.name:0 "Ziellos"
+ origin.3245.desc:0 "[Root.GetName] wurde von der Koloss-Waffe unseres gefürchteten Feindes §Y[From.GetName]§! getroffen. Wir haben nicht nur [Root.GetPlanetHabitatDE1] [Root.GetPlanetHabitatDE2] verloren, sondern auch unseren Vorläufer und alle Nachkommen, die sich darauf befanden. Unsere Drohnen und Nachkommen hatten sich in einem letzten verzweifelten Versuch versammelt, den Vorläufer vor der Maschine zu schützen, doch am Ende zögerten ihre Bemühungen das Unvermeidliche nur hinaus und auch der Vorläufer fiel bald darauf.\n\nJetzt ist unser Bewusstsein voller unruhiger Gedanken und Impulse, und wenn wir nicht bald einen neuen Vorläufer ernennen, wird [Owner.GetName] schon bald aufhören, zu existieren."
+ origin.3245.a:0 "Wir müssen zurückschlagen!"
+ origin.3245.b:0 "Wir müssen fliehen!"
+ origin.3245.c:0 "Wir benötigen mehr Mineralien."
+ origin.3245.d:0 "*Unverständliches Gekreische*"
+ origin.3265.name:0 "Tod durch tausend Detonationen"
+ origin.3265.desc:0 "Die Bombardierung hielt Monate an, und schließlich ist [From.GetName] gefallen. Jede Spur von Leben wurde ausgelöscht. Staubwolken ziehen über die verwüsteten Straßen unserer ehemaligen Hauptstadt. Tote [Root.GetSpeciesNamePlural] liegen auf dem Boden, und ein riesiger Leichenberg umgibt unseren Vorläufer, der während der letzten Bombardierung fiel.\n\nWir müssen uns nun darauf konzentrieren, unsere Verwaltung nach [capital_scope.GetName] zu verlegen, und dort ein neues Vorläufer-Nest errichten. Wir müssen einen unserer Nachkommen heranziehen, der die Rolle des Vorläufers übernimmt, ehe noch mehr unserer Feinde diesen Moment der Uneinigkeit ausnutzen."
+
+ MESSAGE_OFFSPRING_DEFEATED_TITLE:0 "Nachkomme wurde besiegt"
+ MESSAGE_OFFSPRING_DEFEATED_DESC:0 "Unser Nachkomme auf $PLANET|Y$ wurde besiegt, was zur Zerstörung unseres §YNachkommen-Nests§! geführt hat."
+ MESSAGE_NO_OFFSPRING_TITLE:0 "Fehlender Nachkomme"
+ MESSAGE_NO_OFFSPRING_DESC:0 "Wir haben einem §YNachkommen-Nest§! auf $PLANET|Y$ derzeit keine Drohnen zugewiesen, was zu einem Rückgang an Produktivität bei den Arbeitsdrohnen führt."
+
+ MESSAGE_FINAL_OFFSPRING_SHIP_TITLE:0 "Letztes Nachkommen-Schiff besiegt"
+ MESSAGE_FINAL_OFFSPRING_SHIP_DESC:0 "Unser letztes §YNachkommen-Schiff§! im $SYSTEM|Y$-System wurde vernichtet und hat unsere Flotten ohne Befehlshaber zurückgelassen."
+
+ job_offspring_drone:0 "Nachkommen-Drohne"
+ job_offspring_drone_plural:0 "Nachkommen-Drohnen"
+ mod_job_offspring_drone_add:0 "Job als $job_offspring_drone$"
+ job_offspring_drone_desc:0 "Hier residiert der Verwalter des gesamten Planeten. Mithilfe der Nachkommen-Drohnen setzt der Vorläufer seinen großen Plan in die Tat um."
+ job_offspring_drone_effect_desc:1 "£job_spawning_drone£ $job_offspring_drone_plural$ erhöhen die £mod_planet_amenities_no_happiness_add£ §Y$PLANET_AMENITIES_TITLE$§! und £mod_planet_pop_assembly_mult£ §Y$MOD_PLANET_POP_ASSEMBLY_ORGANIC_ADD$§!, erschaffen §Y$offspring_defense_plural$§! und erhöhen die £mod_planet_jobs_simple_drone_produces_mult£ Produktion von §Y$pop_cat_simple_drone$§! um §G+10%§!."
+ building_offspring_nest:0 "Nachkommen-Nest"
+ building_offspring_nest_desc:1 "Dieses Nest, das einer Festung gleicht, beherbergt den lokalen Nachkommen und beschleunigt gleichzeitig das Wachstum des restlichen Schwarms in der Nähe."
+ offspring_nest_tooltip:1 "\n§HNur Spezies von Vorläufer-Schwärmen können in den Nachkommen-Nestern herangezüchtet werden.§!\n"
+
+ offspring_defense:1 "Nachkommen-Armee"
+ offspring_defense_plural:1 "Nachkommen-Armeen"
+ offspring_defense_desc:1 "Diese Armeen stehen unter der direkten Kontrolle des lokalen Nachkommens und sind tödlicher und schwieriger zu töten als alles, was ein normales Schwarmbewusstsein hervorbringen könnte."
+
+ missing_offspring_modifier:0 "Fehlender Nachkomme"
+ missing_offspring_modifier_desc:0 "Auf diesem Planeten fehlt ein Nachkomme, was zu einem erheblichen Rückgang an Effizienz bei $pop_cat_simple_drone_plural$ führt."
+
+ #Progentior Hive Ships
+
+ offspring_corvette:0 "Nachkommen-Korvette"
+ offspring_corvette_plural:0 "Nachkommen-Korvetten"
+ OFFSPRING_CORVETTE_MID_M1S1:0 "$CORVETTE_MID_M1S1$"
+ OFFSPRING_CORVETTE_MID_S3:0 "$CORVETTE_MID_S3$"
+ OFFSPRING_CORVETTE_MID_S1:0 "$CORVETTE_MID_S1$"
+ OFFSPRING_CORVETTE_MID_S2PD1:0 "$CORVETTE_MID_S2PD1$"
+
+ offspring_cruiser:0 "Nachkommen-Kreuzer"
+ offspring_cruiser_plural:0 "Nachkommen-Kreuzer"
+ OFFSPRING_CRUISER_BOW_L1:0 "$CRUISER_BOW_L1$"
+ OFFSPRING_CRUISER_BOW_M1S2:0 "$CRUISER_BOW_M1S2$"
+ OFFSPRING_CRUISER_BOW_M2:0 "$CRUISER_BOW_M2$"
+ OFFSPRING_CRUISER_MID_S2HB:0 "$CRUISER_MID_S2HB$"
+ OFFSPRING_CRUISER_MID_L1M1:0 "$CRUISER_MID_L1M1$"
+ OFFSPRING_CRUISER_MID_M3:0 "$CRUISER_MID_M3$"
+ OFFSPRING_CRUISER_MID_M2S2:0 "$CRUISER_MID_M2S2$"
+ OFFSPRING_CRUISER_STERN_M1:0 "$CRUISER_STERN_M1$"
+ OFFSPRING_CRUISER_STERN_S2:0 "$CRUISER_STERN_S2$"
+
+ offspring_destroyer:0 "Nachkommen-Zerstörer"
+ offspring_destroyer_plural:0 "Nachkommen-Zerstörer"
+ OFFSPRING_DESTROYER_BOW_M1S2:0 "$DESTROYER_BOW_M1S2$"
+ OFFSPRING_DESTROYER_BOW_S3:0 "$DESTROYER_BOW_S3$"
+ OFFSPRING_DESTROYER_BOW_L1:0 "$DESTROYER_BOW_L1$"
+ OFFSPRING_DESTROYER_STERN_PD2:0 "$DESTROYER_STERN_PD2$"
+ OFFSPRING_DESTROYER_STERN_S2:0 "$DESTROYER_STERN_S2$"
+ OFFSPRING_DESTROYER_STERN_M1:0 "$DESTROYER_STERN_M1$"
+
+ offspring_battleship:0 "Nachkommen-Schlachtschiff"
+ offspring_battleship_plural:0 "Nachkommen-Schlachtschiffe"
+ OFFSPRING_BATTLESHIP_BOW_L1M1S2:0 "$BATTLESHIP_BOW_L1M1S2$"
+ OFFSPRING_BATTLESHIP_BOW_L1S4:0 "$BATTLESHIP_BOW_L1S4$"
+ OFFSPRING_BATTLESHIP_BOW_L2:0 "$BATTLESHIP_BOW_L2$"
+ OFFSPRING_BATTLESHIP_BOW_M1S2SHB:0 "$BATTLESHIP_BOW_M1S2SHB$"
+ OFFSPRING_BATTLESHIP_BOW_M2S4:0 "$BATTLESHIP_BOW_M2S4$"
+ OFFSPRING_BATTLESHIP_BOW_M3S2:0 "$BATTLESHIP_BOW_M3S2$"
+ OFFSPRING_BATTLESHIP_MID_L2S4:0 "$BATTLESHIP_MID_L2S4$"
+ OFFSPRING_BATTLESHIP_MID_L1M4:0 "$BATTLESHIP_MID_L1M4$"
+ OFFSPRING_BATTLESHIP_MID_L2M2:0 "$BATTLESHIP_MID_L2M2$"
+ OFFSPRING_BATTLESHIP_MID_L3:0 "$BATTLESHIP_MID_L3$"
+ OFFSPRING_BATTLESHIP_MID_M4SHB:0 "$BATTLESHIP_MID_M4SHB$"
+ OFFSPRING_BATTLESHIP_MID_S4LHB:0 "$BATTLESHIP_MID_S4LHB$"
+ OFFSPRING_BATTLESHIP_STERN_M1S2:0 "$BATTLESHIP_STERN_M1S2$"
+ OFFSPRING_BATTLESHIP_STERN_L1:0 "$BATTLESHIP_STERN_L1$"
+ OFFSPRING_BATTLESHIP_STERN_M2:0 "$BATTLESHIP_STERN_M2$"
+ OFFSPRING_BATTLESHIP_STERN_S4:0 "$BATTLESHIP_STERN_S4$"
+
+ SHIP_AURA_OFFSPRING:0 "$OFFSPRING_AURA$"
+ OFFSPRING_AURA:0 "Nachkommen-Überwachung"
+ sm_offspring_outlook:0 "Nachkommen-Ausblick"
+ sm_offspring_outlook_desc:0 "Ein Sternenbasenmodul, mit dem ein Nachkomme die laufenden Kämpfe innerhalb des Systems überwachen und verwalten kann.\n"
+ STARBASE_OFFSPRING_OUTLOOK:0 "$sm_offspring_outlook$"
+
+ mod_shipsize_offspring_corvette_build_speed_mult:0 "$mod_shipsize_corvette_build_speed_mult$ (Nachkommen)"
+ mod_shipsize_offspring_destroyer_build_speed_mult:0 "$mod_shipsize_destroyer_build_speed_mult$ (Nachkommen)"
+ mod_shipsize_offspring_cruiser_build_speed_mult:0 "$mod_shipsize_cruiser_build_speed_mult$ (Nachkommen)"
+ mod_shipsize_offspring_battleship_build_speed_mult:0 "$mod_shipsize_battleship_build_speed_mult$ (Nachkommen)"
+
+ mod_shipsize_offspring_corvette_hull_add:0 "$mod_shipsize_corvette_hull_add$ (Nachkommen)"
+ mod_shipsize_offspring_destroyer_hull_add:0 "$mod_shipsize_destroyer_hull_add$ (Nachkommen)"
+ mod_shipsize_offspring_cruiser_hull_add:0 "$mod_shipsize_cruiser_hull_add$ (Nachkommen)"
+ mod_shipsize_offspring_battleship_hull_add:0 "$mod_shipsize_battleship_hull_add$ (Nachkommen)"
+
+ mod_shipsize_offspring_corvette_hull_mult:0 "$mod_shipsize_corvette_hull_mult$ (Nachkommen)"
+ mod_shipsize_offspring_destroyer_hull_mult:0 "$mod_shipsize_destroyer_hull_mult$ (Nachkommen)"
+ mod_shipsize_offspring_cruiser_hull_mult:0 "$mod_shipsize_cruiser_hull_mult$ (Nachkommen)"
+ mod_shipsize_offspring_battleship_hull_mult:0 "$mod_shipsize_battleship_hull_mult$ (Nachkommen)"
+
+ ##########################
+ # Subterranean origin
+ ##########################
+
+ origin_subterranean:0 "Unterirdisch"
+ origin_subterranean_desc:1 "Die Gründe für die Migration gerieten schon vor langer Zeit in Vergessenheit. Vielleicht war es der Versuch, Raubtiere zu meiden, oder die Aussicht auf reiche Ressourcenvorkommen, die sie anlockte. Wie dem auch sei: Diese Spezies lebt nun unter der Oberfläche ihrer Heimatwelt, was zu einer ökologisch vielseitigeren Gesellschaft geführt hat."
+ origin_tooltip_subterranean_effects:3 "- Beginnt mit der Eigenschaft §HHöhlenbewohner§!.\n- §HBergbau-Distrikte§! haben keine Begrenzung und geben §G+2§! £housing£ §H$MOD_PLANET_HOUSING_ADD$§!. Jeweils 3 §HBergbau-Distrikte§! geben §G1§! £building£ §HBauplatz§!.\n- Eure Spezies errichtet ihre Städte unterirdisch, was die folgenden Boni gibt:\n\n"
+ trait_cave_dweller:0 "Höhlenbewohner"
+ trait_cave_dweller_desc:0 "§LDiese Spezies gedeiht unter der Oberfläche jedes Planeten, den sie finden kann, allerdings auf Kosten des Bevölkerungswachstums.§!"
+ trait_cave_dweller_tooltip:0 "$MOD_BIO_POP_GROWTH_SPEED$: §R-20%§!"
+
+ START_SCREEN_SUBTERRANEAN:1 "Während andere Wesen auf [GetHomeWorldName] ihre Nächte in der Wildnis verbrachten, lernten unsere Vorfahren rasch die Vorteile von unterirdischen Behausungen zu schätzen, die sie vor Licht und Witterung schützten.\n\n$START_SCREEN_SUBTERRANEAN_END$"
+ START_SCREEN_SUBTERRANEAN_PLANT:1 "Das Leben auf [GetHomeWorldName] hat sich sehr unterschiedlich entwickelt. Im Gegensatz zu den anderen Lebensformen, mit denen wir diese Welt teilen und die ihre Energie aus dem Sonnenlicht beziehen, gewinnen wir unsere Nährstoffe aus den Tiefen des dunklen Untergrunds, so wie es unsere [GetSpeciesAdj]en Vorfahren seit jeher taten.\n\n$START_SCREEN_SUBTERRANEAN_END$"
+ START_SCREEN_SUBTERRANEAN_LITHOID:0 "Wir wurden in den Tiefen von [GetHomeWorldName] geboren. Fernab des grellen Sternenlichts spaltete sich unser evolutionärer Pfad von dem unserer unbeweglichen Brüder ab, die wie Wächter über uns und um uns herum in ewiger Starre verharren. Im Gegensatz zu ihnen erlangten wir die Fähigkeit, uns zu bewegen, zu denken und eine Zivilisation zu gründen.\n\n$START_SCREEN_SUBTERRANEAN_END$"
+ START_SCREEN_SUBTERRANEAN_END:2 "Der leichte Zugang zu unterirdischen Mineralien ermöglichte unseren [GetSpeciesAdj]en Vorfahren, sich zu industrialisieren, unsere Spezies zu einen und unsere Höhlenzivilisation voranzutreiben. Es gab zahlreiche Versuche, an die Oberfläche zurückzukehren, doch jedes Mal erwies sich diese als zu unversöhnlich und brutal. Daher blieben wir unter der Oberfläche und etablierten unsere Vorherrschaft aus den Grundfesten unseres Planeten heraus.\n\nMit der Entdeckung von [GetStartingDrivePlural]n haben nun unsere bisher kühnsten Versuche begonnen, nach den Sternen zu greifen - und wie unsere Vorfahren vor uns werden auch wir uns aus dieser Dunkelheit eine neue Heimat schaffen."
+ SUBTERRANEAN:0 "Unterirdisch"
+
+ ##########################
+ # Teachers of the Shroud #
+ ##########################
+
+ origin_shroudwalker_apprentice:0 "Lehrer des Schleiers"
+ origin_shroudwalker_apprentice_desc:1 "Noch ehe diese Zivilisation ihre ersten Schritte auf der galaktischen Bühne unternommen hatte, wurde sie von den Schleiergängern unterstützt und geprägt."
+ START_SCREEN_SHROUDWALKER_APPRENTICE:1 "In den Mythen unserer Vorfahren ist von den "Lehrern" die Rede: Wesen mit großem Wissen und großer Macht, die unsere Zivilisation von Beginn an mitgestalteten. Sie besuchten uns in unseren Träumen und ließen uns an ihrer Weisheit über den Schleier und seine Lehren teilhaben.\n\nNun haben sich unsere Lehrer erneut an uns gewandt. Sie haben unsere Träume mit unglaublichen Visionen genährt und uns den Schlüssel zu interstellaren Reisen gegeben. Binnen weniger Jahre haben wir Schiffe gebaut, die in der Lage sind, die Leere zu durchqueren.\n\nDoch wie weit werden wir noch kommen? Unsere Lehrer sprachen von einem "Schleiertunnel": einem natürlichen Wurmloch, das sich am Rand ihres Heimatsystems befindet. Der Bau unseres eigenen Tunnels sollte uns einen direkten Weg zu unseren Lehrern selbst eröffnen. Mögen sie uns weiterhin Weisheit schenken, während wir unsere ersten Schritte auf der galaktischen Bühne machen."
+ START_SCREEN_SHROUDWALKER_APPRENTICE_CORPORATE:0 "Die Gründer unserer Kirche haben in ihren Schriften von den "Lehrern" geschrieben: Wesen mit großem Wissen und großer Macht, die unsere heiligen Schriften von Beginn an mitgestalteten. Sie besuchten uns in unseren Träumen und ließen uns an ihrer Weisheit über den Schleier teilhaben.\n\nNun haben sich unsere Lehrer erneut an uns gewandt. Sie haben unsere Träume mit unglaublichen Visionen genährt und uns den Schlüssel zu interstellaren Reisen gegeben. Binnen weniger Jahre haben wir Schiffe gebaut, die in der Lage waren, unsere heilige Wahrheit in der ganzen Galaxie zu verbreiten.\n\nDoch das soll nicht das Ende unserer Ambitionen sein. Unsere Lehrer sprachen von einem "Schleiertunnel": einem natürlichen Wurmloch, das sich am Rand ihres Heimatsystems befindet. Wenn wir diesen heiligen Tunnel selbst errichten würden, hätten wir einen direkten Weg zu unseren Lehrern selbst eröffnet. Mögen sie uns weiterhin Weisheit schenken, während wir unsere ersten Schritte auf der galaktischen Bühne machen."
+ origin_tooltip_shroudwalker_apprentice_effects:2 "§R- WARNUNG: Dieser Ursprung blockiert alle Aufstiegspfade abgesehen vom §!§HPsionischen Aufstieg§!\n- Ihr erhaltet die Eigenschaft "§HLatente Psioniker§!".\n- Ihr könnt eine §HSchleier-Signalstation§! auf einer Sternenbasis errichten.\n- Ihr beginnt mit Kontakt zu einer §H$gov_shroudwalker_enclave$§!."
+
+ origin.5605.name:0 "Wahrhaftige Lehrlinge"
+ origin.5605.generic.desc:1 "Schüler, seit Generationen lehrten wir Euch unser Wissen über den Schleier und verankerten seine Geheimnisse in Euren Träumen. Da Ihr die Sterne nun erreicht habt, steht Euch Eure wahre Ausbildung erst bevor. Der Weg dorthin wird nicht einfach sein. Um ihn Euch aufzuzeigen, gewähren wir Euch das Wissen über die Schleier-Signalstation, eine Maschine von großer Macht. Einmal auf einer Sternenbasis errichtet wird sie einen Schleiertunnel erschaffen. Wählt ihren Standort sorgfältig aus: Ihr werdet nicht in der Lage sein, einen weiteren Tunnel zu erzeugen.\n\nRuft uns in Zeiten der Not und Ungewissheit. Wir werden Euch im Traum beobachten. Im wachen Leben erwarten wir Eure Ankunft."
+ origin.5605.corporate.desc:0 "Schüler, wir führten Euch in Euren Träumen und durch Visionen formten wir Eure Welt. Da Ihr bereit seid, unsere Lehren in die Galaxie zu tragen, steht Euch Eure wahre Ausbildung erst bevor. Eure Taten werden den Schleier ehren und die Gewinne, die Eure Arbeit erzielt, sollen die Verheißung unserer Lehren wahr werden lassen. Um das Feuer der Industrie zu schüren, gewähren wir Euch Wissen über die Schleier-Signalstation, eine Maschine von großer Macht. Einmal auf einer Sternenbasis errichtet wird sie einen Schleiertunnel erschaffen. Wählt ihren Standort sorgfältig aus: Ihr werdet nicht in der Lage sein, einen weiteren Tunnel zu erzeugen.\n\nRuft uns in Zeiten der Not und Ungewissheit. Wir werden Euch im Traum beobachten. Im wachen Leben erwarten wir Eure Ankunft."
+ origin.5605.a:0 "Wir nehmen dieses Geschenk dankbar entgegen."
+ origin.5605.b:0 "Wir haben uns das verdient."
+ origin.5605.tt:0 "Wir erhalten außerdem:"
+
+ origin.5615.name:0 "Willkommen, Lehrlinge"
+ origin.5615.a.desc:0 "Lehrlinge, endlich können wir Euch gebührend begrüßen. Prophezeiungen haben diesen Moment vorausgesagt, und der Schleier selbst hat Euren Übergang bezeugt. Lange haben wir darauf gewartet, Euch im Reich der Sinne zu treffen. Ihr seid hier herzlich willkommen."
+ origin.5620.name:0 "Willkommen, Lehrlinge"
+ origin.5620.b.desc:0 "Lehrlinge, endlich können wir Euch gebührend begrüßen. Der Schleier selbst hat Euren Weg durch den lange vorbereiteten Tunnel gespürt. Die Echos hallen noch immer wider und bahnen sich einen Weg durch die tiefen Wasser des Unbewussten. Jene, die in den Geheimnissen des Schleiers leben, haben unser Treffen gewiss gesegnet. Ihr seid hier herzlich willkommen."
+
+ origin.5625.name:0 "Die Signalstation ist einsatzbereit"
+ origin.5625.a.desc:1 "Wir haben lange Zeit im Dunkeln verbracht, doch schließlich hat sich der Nebel, der den Schleier bedeckt, gelüftet. Unsere Lehrer haben uns ein großes Geschenk zurückgelassen. Diese Signalstation und der Tunnel, den sie hervorbringt, werden uns unseren Weg durch die Sterne weisen. Die Reisen aus diesem System heraus werden schneller sein ... und unendlich viel mysteriöser."
+ origin.5625.a.option:0 "Möge der Schleier uns den Weg leiten."
+ origin.5625.b.desc:1 "Wir haben lange Zeit im Dunkeln verbracht, doch schließlich hat sich der Nebel, der den Schleier bedeckt, gelüftet. Unsere Lehrer haben uns ein großes Geschenk zurückgelassen. Diese Signalstation und der Tunnel, den sie hervorbringt, werden uns unseren Weg durch die Sterne weisen.\n\nEs gibt nur noch eins zu tun: Die Grenze, hinter der sich unsere Lehrer aufhalten, ist für uns geschlossen. Linien auf einer Landkarte mögen für den Schleier unerheblich sein, doch in dieser Welt bleiben sie eine Unannehmlichkeit. Vorerst bleibt uns der Weg durch den Tunnel versperrt."
+
+ ################################
+ # Slingshot to the Stars Origin
+ ################################
+
+ origin_star_slingshot:0 "Katapult zu den Sternen"
+ origin_star_slingshot_desc:1 "Einst war der Himmel über dieser Zivilisation von Sternschnuppen erleuchtet, doch dann kam eine lange Zeit der Dunkelheit. Auf der Suche nach Antworten machten sich die ersten Entdecker in den Himmel auf und fanden dort ein inaktives und längst verlassenes $quantum_catapult_1$."
+ START_SCREEN_STAR_SLINGSHOT:0 "Seit jeher wird der Nachthimmel gelegentlich von unzähligen Sternschnuppen erhellt, und noch vor Kurzem konnten unsere Wissenschaftler dieses Phänomen nicht erklären. Als wir mit der Erforschung der Galaxie begannen, hatten wir auch endlich die notwendigen Mittel, um die Ursache dieser Störungen aufzuspüren: eine alte Konstruktion, die unsere Ingenieure "$quantum_catapult_1$" nennen.\n\n$START_SCREEN_STAR_SLINGSHOT_SECOND_PART$"
+ START_SCREEN_STAR_SLINGSHOT_GESTALT:0 "Seit wir das Bewusstsein erlangten, konnten wir gelegentlich beobachten, wie der Himmel von unzähligen Sternschnuppen erhellt wurde, doch wir waren nicht in der Lage, die Ursache dieses sonderbaren Phänomens zu verstehen. Als wir uns endlich von den Fesseln unserer Heimatwelt befreiten, gelang es uns auch, die notwendigen Werkzeuge herzustellen, um die Ursache dieser Störung aufzuspüren: ein $quantum_catapult_1$.\n\n$START_SCREEN_STAR_SLINGSHOT_SECOND_PART$"
+ START_SCREEN_STAR_SLINGSHOT_SECOND_PART:0 "Obwohl es heruntergekommen ist, teilweise in Trümmern liegt und zurückgelassen wurde, glauben wir, dass wir es wieder aufbauen können. Wenn es wie geplant funktioniert, wird es unser Tor zum Rest der Galaxie sein."
+ origin_tooltip_star_slingshot_effects:3 "- Ihr beginnt mit einem §HZerstörten Quantenkatapult§! in der Nähe Eures Heimatsystems und der notwendigen Technologie, um es zu reparieren und zu nutzen.\n- Neue Sternenbasen, die in abgelegenen Systemen gebaut werden, kosten §G75%§! weniger Einfluss.\n- Eure §HQuantenkatapulte§! haben eine Genauigkeit von §G+50%.§!\n- Der Bonus für einen §YQuantenhinterhalt§! durch katapultierte Flotten erhöht die Feuerrate um §G+50%§!."
+
+ # Events
+
+ origin.3510.title:0 "$quantum_catapult_1$ gesichert"
+ origin.3510.desc:0 "Wir haben endlich das System und die Region rund um das defekte $quantum_catapult_1$ gesichert. Jetzt können wir Ingenieure entsenden, um mit den notwendigen Reparaturarbeiten zu beginnen und diese zurückgelassene Konstruktion wieder zum Leben zu erwecken."
+ origin.3510.a:0 "Der erste Schritt von vielen."
+
+ # Dig Site
+
+ slingshot_digsite:0 "Quantenkatapult"
+ slingshot_digsite_desc:0 "Wir haben die Überreste einer zerstörten Megastruktur gefunden. Das Bauwerk muss dringend repariert werden, und wir haben in seiner Datenbank eine Fülle xenologischer Erkenntnisse gefunden. Noch während wir entscheiden, ob wir diese uralte Technologie wiederaufbauen, haben unsere Archäologen bereits die Möglichkeit, Hinweise auf den Ursprung dieses kosmischen Geräts zu extrahieren und zu bergen. Eine Reihe von Protokollen, die scheinbar von seinem Erfinder, dem "Quantenarchitekten", verfasst wurden, scheinen besonders vielversprechend zu sein. Die Wiederherstellung dieser Dateien sollte uns helfen, die Kultur und Geschichte jener alten Spezies zu entschlüsseln, die uns diese Technologie hinterlassen hat."
+
+ origin.3515.name:0 "Eintausend Lichter"
+ origin.3515.desc:0 "Unter den Plänen und Zeichnungen konnten wir auch ein merkwürdiges Dokument bergen. Es stammt aus den persönlichen Aufzeichnungen des Quantenarchitekten:\n\nAm Anfang war die Finsternis, und unsere Götter sprachen: "Es werde Dunkel!", und es ward Dunkel. Als unsere ersten Vorfahren die Empfindungsfähigkeit erlangten, suchten wir den Himmel nach Zeichen des Lebens oder der Bedeutung unseres Daseins ab, doch über uns war nur die Dunkelheit. Als wir unsere Zivilisation aufbauten, suchte unser Verstand nach Schatten in der Nacht. Wir schufteten an jenen Orten, an denen wir unsere ersten Städte errichteten, und prüften stets ihre Fundamente.\n\nMehrere Jahrtausende später besaß ich die Kühnheit, nach "oben" zu schauen. Während andere mit gesenktem Blick arbeiteten, öffnete sich mein Verstand dem Himmel. Ich errichtete einen Tempel aus Schaltkreisen und Stahl und formte meine eigenen Werkzeuge, gestärkt durch das Licht meines Intellekts. Ich perfektionierte ein Labyrinth aus Dioden und Kondensatoren und ließ mein Bewusstsein durch den Kosmos schweifen, um etwas jenseits des dunklen Himmels, der unsere Welt umhüllte, wahrzunehmen.\n\nIch konnte spüren, was andere nicht zu spüren vermochten: Wir waren nicht allein im Universum. Wie durch einen dunklen Spiegel konnte ich Tausende von anderen Welten erkennen. Ich konnte das Unmögliche spüren. Jenseits der Nacht brannten eintausend Lichter."
+ origin.3520.name:0 "Aus den Schatten"
+ origin.3520.desc:0 "Als unsere Expedition weiter die Daten durchforstete, um die Funktionsweise der Megastruktur zu entschlüsseln, fand sie einen weiteren Auszug aus einem Text, der wie eine religiöse Betrachtung wirkt. Auch er stammt aus den persönlichen Aufzeichnungen des Quantenarchitekten:\n\nIch sprach die Wahrheit aus, doch mein Volk antwortete mit Chaos.\nJeder von uns plagt sich in seinem eigenen Nebel aus Gedanken und Gefühlen. Wir strecken zaghaft die Hand nach dem anderen aus, doch so viele von uns sind allein. Unsere Götter erschufen die Welt aus der Finsternis, sagte man uns, und wir sollen angeblich das Kernstück ihrer Schöpfung gewesen sein.\n\nDa ich es wagte, von Welten zu träumen, die Jenseits des uns Bekannten lagen, sagte man mir, meine Visionen seien eine Lüge. Wer von uns, fragten andere, konnte diese Träume noch bestätigen? Wie können wir glauben, sagten sie, was wir nicht beweisen können? Als Antwort darauf führte ich jene, die zuhören wollten, in mein Labor. Die Klügsten unter ihnen vermochten ein Bruchstück dessen wahrzunehmen, was ich erlebt hatte: andere Welten jenseits des Schleiers der Nacht.\n\nJene mit finstereren Gemütern entwarfen jedoch andere Antworten, formten neue Argumente und griffen schließlich zu tödlichen Waffen. Sie sagten, unsere Welt würde in Aufruhr geraten, weil wir nicht mehr die bevorzugten Lieblinge der Götter wären. Doch ich kannte die Wahrheit: Die Schöpfung war von einem unermesslich weiten Gewebe erhellt. Als ich die majestätische Pracht des Kosmos betrachtete, wurde ich von der Verzückung mitgerissen und verlor meine Identität."
+ origin.3525.name:0 "Erleuchtung"
+ origin.3525.desc:0 "Weitere Schriften der quasimessianischen Gestalt wurden. Auch sie stammen aus den persönlichen Aufzeichnungen des Quantenarchitekten.\n\nGequält und gepeinigt von einem grenzenlosen Kosmos dachte ich darüber nach, wie ich in ferne Welten reisen und sie aus erster Hand erleben könnte. Jenseits der endlosen Nacht träumten andere Geister, und ich strebte nach einer Kommunion mit ihnen. Jenseits einer großen Dunkelheit führte mich ein großes Licht weiter. Es bot Verlockungen und endlose Offenbarungen. Und so schickte ich meinen Geist weiter hinaus ins Unbekannte ...\n\nWie oben, so unten. Meine Visionen vom Himmel brachten mir Freude, doch auch unten fand ich jemanden, der mir dasselbe befreiende Glück brachte. Ich verliebte mich in einen anderen Wissenschaftler, einen Visionär, der von anderen Möglichkeiten sprach, jene Sterne zu suchen, die ich in meinen Träumereien gespürt hatte.\n\nWir taten mehr, als nur eine Vision zu teilen. Wir verpflichteten uns als Partner fürs Leben. Und je weiter unsere Arbeit voranschritt, desto länger blieben wir jede Nacht auf. Mein Partner träumte von Raumschiffen und kritzelte grob solarbetriebene Fahrzeuge auf seine Wachstafel. Ich tüftelte an Schaltkreisen und versuchte, meinen Geist mit der Unendlichkeit zu vereinen. Je weiter ich mich vorwagte, desto mehr wuchs meine Verzückung. Welch eine Glückseligkeit! Die Ekstase der endlosen Ewigkeit!"
+ origin.3530.name:0 "Den Sternen verfallen"
+ origin.3530.desc:0 "Aus den persönlichen Unterlagen des Quantenarchitekten, Partner des Kosmischen Schiffsbauers:\n\nMein Partner war geduldig, und ich war rücksichtslos. Meine Liebe hatte die Wissenschaft und die Logik, und ich hatte meine Träumerei. Bis tief in die Nacht hinein versuchte ich vergeblich, mein Bewusstsein in die Leere zu projizieren. Ich vernachlässigte den Schlaf. Ich vernachlässigte das Essen. Ich vernachlässigte meine Liebschaft. Während wir beide unsere eigenen Träume verfolgten, die uns tiefer in den Kosmos bringen sollten, wuchs eine Kluft zwischen uns.\n\nMeine Liebe fand ein Wort für unser Phänomen: Quantenverschränkung. Mein Körper war hier, doch mein Geist war Lichtjahre entfernt und suchte verzweifelt nach der Ekstase und einer Verbindung mit der Ewigkeit. Mein Partner sagte mir noch andere Worte, doch ich wollte nicht hören. "Meine Liebe", sagte er, "komm zurück zu mir." Doch ich hörte nur den Widerhall der Sterne.\n\nBald schon ist die Zeit gekommen, das Solarraumschiff zu testen, das mein Partner entwickelt hat. Ich habe mich freiwillig gemeldet, das erste Schiff zu fliegen. Während ich beim ersten Testflug am Steuer sitze, werde ich von einem Kurs zu fernen Ufern träumen, mein Geist *hier* und mein Körper *dort*.\n\nMein Partner ist still geworden. Ich werde ihm die Unendlichkeit schenken und einen Weg in die Ewigkeit bahnen. Ich werde ihm die Träume von tausend Welten bieten."
+ origin.3535.name:0 "Im Gedenken"
+ origin.3535.desc:0 "Aus den persönlichen Unterlagen des Kosmischen Schiffsbauers, zurückgelassene Liebe des Quantenarchitekten:\n\nUnser erstes Raumschiff ist vor einem Jahr verschwunden. Wir wissen noch immer nicht genau, was geschehen ist. Mein Partner, der Quantenarchitekt, hinterließ ein Vermächtnis und ein Geheimnis. Soweit wir es beurteilen können, wurde meine Liebe eins mit dem Kosmos. Während des ersten Testflugs saß er am Steuer und verschmolz mit der Unendlichkeit, überwältigt von der verzückenden psychischen Betrachtung des Himmels. Das Testschiff kehrte nie zurück.\n\nJetzt arbeite ich mit meinen eigenen kruden Werkzeugen und muss meine Arbeit und mein Leben aus den Trümmern heraus neu schmieden. Weitere von mir geschaffene Solarraumschiffe haben ihre Reise in die Große Nacht angetreten. Ich habe mit der Erforschung besserer Triebwerke begonnen, Prototypen, die unsere Schiffe durch den Hyperraum bringen können. In manchen Nächten träume ich auch von einer Technologie, die wie der Geist und die Seele meines verlorenen Partners nach den Sternen greifen und uns ins Unbekannte katapultieren kann.\n\nIch greife nach dem Licht und weigere mich, der Dunkelheit zu erliegen. Ich sitze im Labor meiner Liebe, so wie jetzt, lese die Tagebücher dort und schreibe meine eigenen. Und manchmal, wenn es am dunkelsten ist, versuche ich, meine eigenen Gedanken in den Kosmos zu projizieren. Die Unendlichkeit wartet."
+ origin.3540.name:0 "Quantifiziert"
+ origin.3540.desc:0 "Wir haben endlich die fehlenden Teile der Konstruktionspläne gefunden. Bei ihnen lag auch ein letzter Text aus den persönlichen Aufzeichnungen des Kosmischen Schiffsbauers:\n\nWir haben nach Wegen gesucht, die Innovationen meiner Liebe, die Quantenschöpfungen, zu nutzen. Ich frage mich, ob wir ermächtigt durch die Entwürfe des Quantenarchitekten denselben rücksichtslosen Weg einschlagen könnten, auch wenn ich lieber in einem langsameren Tempo nach den Sternen greife. Ich suche eine Welle, die mich durch den Hyperraum bringt, und denke über eine Strömung nach, die uns zu fernen Ufern leiten wird.\n\nMeine Schiffe nehmen den langsamen Weg, und selbst spät in der Nacht lese ich noch in den Tagebüchern meiner verschollenen Liebe und kämpfe darum, die Mathematik und die Denkweisen darin richtig zu erfassen. Während mein Geist sich in Richtung Ewigkeit erstreckt, weiß ich in meinem Herzen, dass meine Liebe immer noch dort draußen ist. Sie hat den Weg zum Himmel geebnet, und ich muss ihr folgen.\n\nDurch meinen Verlust fand ich Inspiration. Wir haben mit der Arbeit an einer großen Maschine begonnen, die unsere Schiffe so durch die Galaxie schleudern wird, wie meine Liebe in die Unendlichkeit sprang. Und eines Tages werde ich erreichen, was sie erreicht hat. Wenn ich nicht mehr bin, bitte ich in aller Bescheidenheit darum, dass dieses kosmische Gerät und all seine Iterationen die persönlichen Aufzeichnungen des Quantenarchitekten in sich bergen sollen. Wenn andere dies lesen, wird sich meine Seele zweifellos schon in die Lüfte geschwungen haben. Ich werde einen Weg gefunden haben, mich meiner Liebe dort draußen in der großen Weite anzuschließen. Ich weiß, dass wir gemeinsam in der Ewigkeit verweilen werden, träumend und durch tausend Lichtpunkte treibend."
+ origin.3515.a:0 "Bergt mehr Daten."
+ origin.3540.a:0 "Die Unendlichkeit ruft."
+ infinity_beckons:0 "Die Unendlichkeit ruft"
+ into_the_unknown:0 "Auf ins Unbekannte"
+
+ ##########################
+ # Imperial Vassal Origin #
+ ##########################
+ origin_imperial_vassal:0 "Reichslehen"
+ origin_imperial_vassal_desc:1 "Der erste Versuch, unseren Heimatplaneten zu verlassen, hat sich als äußerst schmerzhaft erwiesen, da wir uns plötzlich und brutal den Launen einer fremden galaktischen Macht ausgesetzt sahen. Jetzt blicken wir in eine Zukunft, in der wir nicht mehr im Schatten eines anderen Reichs leben müssen."
+ START_SCREEN_IMPERIAL_VASSAL:0 "Als wir zum ersten Mal unser Heimatsystem verließen, begegneten wir einem fremden Reich, das unsere Unterwerfung verlangte. Obwohl dies eine schmerzhafte Erinnerung für unser Volk war, haben wir in unserer kurzen Zeit als Vasall auch viel lernen können. Zudem war die Beziehung vorteilhafter, als wir jemals hätten hoffen können.\n\nWir sind nicht der einzige Vasall unseres neuen Lehnsherrn. Wir hatten die Gelegenheit, Diplomaten und Botschafter aus einigen der anderen Reiche zu treffen, die unter seiner Kontrolle stehen. Mit manchen von ihnen sind wir nicht ganz einer Meinung, doch wir glauben, dass sie sich in der nächsten Zeit als nützliche Verbündete erweisen werden.\n\nObwohl wir uns auf den Tag freuen, an dem wir wieder über unsere eigene Zukunft entscheiden können, werden wir für den Moment unsere Untertanenrolle akzeptieren und das Beste aus der Lage machen, in die wir geraten sind."
+ origin_tooltip_imperial_vassal_effects:1 "- Ihr beginnt als Vasall eines §Hfortschrittlichen KI-Reichs§!.\n- Ihr erhaltet die Möglichkeit, zu Beginn des Spiels den Vasallentyp eines §HSpezialistenreichs§! zu wählen."
+
+ # AI Overlord Version
+ origin_imperial_vassal_overlord:0 "Reichslehnsherr"
+ origin_imperial_vassal_overlord_desc:0 "Ein ambitionierter Herrscher, der viel Zeit und Mühe darauf verwendet hat, seine engsten Nachbarn zu unterwerfen. Während er immer mehr Verantwortung an seine Vasallen abgibt, wird er zunehmend angreifbarer."
+ origin_tooltip_imperial_vassal_overlord_effects:0 "- Beginnt als §Hfortschrittliches Reich§!\n- Beginnt mit mehreren Vasallen"
+
+ # Personalities
+ personality_imperial_origin_overlord_ai:0 "Träger Lehnsherr"
+ personality_imperial_origin_overlord_ai_desc:0 "Ein Reich, das sich in hohem Maß auf seine Vasallen verlässt und sich nur selten für andere Raumregionen als das eigene System interessiert. Es verwickelt Fremde nicht in Kämpfe und erweitert auch nicht aktiv die eigenen Grenzen, es sei denn, es wird dazu gezwungen."
+
+ # Modifiers
+ imperial_vassal_ai_modifier:0 "Reichszehnt"
+ imperial_vassal_ai_modifier_desc:0 "Die täglichen Aufgaben einer Reichverwaltung erfordern eine erhebliche Einsatzbereitschaft vom diplomatischen Korps aller Beteiligten."
+
+ # Wars
+ NAME_Imperial_War:0 "Imperialer Bürgerkrieg"
+
+ # Megastructure
+ gateway_derelict:0 "Verfallenes Sternentor"
+ gateway_derelict_DESC:0 "$gateway_final_DESC$"
+ gateway_derelict_MEGASTRUCTURE_DETAILS:0 "$gateway_final_MEGASTRUCTURE_DETAILS$"
+
+ # Events
+ origin.5703.desc:0 "Willkommen, geschätzte neue Verbündete!\n\nWir hielten es für richtig, Euch zu kontaktieren, da Ihr Euch entschieden habt, an unserem ... Bündnis teilzunehmen. Es freut uns, dass Ihr Vernunft habt walten lassen, anstatt uns zur Gewalt zu zwingen."
+ origin.5703.a:0 "Ihr habt uns keine große Wahl gelassen ..."
+ dialog_hostile_overlord:0 "Wir nehmen eine §Rfeindliche§! Haltung gegenüber unserem Lehnsherrn ein."
+ origin.5703.b:0 "Gibt es etwas, worüber Ihr sprechen wolltet?"
+ dialog_wary_overlord:0 "Wir nehmen eine §Yneutrale§! Haltung gegenüber unserem Lehnsherrn ein."
+ origin.5703.c:0 "Wir sind stolz, ein Teil Eures Bündnisses zu sein!"
+ dialog_friendly_overlord:0 "Wir nehmen eine §Gfreundliche§! Haltung gegenüber unserem Lehnsherrn ein."
+
+ origin.5705.desc.harsh:0 "Hm ... Wie dem auch sei!\n\n$origin.5705.desc$"
+ origin.5705.desc.grateful:0 "Und wir sind stolz darauf, Euch willkommen zu heißen!\n\n$origin.5705.desc$"
+ origin.5705.desc:0 "Nach reiflicher Überlegung haben wir beschlossen, eine beträchtliche Menge an Ressourcen zu investieren, um Euch bei der Spezialisierung Eures Reichs zu helfen. Dadurch wird Euer Reich eine wichtige Rolle für die Zukunft all unserer Freunde und Verbündeten spielen.\n\nWir waren uns jedoch nicht ganz sicher, was Eurem Volk mehr zusagen würde: eine militärische Spezialisierung? Eine, die auf Wissen ausgelegt ist? Oder seid Ihr eher an Materialien und Mineralien interessiert?"
+ origin.5705.desc.reconsider:0 "Und? Habt Ihr schon darüber nachgedacht?"
+ origin.5705.a:0 "Ein Schwerpunkt auf Militär klingt perfekt."
+ origin.5705.a.tt:2 "§Y[ROOT.GetName]§! wechselt zur §Y$specialist_bulwark$§!-Spezialisierung und hat damit einen Schwerpunkt auf Militär und Verteidigung.\n§Y[Root.GetName]§! zahlt einen $r_influence$-Zehnten für die Expansion.\n§Y[Root.GetName]§! erhält von §Y[overlord_empire.GetName]§! eine Flotte §YZerstörer§! und die Technologie, weitere zu bauen."
+ origin.5705.b:0 "Könnt Ihr uns mehr über die Pflichten eines Bollwerks erzählen?"
+ origin.5705.c:0 "Unser Volk ist eher akademisch veranlagt."
+ origin.5705.c.tt:1 "§Y[ROOT.GetName]§! wechselt zur §Y$specialist_scholarium$§!-Spezialisierung und hat damit einen Schwerpunkt auf Forschung und Technologie.\n§Y[ROOT.GetName]§! zahlt einen $r_influence$-Zehnten für die Expansion.\n§Y[ROOT.GetName]§! erhält ein §YForschungsschiff§! und einen §YWissenschaftler§! von [overlord_empire.GetName]."
+ origin.5705.d:0 "Könnt Ihr uns mehr über die Pflichten eines Scholariums erzählen?"
+ origin.5705.e:0 "Wir würden uns gern auf Materialien und Mineralien spezialisieren."
+ origin.5705.e.tt:1 "§Y[ROOT.GetName]§! wechselt zur §Y$specialist_prospectorium$§!-Spezialisierung und hat damit einen Schwerpunkt auf Mineralien und Strategische Ressourcen.\n§Y[ROOT.GetName]§! zahlt einen $r_influence$-Zehnten für die Expansion.\n§Y[ROOT.GetName]§! erhält 2 §YKonstruktionsschiffe§! von [overlord_empire.GetName]."
+ origin.5705.f:0 "Könnt Ihr uns mehr über die Pflichten eines Prospektoriums erzählen?"
+
+ origin.5706.desc:0 "Eine Tendenz zur Gewalt, war es das?\n\nEin Bollwerk, wie wir sie gewöhnlich nennen, sind Reiche, die sich auf das Militär spezialisiert haben. Um dieses Ziel zu erreichen, werden wir Euch monatlich mit einigen grundlegenden Mineralien und Nahrungsmitteln versorgen, damit der Hauptfokus Eures Reichs auf dem Krieg liegen kann.\n\nIm Gegenzug erwarten wir, dass Ihr uns bei der Verteidigung gegen externe Bedrohungen helft und eine wichtige Rolle an den Grenzen unseres verbündeten Raums spielt. Klingt das akzeptabel?"
+ origin.5706.a:0 "Das klingt wie etwas, womit wir leben können."
+ origin.5706.b:0 "Wir möchten das gern noch einmal überdenken."
+
+ origin.5707.desc:0 "Es hat also Euer Interesse geweckt?\n\nEin Scholarium, wie es genannt wird, ist ein Reich, das sich auf die Wissenschaft und die Forschung spezialisiert hat. Wir würden uns verpflichten, Euer Reich zu beschützen, damit Ihr den Großteil Eurer Ressourcen darauf verwenden könnt, Euer Reich und die Reiche unserer Verbündeten voranzubringen.\n\nIm Gegenzug erwarten wir von Euch, dass Ihr alle besonderen technologischen Durchbrüche mit uns teilt. Wäre diese Art von Vertrag für Euch in Ordnung?"
+ origin.5707.a:0 "Unser Volk wünscht dieses Abkommen."
+ origin.5707.b:0 "Wir möchten das gern noch einmal überdenken."
+
+ origin.5708.desc:1 "Seid Ihr an diesem Abkommen interessiert?\n\nEin Prospektorium, wie viele es nennen, ist ein Reich, das sich auf die Suche nach Mineralien und die Herstellung strategischer Ressourcen spezialisiert - allerdings oft auf Kosten des wissenschaftlichen Fortschritts. Man sagt, einige Prospektorien seien mit den richtigen Werkzeugen sogar in der Lage gewesen, seltene Mineralien zu finden, die andere übersehen hatten, doch dies ist nur ein Gerücht, das wir aufgeschnappt haben.\n\nKlingt das nach etwas, wozu Euer Volk in der Lage wäre?"
+ origin.5708.a:0 "Wir glauben, dass dies etwas ist, was zu uns passen würde."
+ origin.5708.b:0 "Wir möchten das gern noch einmal überdenken."
+
+ origin.5710.title:0 "Ausrichtung unserer Zukunft"
+ origin.5710.desc:0 "Heute ist ein kleines diplomatisches Korps von unserem Lehnsherrn eingetroffen, das uns die neuesten Nachrichten und Forderungen überbringt. Da wir uns erst vor Kurzem seinem Willen unterworfen haben, will er unsere künftigen Beziehungen in einem ausführlicheren und detaillierteren Pakt festlegen."
+
+ # Dissolution of the Empire events
+ origin.5725.title:0 "Fragwürdige Nachfolge"
+ origin.5725.desc:0 "Heute hat uns eine Nachricht über das anhaltende Chaos in [Root.Overlord.Capital.GetName] erreicht, das nach dem plötzlichen Tod von [overlord_ruler.GetName] überall ausgebrochen ist. [overlord_heir.GetName], [overlord_heir.GetDerDieDE] äußerst unbeliebt ist, hat mit Hilfe des Militärs den Thron übernommen, sehr zum Leidwesen [overlord_heir.GetHisHer]er Geschwister und des Volkes von [Root.Overlord.Capital.GetName].\n\nNach dem problematischen Aufstieg von [overlord_heir.GetFirstName] haben viele begonnen, das Recht der Herrschaft von [Root.Overlord.GetName] über uns infrage zu stellen. Wenn diese Person nicht in der Lage ist, den Frieden in ihrer eigenen Hauptwelt aufrechtzuerhalten, welche Hoffnung gibt es dann noch, dass sie den Rest von uns beschützen kann?"
+ origin.5725.a:0 "Ein Weltraumfisch verrottet vom Kopf aus."
+
+ origin.5735.title:0 "Ein zerbrochenes Reich"
+ origin.5735.desc:1 "Ohne den großen Anführer, der alles zusammenhält, ist [previous_overlord.GetName] in mehrere Teile zerfallen, von denen jedes sein Recht auf die Herrschaft über das alte Reich beansprucht. Ohne die Stärke oder Legitimität von einst ist auch die Macht über die Vasallen dahin.\n\nWährend die ungleichen Teile des alten Reichs um den Thron von [previous_overlord.GetName] kämpfen, können ihre alten Untertanen nun tun, was sie wollen."
+ origin.5735.a:0 "Wieder einmal frei."
+ origin.5735.b:0 "Es ist an der Zeit, dass eine neue Führung übernimmt."
+ origin.5735.b.tt:0 "Ihr erhaltet §Y30 Jahre§! lang den Kriegsgrund §YUnterwerfung§! gegen §Y[previous_overlord.GetName]§! und alle seine ehemaligen Vasallen"
+ origin.5735.c:0 "Wir bleiben dem Thron gegenüber loyal - ganz egal, was geschieht."
+ origin.5735.c.tt:0 "Ihr bleibt ein loyaler Untertan von §Y[previous_overlord.GetName]§!."
+
+ # AI Vassals looking for new overlord events
+ origin.5745.title:0 "Technokratischer Schutz"
+ origin.5745.desc:0 "Das Volk von [new_subject_target.GetName] mischt sich in die Angelegenheiten, die jenseits seiner Grenzen stattfinden, nicht ein, doch es ist sich auch bewusst, dass alles, was da draußen womöglich ist, seine eigenen, nach innen gerichteten Anstrengungen ruinieren könnte. Aus diesem Grund hat es sich an uns gewandt, um denselben Schutz zu erhalten, den ihm einst [previous_overlord.GetName] gewährte."
+ origin.5745.a:0 "Sie werden ein Segen für unser Reich sein."
+ origin.5745.b:0 "Wir benötigen nicht noch mehr Wissenschaftler ..."
+
+ origin.5750.title:0 "Die vereinten Fürsten"
+ origin.5750.desc:0 "[new_subject_target.GetName] ist für seine vielen streitenden Fürsten bekannt, die alle verzweifelt versuchen, so viel Einfluss und Macht wie möglich zu erlangen. Scheinbar haben sie es endlich geschafft, sich auf etwas zu einigen, und haben Gesandte geschickt, die einen neuen diplomatischen Pakt mit uns schließen wollen. Offenbar vermissten sie den Schutz, den ihnen einst [previous_overlord.GetName] gewährte."
+ origin.5750.a:0 "Solange sie sich auf etwas einigen können."
+ origin.5750.b:0 "Wir sind an ihren Streitigkeiten nicht interessiert."
+
+ origin.5755.title:0 "Das Reichslehen"
+ origin.5755.desc:0 "[new_subject_target.GetName] stand [previous_overlord.GetName] vor der Auflösung besonders nahe, und es scheint, dass [new_subject_target.GetName] daran interessiert ist, in Zukunft eine ähnliche Beziehung zu unserem Reich aufzubauen. Die Unterhändler bemühen sich, ein diplomatisches Abkommen abzuschließen, das beide Seiten zufriedenstellt, als ersten Schritt zu einem besseren Verständnis zwischen unseren beiden Reichen."
+ origin.5755.a:0 "Wir werden schon einen Platz für sie finden."
+ origin.5755.b:0 "Schickt die Gesandten nach Hause."
+
+ origin.5760.title:0 "Meine Liga für eine Flotte"
+ origin.5760.desc:0 "Scheinbar sind die Märkte in [new_subject_target.GetName] nach der Auflösung von [previous_overlord.GetName] etwas instabil geworden, da es nun niemanden mehr gibt, der sie beschützt. Mehrere Handelsfürsten sind an uns herangetreten und haben uns angeboten, die [new_subject_target.GetAdj]e Unterwerfung zu unterstützen und sogar einen Teil der Gewinne abzutreten, die sich sicher ergeben werden, sobald sich ihr Reich wieder stabilisiert hat."
+ origin.5760.a:0 "Solange sie ihre Energie-Credits bezahlen können."
+ origin.5760.b:0 "Wir haben keinen Bedarf an ihrem Kapitalvermögen."
+
+ #########################
+ # Mercenary Enclave
+ #########################
+
+ FLEET_LEASED_OUT:0 "Die Flotte $FLEET|Y$ wurde für die Dauer von £time£ $DAYS|Y$ an $COUNTRY|Y$ vermietet."
+ FLEET_RETURNED:0 "Der Mietvertrag für der Flotte $FLEET|Y$ wurde aufgelöst. Die Flotte wird nun wieder von ihrem Eigentümer, $COUNTRY|Y$, kontrolliert."
+ FLEET_CONTRACT_PROLONGED:0 "Der Mietvertrag für die Flotte $FLEET|Y$ wurde für £time£ $DAYS|Y$ verlängert."
+ TRIGGER_IS_LEASED:0 "Die Flotte $FLEET|Y$ wurde vermietet"
+ TRIGGER_IS_NOT_LEASED:0 "Die Flotte $FLEET|Y$ wurde NICHT vermietet"
+ TRIGGER_LEASE_DAYS:0 "Anzahl an Tagen, in denen die Flotte $FLEET|Y$ vermietet wurde, ist $COMPARE$ $VALUE|Y$"
+ TRIGGER_LEASE_DAYS_NOT:0 "Anzahl an Tagen, in denen die Flotte $FLEET|Y$ vermietet wurde, ist NICHT $COMPARE$ $VALUE|Y$"
+
+ #########################
+ # Galcom Resolutions
+ #########################
+
+ resolution_category_defenseprivatization:0 "Privatisierung des Verteidigungssektors"
+
+ resolution_defenseprivatization_repeal_1:0 "§R$resolution_defenseprivatization_defense_contracts$ widerrufen§!"
+ resolution_defenseprivatization_repeal_1_desc:0 "Auch wenn die Professionalität von Verteidigungsdienstleistern unbestreitbar ist, sollten sich die Reiche [global_event_country.GetGalCommunityOrGalImperiumDE2] nicht zu sehr auf die private Friedenssicherung verlassen."
+ resolution_defenseprivatization_repeal_2:0 "§R$resolution_defenseprivatization_private_support_troops$ widerrufen§!"
+ resolution_defenseprivatization_repeal_2_desc:0 "$resolution_defenseprivatization_repeal_1_desc$"
+ resolution_defenseprivatization_repeal_3:0 "§R$resolution_defenseprivatization_condottieri$ widerrufen§!"
+ resolution_defenseprivatization_repeal_3_desc:0 "$resolution_defenseprivatization_repeal_1_desc$"
+ resolution_defenseprivatization_repeal_4:0 "§R$resolution_defenseprivatization_security_business$ widerrufen§!"
+ resolution_defenseprivatization_repeal_4_desc:0 "$resolution_defenseprivatization_repeal_1_desc$"
+ resolution_defenseprivatization_repeal_5:0 "§R$resolution_defenseprivatization_corporate_warlords$ widerrufen§!"
+ resolution_defenseprivatization_repeal_5_desc:0 "$resolution_defenseprivatization_repeal_1_desc$"
+
+ resolution_defenseprivatization_defense_contracts:0 "Sicherheitsdienstleister"
+ resolution_defenseprivatization_defense_contracts_desc:0 "Im Interesse der galaktischen Sicherheit sollten wir unsere Ressourcen in unabhängige Sicherheitsunternehmen investieren. Diese gut ausgebildeten und unpolitischen Fachleute werden dabei helfen, die Verteidigung aller Mitglieder [global_event_country.GetGalCommunityOrGalImperiumDE2] zu organisieren."
+ resolution_defenseprivatization_private_support_troops:0 "Schutz vor Hochrisikosituationen"
+ resolution_defenseprivatization_private_support_troops_desc:0 "Angesichts des zunehmenden Ausmaßes bei Konflikten müssen private Sicherheitsdienstleister in die Lage versetzt werden, weiterhin das zu tun, was sie am besten können: die Sicherheit der [global_event_country.GetGalCommunityOrGalImperiumDE2] zu gewährleisten."
+ resolution_defenseprivatization_condottieri:0 "Neutrale Verteidiger"
+ resolution_defenseprivatization_condottieri_desc:0 "Der Krieg mag unausweichlich sein, doch Kollateralschäden sind es nicht. Indem wir [global_event_country.GetGalCommunityOrGalImperiumDE3] in die Hände von Verteidigungsspezialisten legen, können wir die Zahl der gemeldeten Kriegsverbrechen und Gräueltaten mit Sicherheit drastisch reduzieren."
+ resolution_defenseprivatization_security_business:0 "Galaktisches Risikomanagement"
+ resolution_defenseprivatization_security_business_desc:0 "Trotz unserer Bemühungen wird die Galaxie immer wieder von gewalttätigen ideologischen Konflikten erschüttert und viele Reiche erweisen sich immer wieder aufs Neue als anfällig für kleinliche Streitigkeiten. Neutralen Verteidigungsunternehmen die Mittel an die Hand zu geben, ein eigenes Militär zu kontrollieren, wird ihnen dabei helfen, den Frieden effizienter zu wahren."
+ resolution_defenseprivatization_corporate_warlords:0 "Unternehmerische Friedenssicherung"
+ resolution_defenseprivatization_corporate_warlords_desc:0 ""$enclave.235.4.desc$""
+
+ resolution_defenseprivatization_repeal_1_effect_success:0 "Widerruft den Beschluss "§Y$resolution_defenseprivatization_defense_contracts$§!"."
+ resolution_defenseprivatization_repeal_2_effect_success:0 "Widerruft den Beschluss "§Y$resolution_defenseprivatization_private_support_troops$§!", wodurch "§Y$resolution_defenseprivatization_defense_contracts$§!" das neue Galaktische Gesetz wird."
+ resolution_defenseprivatization_repeal_3_effect_success:0 "Widerruft den Beschluss "§Y$resolution_defenseprivatization_condottieri$§!", wodurch "§Y$resolution_defenseprivatization_private_support_troops$§!" das neue Galaktische Gesetz wird."
+ resolution_defenseprivatization_repeal_4_effect_success:0 "Widerruft den Beschluss "§Y$resolution_defenseprivatization_security_business$§!", wodurch "§Y$resolution_defenseprivatization_condottieri$§!" das neue Galaktische Gesetz wird."
+ resolution_defenseprivatization_repeal_5_effect_success:0 "Widerruft den Beschluss "§Y$resolution_defenseprivatization_corporate_warlords$§!", wodurch "§Y$resolution_defenseprivatization_security_business$§!" das neue Galaktische Gesetz wird."
+ resolution_defenseprivatization_defense_contracts_tooltip:1 "Jede §YSöldnerenklave§! erhält §G+10§! Flottenkapazität.\n§YSöldner-Dividenden§! treten häufiger auf.\nAngeheuerte §YSöldnerflotten§! benötigen §G5%§! weniger Flottenkapazität, haben aber einen erhöhten Energie-Unterhalt von §R+10%§!."
+ resolution_defenseprivatization_private_support_troops_tooltip:1 "Jede §YSöldnerenklave§! erhält §G+20§! Flottenkapazität.\n§YSöldner-Dividenden§! treten häufiger auf.\nAngeheuerte §YSöldnerflotten§! benötigen §G10%§! weniger Flottenkapazität, haben aber einen erhöhten Energie-Unterhalt von §R+20%§!."
+ resolution_defenseprivatization_condottieri_tooltip:1 "Jede §YSöldnerenklave§! erhält §G+30§! Flottenkapazität.\n§YSöldner-Dividenden§! treten häufiger auf.\nAngeheuerte §YSöldnerflotten§! benötigen §G15%§! weniger Flottenkapazität, haben aber einen erhöhten Energie-Unterhalt von §R+30%§!.\n\n$resolution_defenseprivatization_breach$"
+ resolution_defenseprivatization_security_business_tooltip:1 "Jede §YSöldnerenklave§! erhält §G+40§! Flottenkapazität.\n§YSöldner-Dividenden§! treten häufiger auf.\nAngeheuerte §YSöldnerflotten§! benötigen §G20%§! weniger Flottenkapazität, haben aber einen erhöhten Energie-Unterhalt von §R+40%§!.\n§G+20%§! £diplo_weight£ §YDiplomatische Bedeutung§!, solange eine §YSöldnerflotte§! angeheuert ist.\n\n$resolution_defenseprivatization_breach$"
+ resolution_defenseprivatization_corporate_warlords_tooltip:1 "Jede §YSöldnerenklave§! erhält §G+50§! Flottenkapazität.\n§YSöldner-Dividenden§! treten häufiger auf.\nAngeheuerte §YSöldnerflotten§! benötigen §G25%§! weniger Flottenkapazität, haben aber einen erhöhten Energie-Unterhalt von §R+50%§!.\n§G+40%§! £diplo_weight£ §YDiplomatische Bedeutung§!, solange eine §YSöldnerflotte§! angeheuert ist.\n\n§YKeine angeheuerte Söldnerflotte zu haben, ist §Rverboten§!.§!"
+
+ resolution_defenseprivatization_breach:0 "§YSich ohne angeheuerte Söldnerflotte im Krieg zu befinden, ist §Rverboten§!.§!"
+ resolution_defenseprivatization_defense_contracts_merc_naval_cap:0 "Flottenkapazität durch Beschlüsse"
+ resolution_defenseprivatization_private_support_troops_merc_naval_cap:0 "$resolution_defenseprivatization_defense_contracts_merc_naval_cap$"
+ resolution_defenseprivatization_condottieri_merc_naval_cap:0 "$resolution_defenseprivatization_defense_contracts_merc_naval_cap$"
+ resolution_defenseprivatization_security_business_merc_naval_cap:0 "$resolution_defenseprivatization_defense_contracts_merc_naval_cap$"
+ resolution_defenseprivatization_corporate_warlords_merc_naval_cap:0 "$resolution_defenseprivatization_defense_contracts_merc_naval_cap$"
+ resolution_defenseprivatization_security_business_merc_hired:0 "$resolution_defenseprivatization_security_business$"
+ resolution_defenseprivatization_corporate_warlords_merc_hired:0 "$resolution_defenseprivatization_corporate_warlords$"
+
+ # Suzerains & Sovereignty
+ not_allowed_for_galcom_resolution:0 "§RDiese Klausel ist durch einen Beschluss der Galaktischen Gemeinschaft blockiert.§!"
+ galcom_tooltip_no_independent_sensors:0 "Die Klausel "§Y$subject_does_not_get_sensors$§!" ist in Vereinbarungen zwischen Mitgliedern der Galaktischen Gemeinschaft nicht mehr gültig."
+ galcom_tooltip_no_independent_diplomacy:0 "Die Klausel "§Y$subject_can_do_diplomacy$§!" ist in Vereinbarungen zwischen Mitgliedern der Galaktischen Gemeinschaft nicht mehr gültig."
+ galcom_tooltip_no_integration_permitted:0 "Die Klausel "§Y$subject_can_be_integrated$§!" ist in Vereinbarungen zwischen Mitgliedern der Galaktischen Gemeinschaft nicht mehr gültig."
+ galcom_tooltip_no_expansion_prohibited:0 "Die Klausel "§Y$subject_cannot_expand$§!" ist in Vereinbarungen zwischen Mitgliedern der Galaktischen Gemeinschaft nicht mehr gültig."
+ galcom_tooltip_no_expansion_regulated:0 "Die Klausel "§Y$subject_can_expand_with_tithe$§!" ist in Vereinbarungen zwischen Mitgliedern der Galaktischen Gemeinschaft nicht mehr gültig."
+ galcom_tooltip_no_limited_diplomacy:0 "Die Klausel "§Y$subject_can_not_do_diplomacy$§!" ist in Vereinbarungen zwischen Mitgliedern der Galaktischen Gemeinschaft nicht mehr gültig."
+ galcom_tooltip_no_holdings_3:0 "Die Klausel "§YBesitztumsmaximum (3)§!" ist in Vereinbarungen zwischen Mitgliedern der Galaktischen Gemeinschaft nicht mehr gültig."
+ galcom_tooltip_no_holdings_4:0 "Die Klausel "§YBesitztumsmaximum (4)§!" ist in Vereinbarungen zwischen Mitgliedern der Galaktischen Gemeinschaft nicht mehr gültig."
+ galcom_tooltip_strengthened_specialists:0 "§YBollwerke§! haben verbesserte Sternenbasen und Verteidigungsplattformen.\n§YScholarien§! haben verbesserte §YPlanetensensoren§!.\n§YProspektorien§! haben eine verbesserte §YRessourcenentdeckung§!."
+
+ galcom_tooltip_ethics_tier_1:0 "Untertanen haben eine Ethikanziehung von §Y25%§! auf die fanatische Ethik ihres Lehnsherrn."
+ galcom_tooltip_ethics_tier_2:0 "Untertanen haben eine Ethikanziehung von §Y50%§! auf die fanatische Ethik ihres Lehnsherrn."
+ galcom_tooltip_ethics_tier_3:0 "Untertanen haben eine Ethikanziehung von §Y75%§! auf die fanatische Ethik ihres Lehnsherrn."
+
+ galcom_is_subject:0 "Ist ein Untertan"
+ galcom_is_overlord:0 "Ist ein Lehnsherr"
+
+ suzerains_sovereignty:1 "Suzeränität und Souveränität"
+
+ resolution_category_intergalacticdirective:0 "Intergalaktische Direktiven"
+ resolution_category_bureaucraticsurveillance:0 "Bürokratische Überwachung"
+
+ resolution_intergalacticdirective_regulated_growth:0 "Reguliertes Wachstum"
+ resolution_intergalacticdirective_regulated_growth_desc:0 "Indem wir die Grenzen der Mitgliedsstaaten streng regulieren, gewährleisten wir eine sicherere und gerechtere Galaxie für alle. Auch wenn manche die Bürokratie als erdrückend empfinden mögen, ist sie doch für uns alle von Vorteil."
+ resolution_intergalacticdirective_ensured_sovereignty:0 "Gesicherte Souveränität"
+ resolution_intergalacticdirective_ensured_sovereignty_desc:0 "Die Galaktische Gemeinschaft wird Richtlinien in Kraft setzen, um die Souveränität ihrer Mitglieder zu gewährleisten, insbesondere derjenigen, deren Integrität zuvor von anderen Reichen verletzt wurde."
+ resolution_intergalacticdirective_a_voice_for_all:0 "Eine Stimme für alle"
+ resolution_intergalacticdirective_a_voice_for_all_desc:0 "Dieser Beschluss stellt sicher, dass jedes Mitglied der Galaktischen Gemeinschaft ein Mitspracherecht besitzt, was die Gestaltung der Zukunft seines eigenen Reichs angeht."
+
+ resolution_intergalacticdirective_repeal_1:0 "§R$resolution_intergalacticdirective_regulated_growth$ widerrufen§!"
+ resolution_intergalacticdirective_repeal_1_desc:0 "Obwohl es für einige Reiche selbstverständlich erscheint, dass man ihre Grenzen respektiert, sind die von der Galaktischen Gemeinschaft durchgesetzten Richtlinien zu anmaßend und zu erdrückend. Einige dieser Mandate müssen Kürzungen erfahren, um eine reibungslos funktionierende Bürokratie zu gewährleisten."
+ resolution_intergalacticdirective_repeal_2:0 "§R$resolution_intergalacticdirective_ensured_sovereignty$ widerrufen§!"
+ resolution_intergalacticdirective_repeal_2_desc:0 "$resolution_intergalacticdirective_repeal_1_desc$"
+ resolution_intergalacticdirective_repeal_3:0 "§R$resolution_intergalacticdirective_a_voice_for_all$ widerrufen§!"
+ resolution_intergalacticdirective_repeal_3_desc:0 "$resolution_intergalacticdirective_repeal_1_desc$"
+
+ resolution_bureaucraticsurveillance_administrative_insight:0 "Administrative Einblicke"
+ resolution_bureaucraticsurveillance_administrative_insight_desc:0 "Im Rahmen unserer Bemühungen, die galaktische Bürokratie zu verschlanken, setzen wir im Senat eine klarere Verwaltungshierarchie durch, insbesondere zwischen den Mitgliedstaaten, die bereits diplomatische Abkommen geschlossen haben."
+ resolution_bureaucraticsurveillance_borderless_authority:0 "Grenzüberschreitende Behörden"
+ resolution_bureaucraticsurveillance_borderless_authority_desc:0 "Im Rahmen unserer anhaltenden Bemühungen, die interne Bürokratie zu verschlanken, erhalten die stärkeren Mitglieder des Senats noch mehr Befugnisse."
+ resolution_bureaucraticsurveillance_personal_oversight:0 "Persönliche Aufsicht"
+ resolution_bureaucraticsurveillance_personal_oversight_desc:0 "Auch wenn einige Reiche zugegebenermaßen eine Beeinträchtigung ihrer Souveränität erfahren haben, haben unsere Bemühungen zur Beseitigung bürokratischer Hürden die Effizienz des Senats unbestreitbar erheblich verbessert!"
+
+ resolution_bureaucraticsurveillance_repeal_1:0 "§R$resolution_bureaucraticsurveillance_administrative_insight$ widerrufen§!"
+ resolution_bureaucraticsurveillance_repeal_1_desc:0 "Wir waren zwar damit erfolgreich, uns auf die Beseitigung bürokratischer Hürden zu konzentrieren, doch dies veranlasste allerdings mehrere Mitgliedstaaten, sich über die Beeinträchtigung ihrer Souveränität zu beschweren. Sie schlagen nun ein Mandat vor, um einen Teil dieser verlorenen Unabhängigkeit wiederherzustellen."
+ resolution_bureaucraticsurveillance_repeal_2:0 "§R$resolution_bureaucraticsurveillance_borderless_authority$ widerrufen§!"
+ resolution_bureaucraticsurveillance_repeal_2_desc:0 "$resolution_bureaucraticsurveillance_repeal_1_desc$"
+ resolution_bureaucraticsurveillance_repeal_3:0 "§R$resolution_bureaucraticsurveillance_personal_oversight$ widerrufen§!"
+ resolution_bureaucraticsurveillance_repeal_3_desc:0 "$resolution_bureaucraticsurveillance_repeal_1_desc$"
+
+ #########################
+ # Triggers & Effects
+ #########################
+
+ count_available_debris_trigger:0 "Verfügbare Trümmer zählen"
+ effect_random_available_debris:0 "Zufällige verfügbare Trümmer"
+ DEBRIS_OWNERSHIP_PASSED_TO:0 "Trümmereigentum wechselt zu $COUNTRY|Y$"
+
+
+ #########################
+ # Modifiers
+ #########################
+
+ MOD_SHIP_FRIENDLY_TERRITORY_SHIELD_ADD:0 "$MOD_SHIP_SHIELD_ADD$ in befreundeten Systemen"
+ MOD_SHIP_FRIENDLY_TERRITORY_SHIELD_MULT:0 "$MOD_SHIP_SHIELD_MULT$ in befreundeten Systemen"
+ MOD_SHIP_FRIENDLY_TERRITORY_EVASION_ADD:0 "$MOD_SHIP_EVASION_ADD$ in befreundeten Systemen"
+ MOD_SHIP_FRIENDLY_TERRITORY_EVASION_MULT:0 "$MOD_SHIP_EVASION_MULT$ in befreundeten Systemen"
+ MOD_SHIP_FRIENDLY_TERRITORY_ACCURACY_ADD:0 "$MOD_SHIP_ACCURACY_ADD$ in befreundeten Systemen"
+ MOD_SHIP_FRIENDLY_TERRITORY_ACCURACY_MULT:0 "$MOD_SHIP_ACCURACY_MULT$ in befreundeten Systemen"
+ MOD_SHIP_FRIENDLY_TERRITORY_TRACKING_ADD:0 "$MOD_SHIP_TRACKING_ADD$ in befreundeten Systemen"
+ MOD_SHIP_FRIENDLY_TERRITORY_TRACKING_MULT:0 "$MOD_SHIP_TRACKING_MULT$ in befreundeten Systemen"
+ MOD_SHIP_FRIENDLY_TERRITORY_FIRE_RATE_MULT:0 "$MOD_SHIP_FIRE_RATE_MULT$ in befreundeten Systemen"
+ subject_loyalty_effects:0 "Untertan"
+ naval_cap_unmodified:0 "$subject_loyalty_effects$"
+
+ resolution_galcom_ethic_modifier:0 "$resolution_category_bureaucraticsurveillance$"
+ resolution_galcom_ethic_modifier_desc:0 "Mithilfe der Galaktischen Gemeinschaft hat der Lehnsherr dieses Reichs einen besseren Einblick in die inneren Abläufe seiner Untertanen und verfügt über mehr Autorität."
+
+ resolution_galcom_spiritualist_ethic_modifier_tier_1:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_spiritualist_ethic_modifier_tier_1_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_spiritualist_ethic_modifier_tier_2:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_spiritualist_ethic_modifier_tier_2_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_spiritualist_ethic_modifier_tier_3:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_spiritualist_ethic_modifier_tier_3_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+
+ resolution_galcom_materialist_ethic_modifier_tier_1:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_materialist_ethic_modifier_tier_1_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_materialist_ethic_modifier_tier_2:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_materialist_ethic_modifier_tier_2_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_materialist_ethic_modifier_tier_3:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_materialist_ethic_modifier_tier_3_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+
+ resolution_galcom_authoritarian_ethic_modifier_tier_1:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_authoritarian_ethic_modifier_tier_1_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_authoritarian_ethic_modifier_tier_2:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_authoritarian_ethic_modifier_tier_2_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_authoritarian_ethic_modifier_tier_3:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_authoritarian_ethic_modifier_tier_3_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+
+ resolution_galcom_egalitarian_ethic_modifier_tier_1:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_egalitarian_ethic_modifier_tier_1_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_egalitarian_ethic_modifier_tier_2:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_egalitarian_ethic_modifier_tier_2_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_egalitarian_ethic_modifier_tier_3:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_egalitarian_ethic_modifier_tier_3_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+
+ resolution_galcom_xenophile_ethic_modifier_tier_1:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_xenophile_ethic_modifier_tier_1_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_xenophile_ethic_modifier_tier_2:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_xenophile_ethic_modifier_tier_2_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_xenophile_ethic_modifier_tier_3:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_xenophile_ethic_modifier_tier_3_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+
+ resolution_galcom_xenophobe_ethic_modifier_tier_1:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_xenophobe_ethic_modifier_tier_1_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_xenophobe_ethic_modifier_tier_2:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_xenophobe_ethic_modifier_tier_2_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_xenophobe_ethic_modifier_tier_3:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_xenophobe_ethic_modifier_tier_3_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+
+ resolution_galcom_militarist_ethic_modifier_tier_1:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_militarist_ethic_modifier_tier_1_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_militarist_ethic_modifier_tier_2:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_militarist_ethic_modifier_tier_2_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_militarist_ethic_modifier_tier_3:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_militarist_ethic_modifier_tier_3_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+
+ resolution_galcom_pacifist_ethic_modifier_tier_1:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_pacifist_ethic_modifier_tier_1_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_pacifist_ethic_modifier_tier_2:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_pacifist_ethic_modifier_tier_2_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_pacifist_ethic_modifier_tier_3:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_pacifist_ethic_modifier_tier_3_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+
+ resolution_galcom_bulwark_modifier:0 "$resolution_intergalacticdirective_a_voice_for_all$"
+ resolution_galcom_bulwark_modifier_desc:0 "Sie werden durch die Gesetze und Richtlinien der Galaktischen Gemeinschaft gestärkt."
+
+ #########################
+ # Opinion Modifiers
+ #########################
+ opinion_imperial_overlord_ai_opinion:0 "Wohlwollender Lehnsherr"
+ opinion_imperial_vassal_ai_opinion:0 "Kürzliche Vasallisierung"
+ opinion_imperial_vassal_new_overlord:0 "Neuer Beschützer"
+ opinion_imperial_vassal_refused_overlordship:0 "Verweigerte Lehnsherrschaft"
+ opinion_imperial_vassal_grateful_response_overlord_opinion:0 "Dankbar"
+ opinion_imperial_vassal_harsh_response_overlord_opinion:0 "Enttäuscht"
+
+ ####################
+ # Assorted Tooltips
+ ####################
+
+ dialog_friendly_tt:0 "Wir nehmen eine §Gfreundliche§! Haltung ein."
+ dialog_neutral_tt:0 "Wir nehmen eine §Yneutrale§! Haltung ein."
+ dialog_wary_tt:0 "Wir nehmen eine §Yvorsichtige§! Haltung ein."
+ dialog_hostile_tt:0 "Wir nehmen eine §Rfeindliche§! Haltung ein."
+
+ is_a_signatory_vassal:0 "Ist ein Vertragsstaat."
+ is_not_a_signatory_vassal:0 "Ist KEIN Vertragsstaat."
+ is_a_signatory_vassal_success:0 "$TRIGGER_PASS$ $is_a_signatory_vassal$"
+ is_a_signatory_vassal_fail:0 "$TRIGGER_FAIL$ $is_a_signatory_vassal$"
+ is_not_a_signatory_vassal_success:0 "$TRIGGER_PASS$ $is_not_a_signatory_vassal$"
+ is_not_a_signatory_vassal_fail:0 "$TRIGGER_FAIL$ $is_not_a_signatory_vassal$"
+
+ same_federation_as_overlord:0 "$TRIGGER_FAIL$Kann kein Untertan in einer Föderation ohne den Lehnsherrn sein"
+ requires_not_subject_or_subject_asking_overlord:0 "$TRIGGER_FAIL$§RUntertanen können nur ihren Lehnsherrn bitten, der Föderation ihres Lehnsherrn beizutreten§!"
+ requires_not_subject_or_overlord_asking:0 "$TRIGGER_FAIL$§RUntertanen können nur von ihrem Lehnsherrn zu einer Föderation eingeladen werden§!"
+ requires_not_subject_to_start_federation:0 "$TRIGGER_FAIL$§RUntertanen können mit niemandem außer ihrem Lehnsherrn Föderationen gründen§!"
+ requires_not_guaranteeing_independence:0 "$TRIGGER_FAIL$ §RWir müssen die Garantie ihrer Unabhängigkeit beenden, bevor wir ihre Unterwerfung fordern können.§!"
+
+ STARBASE_AURA_MERCENARY_GARRISON:0 "Söldner-Garnison"
+ aura_starbase_mercenary_garrison:0 "Defensive Aura - Söldner-Garnison"
+
+ # Ambient Object
+ central_crystal_gateway:0 "Inneres Sternentor"
+ central_crystal_gateway_desc:0 "Ein mysteriöses Tor, das scheinbar von allen anderen in der Galaxie getrennt ist."
+
+ ##################
+ # Civics Changes
+ ##################
+
+ civic_private_military_companies_ove:0 "$civic_private_military_companies$"
+ civic_private_military_companies_ove_desc:0 "$civic_private_military_companies_desc$"
+ civic_naval_contractors_ove:0 "$civic_naval_contractors$"
+ civic_naval_contractors_ove_desc:0 "$civic_naval_contractors_desc$"
+ civic_barbaric_despoilers_ove:0 "$civic_barbaric_despoilers$"
+ civic_barbaric_despoilers_ove_desc:0 "$civic_barbaric_despoilers_desc$"
+ civic_warrior_culture_ove:0 "$civic_warrior_culture$"
+ civic_warrior_culture_ove_desc:0 "$civic_warrior_culture_desc$"
+
+ ##################
+ # New Ascension Perk
+ ##################
+
+ ap_lord_of_war:0 "Kriegsfürst"
+ ap_lord_of_war_desc:0 "Manche sagen, der Krieg sei schlecht fürs Geschäft, doch Krieg ist unser Geschäft. Unsere Söldner sind in einer umkämpften Galaxie zu Hause, und durch sie sind wir es auch."
+ ap_lord_of_war_tooltip:0 "§YSöldnerenklaven§!, die unter unserer Schirmherrschaft stehen, zahlen häufiger §YDividenden§!."
+
+ ################
+ # Initializers #
+ ################
+ NAME_Auge:0 "Auge"
+ NAME_Anatole:0 "Anatole"
+ NAME_Mousika:0 "Mousika"
+ NAME_Mesembria:0 "Mesembria"
+ NAME_Dysis:0 "Dysis"
+ NAME_Hesperis:0 "Hesperis"
+ NAME_Arktos:0 "Arktos"
+
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ d_subterranean_mines:0 "Unterirdische Minen"
+ d_subterranean_mines_desc:0 "Diese Zivilisation lebt unter der Oberfläche ihres Planeten, wodurch sie besseren Zugang zu Mineralien hat."
+ subterranean_nation_modifier:0 "Unterirdische Nation"
+ subterranean_nation_modifier_desc:0 ""
+ leader_trait_subterranean_archaeology:0 "Untergrundexperte"
+ leader_trait_subterranean_archaeology_desc:0 "Dieser Anführer ist es gewohnt, unter der Erde zu graben."

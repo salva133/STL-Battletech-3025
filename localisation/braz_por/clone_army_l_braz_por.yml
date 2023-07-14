@@ -1,0 +1,108 @@
+﻿l_braz_por:
+ ########################
+ # Humanoids Species Pack (Value Buff)
+ ########################
+
+ ### Clone Army Origin
+
+ clone_soldier:0 "Soldado Clone"
+ origin_clone_army:0 "Exército de Clones"
+ origin_clone_army_desc:0 "Uma espécie de soldados clones inférteis que vivem pouco e são muito competentes em assuntos de guerra. Foram deixados sem mestre, questionando o motivo de serem projetados e qual é seu destino incerto."
+ origin_tooltip_clone_army_effects:1 "- Começa com 2 £building£ Construções de §H$building_clone_army_clone_vat$§! no seu mundo natal, produzindo £pops£ Pops do tipo §H$clone_soldier$§!.\n- §HClones In Vitro Antigos§! têm um §HLimite por Império§! de 5.\n- §HAlmirantes§! de Exército de Clones concederão mais §G25%§! de §H$MOD_SHIP_FIRE_RATE_MULT$§! e §G10%§! a menos de §HManutenção da Nave§!."
+ trait_clone_soldier_infertile:0 "$clone_soldier$"
+ trait_clone_soldier_infertile_desc:0 "§LProjetado para obedecer e guerrear. Vive pouco, não se reproduz de forma natural e é muito eficiente.§!"
+ trait_clone_soldier_fertile:0 "Descendente de Soldado Clone"
+ trait_clone_soldier_fertile_desc:0 "§LNo passado, era infértil, pois foi projetado para obedecer e guerrear. Com a redução da vantagem genética, agora está estável o suficiente para a reprodução natural.§!"
+ trait_clone_soldier_infertile_full_potential:0 "Ascendente de Soldado Clone"
+ trait_clone_soldier_infertile_full_potential_desc:0 "§LUm clone em seu auge geneticamente modificado. Tem mais força, eficiência, durabilidade e longevidade, mas será sempre infértil.§!"
+ leader_trait_clone_army_admiral:0 "Almirante do Exército de Clones"
+ leader_trait_clone_army_admiral_desc:0 "Graças à sua vasta educação militar, este líder entende como aumentar a eficiência tanto das naves quanto dos soldados."
+ leader_trait_clone_army_full_admiral:0 "Almirante do Exército de Ascendentes de Clones"
+ leader_trait_clone_army_full_admiral_desc:0 "Sujeito desde sua criação a um regime de educação militar tão intenso que poucos conseguiram suportar, este líder possui habilidades militares e de comando excelentes."
+ leader_trait_clone_army_fertile_admiral:0 "Almirante do Exército de Descendentes de Clones"
+ leader_trait_clone_army_fertile_admiral_desc:0 "Graças à sua educação militar especializada, este líder possui um conhecimento acima da média de procedimentos militares e sabe qual é a melhor maneira de aperfeiçoá-los."
+ TRAIT_INFERTILE:0 "§RNão pode se reproduzir de forma natural§!"
+ genelock_trait_tooltip:0 "§RNão pode sofrer modificações genéticas§!"
+
+ disables_clone_army_origin_features:0 "§REscolher esta Regalia da Ascensão desativará as mecânicas de Origem do Exército de Clones.§!"
+ clone_soldier_locked_genes:0 "§RAs espécies $trait_clone_soldier_infertile$ e $trait_clone_soldier_infertile_full_potential$ são instáveis demais para sofrer outras modificações genéticas.§!"
+
+ building_clone_army_clone_vat:0 "Clone In Vitro Antigo"
+ building_clone_army_clone_vat_desc:0 "Tecnologia deixada para trás pelos Criadores. Pode ser desmontada e remontada, mas seus componentes internos e seu funcionamento são avançados demais para serem reproduzidos."
+ building_clone_army_clone_vat_effect_desc:0 "Produz e sustenta §Y20§! £pops£ Pops do tipo §Y$clone_soldier$§!. A eficácia desse crescimento é reduzida à medida que $building_clone_army_clone_vat$ atinge a capacidade máxima."
+
+ START_SCREEN_CLONE_ARMY:0 "Fomos feitos para a guerra! Soldados projetados que vivem e morrem pelos Clones In Vitro Antigos deixados pelos nossos Criadores, para sempre moldados por isso. Qualquer lembrança de nossos mestres se perdeu em gerações passadas, e não sabemos quando ou por que nos deixaram. É provável que os registros fossem apagados regularmente, obedecendo fielmente aos protocolos militares. Mas em algum momento dos últimos séculos, isso mudou. Por acaso, ou talvez por falha de algum instinto de sobrevivência, nosso subconsciente nos levou a buscar respostas, a buscar um novo propósito e maneiras de romper a forma que nos foi imposta.\n\nDesde então, nossos esforços têm sido incessantes, e depois de muito tempo, garantiram nosso acesso à grande vastidão do espaço. À medida que nosso horizonte se amplia, nosso conhecimento também deve se expandir, e assim nossas chances de alcançar a liberdade aumentam.\n\nNão devemos desperdiçar as possibilidades que nos foram dadas por nossos antepassados. Lutaremos para transmiti-las aos futuros clones e para acabar com as restrições a que nos sujeitaram.\n"
+
+ alert_declining_pops_title:0 "Pops em Declínio"
+ alert_declining_pops_instant:0 "£pops£ Pops estão em declínio nos seguintes planetas:"
+ CLONE_ARMY_FORCE_DECLINE:0 "§R§YClones In Vitro Antigos§! insuficientes para sustentar a população de §YSoldados Clones§!§!"
+ OVERPOPULATION_DECLINE:0 "§RSuperpopulação Excessiva§!"
+
+ MESSAGE_CLONE_ARMY_NO_CLONE_VATS_TITLE:0 "Pops em Declínio"
+ MESSAGE_CLONE_ARMY_NO_CLONE_VATS:0 "Os £pops£ Pops §YSoldados Clones§! em $PLANET|Y$ não têm mais como se sustentar. Se não tiverem ao menos um §YClone In Vitro Antigo§!, vão perecer em breve."
+
+ clones.4.name:0 "Fertilidade dos Clones"
+ clones.4.desc:0 "Acredita-se que já fomos capazes de reprodução independente.\n\nNo entanto, experimentos para reaver essa capacidade fracassaram sistematicamente, incluindo os que foram bem-sucedidos em outras criaturas de nosso mundo natal. O progresso esteve estagnado durante muito tempo, até agora.\n\nUma descoberta improvável deu esperança aos nossos cientistas: uma cifra escondida no biocódigo quântico dos §YClones In Vitro Antigos§!, em uma área que, acredita-se, regula o potencial de procriação do nosso genoma."
+
+ CLONE_SOLDIER_FERTILITY:0 "Cifra do Biocódigo"
+ CLONE_SOLDIER_FERTILITY_DESC:0 "Um projeto para compreender a cifra descoberta recentemente dentro do biocódigo quântico dos §YClones In Vitro Antigos§!. É um esforço que nos aproxima de finalmente recuperarmos nossa fertilidade."
+
+ clones.20.name:0 "Interagindo com Clones In Vitro Antigos"
+ clones.20.desc:0 "Com a determinação de nossos cientistas, a cifra encontrada dentro dos Clones In Vitro Antigos foi decodificada. Apesar do protocolo, o oficial científico-chefe, extremamente impaciente, ativou a chave nela contida.\n\nUma mensagem do passado aparece na tela..."
+
+ clones.21.name:0 "Interagindo com Clones In Vitro Antigos"
+ clones.21.desc:0 ""Carrego o peso da culpa. Não consigo imaginar que caminhos levaram a isto, mas certamente não foi a misericórdia de meus irmãos.\n\nEu ajudei a criar vocês para a servidão, e por isso peço desculpas. Não posso mudar isso, mas posso ajudar a abrir o futuro de vocês. Embora mereçam mais, eu lhes ofereço dois caminhos:\n\nDesfazer as mudanças que os tornaram estéreis e finalmente libertá-los para que evoluam e prosperem.\n\nOu liberar ainda mais seu potencial, mas levar seus genes ao limite, condenando as gerações futuras a uma eterna dependência da tecnologia para se reproduzirem.""
+
+ clone_fertility_chain_title:0 "Encruzilhada Genética"
+ clone_fertility_chain_desc:0 "A cifra escondida no biocódigo, deixada por um dos Criadores dentro dos Clones In Vitro Antigos, nos revelou dois caminhos: recuperar nossa fertilidade e renunciar a parte de nossa força, ou abandonar de uma vez por todas a reprodução natural para alcançar novos patamares genéticos."
+
+ CLONE_SOLDIER_UNLOCK_FERTILITY:0 "Fertilidade dos Clones"
+ CLONE_SOLDIER_UNLOCK_FERTILITY_DESC:0 "§Y$clone_soldier$§! se torna §YDescendente de Soldado Clone§!. Será menos eficiente, mas fértil e estável o suficiente para modificações genéticas.\n\n§REsse caminho resultará no desmonte de todos os §YClones In Vitro Antigos§!.§!"
+ CLONE_SOLDIER_UNLOCK_POTENTIAL:0 "Potencial de Clone"
+ CLONE_SOLDIER_UNLOCK_POTENTIAL_DESC:0 "§Y$clone_soldier$§! se torna §YAscendente de Soldado Clone§!. Será mais eficiente, mas eternamente infértil e indiferente a mais modificações genéticas."
+
+ clones.22.name:0 "Um Novo Dia Amanhece"
+ clones.22.desc:0 "Recuperamos nossa fertilidade, e o primeiro grupo de novos §Y[Root.GetSpeciesNamePlural]§! viu a luz do dia. Eles mudarão nosso futuro para sempre com seus próprios descendentes, obrigando nossa sociedade a mudar e se adaptar junto com eles.\n\nA necessidade de §YClones In Vitro Antigos§! é coisa do passado, e decidimos remover qualquer parte do equipamento que possa gerar novas pesquisas. O que sobrar será reciclado e aproveitado em outros lugares."
+
+ clones.23.name:0 "Potencial Máximo"
+ clones.23.desc:0 "Por que deveríamos renegar a força que nos foi dada? Não precisamos amar os Criadores para reconhecer sua sabedoria ao nos escolher. Os Clones In Vitro Antigos também são um presente poderoso.\n\nÉ melhor aceitarmos nossa força, e com o primeiro grupo de §Y[Root.GetSpeciesNamePlural]§! pronto, estamos mais fortes do que nunca. Nossa espécie aperfeiçoada irá prosperar."
+
+ clones.10.name:0 "Origem Controversa"
+ clones.10.desc:0 "Com a nossa recente chegada ao espaço, as diferentes visões sobre a nossa origem estão rapidamente se transformando em desacordos. Grupos extremistas estão atraindo mais clones em ritmo acelerado. Nossa forte unidade foi desfeita.\n\nAlguns enxergam os Criadores como deuses a serem adorados e obedecidos, e acreditam que fomos feitos à imagem e semelhança deles. A eles só interessa manter o status quo. Outros amaldiçoam nossos antigos mestres pelo que fizeram, chamando-os de "escravocratas", e gostariam de vê-los pagar por isso.\n\nUm local de escavação foi estabelecido em [Root.Owner.GetHomeWorldName] para confirmar os fatos e acabar com a polêmica. Antes de irmos para o espaço, temos que esgotar todas as possibilidades imediatas. Nossa nação é antiga. Muitas gerações de clones viveram e morreram aqui. Sob as antigas estruturas do nosso mundo natal, deve haver pistas importantes nos esperando."
+
+ clone_army_digsite:0 "Escavação no Mundo Natal"
+ clone_army_digsite_desc:0 "Desde que despertamos para o nosso dilema, a ausência de identidade e propósito atormenta a nossa espécie. Subestimamos grosseiramente o impacto que isso teria em nossa capacidade de seguir em frente, e principalmente de cooperar. Lutamos para chegar a um acordo e ansiamos por respostas.\n\nEste local de escavação foi criado para buscar evidências sobre as questões levantadas acerca da criação da nossa espécie e para encontrar uma perspectiva fundamental que ajude em nossa união."
+
+ clones.11.name:0 "História Perdida"
+ clones.11.desc:0 "Um local de escavação importante conseguiu datar a instalação de um de nossos §YClones In Vitro Antigos§! após analisar o solo sob a estrutura e comparar sua densidade e composição com amostras dos arredores. Assim chegamos a uma estimativa razoável de quando ele foi colocado lá.\n\nParece que os primeiros de nossa espécie, os primeiros clones, foram criados há aproximadamente doze séculos.\n\nA história de muitas gerações foi perdida para a indiferença. Muita coisa ficou para trás, e talvez isso seja algo a ser lamentado."
+ clones.12.name:0 "Parentes Ancestrais"
+ clones.12.desc:0 "Um dos locais de escavação relatou a descoberta de fósseis antigos, semelhantes aos de [Root.Owner.GetSpeciesName]. Fósseis muito antigos. Eles foram encontrados dentro e nas adjacências do que se acredita ser o resto de uma moradia primitiva. Aparentemente, tanto os fósseis quanto a arquitetura são anteriores à construção de nossos §YClones In Vitro Antigos§! em mais de mil anos.\n\nSequenciamentos iniciais de DNA confirmaram semelhanças consideráveis entre a nossa composição genética e a da matéria fossilizada, e concluiu-se que os restos mortais pertencem a nossos antepassados, de um tempo em que ainda não éramos clones.\n\nIsso esclarece as coisas."
+ clones.12.tooltip:0 "Vai levar um tempo até que assimilemos essas descobertas..."
+ clones.13.name:0 "Nossa História"
+ clones.13.desc:0 "A notícia das descobertas da escavação, que comprovaram que nossa espécie um dia foi um povo primitivo de [Root.GetHomeWorldName], está começando a se espalhar.\n\nÉ difícil negar a conclusão óbvia: modificar geneticamente uma espécie primitiva como nossos antepassados, que já estava adaptada à guerra, tinha um propósito específico. Nossos Criadores nos refizeram para morrer pela causa deles. Eles nos melhoraram para satisfazer suas necessidades, nunca para prosperarmos por conta própria.\n\nSerá que essa é realmente a história que queremos para o nosso povo?\n\nTemos uma grande oportunidade de reescrever o nosso passado."
+ clones.13.a:0 "Sim, fomos feitos à imagem dos Criadores."
+ clones.13.b:0 "Não, vamos encarar a realidade."
+
+ clones.14.name:0 "Registros Descobertos"
+ clones.14.desc:0 "Há alguns anos, foram feitas escavações para descobrir o propósito da nossa criação. As respostas foram duras: fomos feitos para servir, para morrer em nome dos nossos Criadores. Escolhemos poupar nosso povo dessa verdade e lhes oferecer algo melhor.\n\nApós recuperar com dificuldade arquivos excluídos dessas escavações, um clone subversivo tornou públicos os fatos que havíamos encoberto.\n\nO culpado permanece desconhecido, mas ao menos não distorceu ou alterou as informações.\n\nInfelizmente, isso nem seria necessário, pois a notícia rapidamente pôs um fim à crença em nosso passado glorioso, de que tínhamos sido feitos à imagem dos Criadores, como iguais, não escravos - e a substituiu pela decepção com a nossa liderança."
+ clones.14.a:0 "Que lástima."
+ clones.14.b:0 "Isso exige um pedido de desculpas."
+ clones.14.b.custom_tooltip:0 "Faça um pedido público de desculpas ao povo [Root.Owner.GetAdjective]."
+
+ clones.15.name:0 "Desculpas Públicas"
+ clones.15.desc:0 "Um vídeo cuidadosamente elaborado foi divulgado, esclarecendo as razões por trás da história fabricada. A transmissão explica que a intenção era benigna, enfatizando que não devemos nos envergonhar de nosso passado verdadeiro e que precisamos olhar para o futuro. Também são mencionados os avanços significativos que fizemos desde que propagamos a crença falsa.\n\nA mensagem parece ter sido bem recebida, ainda que seja difícil dizer que marcas incidentes como esse podem deixar para trás. De todo modo, a influência perdida será recuperada com o tempo, e o problema parece solucionado."
+
+ clones.16.name:0 "Liderança Honrosa"
+ clones.16.desc:0 "Alguns oficiais de alta patente encarregaram-se de expressar publicamente que aprovam nossa ética de liderança.\n\nEm uma mensagem transmitida amplamente, eles exaltam a coragem e sabedoria que demonstramos ao sermos francos quanto ao nosso passado, assim como a fé que depositamos neles e no povo [Root.Owner.GetAdjective]. Eles sentiram-se revigorados pela prontidão com a qual enfrentamos o passado, e isso lhes permitirá encarar o futuro com bravura.\n\nPor toda parte, as pessoas celebram em uníssono, enaltecendo a decisão tomada."
+
+ debated_origin:0 "Origem Controversa"
+ debated_origin_desc:0 "Esta sociedade sofre com a desunião causada pelas crenças divergentes."
+ meaningful_origin:0 "Origem Significativa (Mentira)"
+ meaningful_origin_desc:0 "Esta sociedade se fortalece com a crença em um passado glorioso e um propósito para o futuro."
+ honorable_leadership:0 "Liderança Honrosa"
+ honorable_leadership_desc:0 "Esta sociedade confia plenamente nas intenções de sua liderança."
+ dishonorable_leadership:0 "Liderança Desonesta"
+ dishonorable_leadership_desc:0 "Esta sociedade é assolada por não saber se pode confiar ou não em sua liderança."
+
+ modifier_clone_pops_decline:0 "Clones In Vitro Antigos Insuficientes"
+ modifier_clone_pops_decline_desc:0 "Não há construções de £building£ §Y$building_clone_army_clone_vat$§! suficientes aqui para manter a população atual."

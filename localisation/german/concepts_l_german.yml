@@ -1,0 +1,125 @@
+﻿l_german:
+
+ ### Concepts
+ # Use §K for headers and §I for highlights in Concepts
+
+ GAME_CONCEPT_FORMAT:0 "§C$TEXT$§!"
+ 
+ dlc_requirement_string:0 "\n\n§PBenötigte DLC:§!"
+ requires_leviathans:0 "$dlc_requirement_string$ §ILeviathan§!"
+ requires_apoc:0 "$dlc_requirement_string$ §IApocalypse§!"
+ requires_syn_dawn:0 "$dlc_requirement_string$ §ISynthetic Dawn§!"
+ requires_megacorp:0 "$dlc_requirement_string$ §IMegacorp§!"
+ requires_dis_stars:0 "$dlc_requirement_string$ §YDistant Stars Story Pack§!"
+
+ concept_shape:0 "Form"
+ concept_galaxy_shape:0 "Galaxietyp"
+ concept_galaxy_shape_desc:0 "- §I$elliptical$:§! Eine einfache runde Galaxie mit gleichmäßig verteilten Sternen.\n- §I$ring$:§! Eine runde Galaxie mit mehr leerem Raum um den Galaxiekern.\n- §I$spiral$:§! Eine Galaxie mit zwei bis sechs Armen, die sich vom galaktischen Kern aus nach außen winden.\n- §I$bar$:§! Eine Galaxie, die in zwei riesige Spiralarme mit nur wenigen Verbindungen aufgeteilt ist.\n- §I$starburst$:§! Eine Galaxie mit mehreren parallelen Armen, die vom Galaxiekern ausgehen.\n- §I$cartwheel$:§! Eine Galaxie mit mehreren dünnen Armen. Sie ist eine Mischform zwischen Spiral- und Ringgalaxie.\n- §I$spoked$:§! Eine Galaxie, die in "Scheiben" aufgeteilt ist, die größtenteils voneinander getrennt sind."
+
+ concept_advanced_empire:0 "Fortschrittliches KI-Reich"
+ concept_advanced_empires:0 "Fortschrittliche KI-Reiche"
+ concept_advanced_empires_desc:0 "Fortschrittliche KI-Reiche haben Anfangsvorteile bei Ressourcen, Technologien und Bevölkerung. Außer einer stärkeren Startposition erhalten sie keine weiteren Boni. "
+
+ concept_fallen_empire:0 "Gefallenes Reich"
+ concept_fallen_empires:0 "Gefallene Reiche"
+ concept_fallen_empires_desc:0 "Gefallene Reiche sind uralte Vorläuferzivilisationen, die mit fortschrittlicher Technologie und mächtigen Flotten beginnen, aber im Allgemeinen eher passiv sind. Gelegentlich stellen sie Forderungen oder bieten Aufgaben für kleinere Reiche an.\n\nEin Gefallenes Reich zu provozieren, ist riskant. Ihr solltet äußerst zuversichtlich sein, einen anspruchsvollen Gegner besiegen zu können."
+
+ concept_fallen_empire_awakening:0 "Erwachen eines Gefallenen Reichs"
+ concept_awaken:0 "erwachen"
+ concept_awakened_empire:0 "$COUNTRY_AWAKENED_FALLEN_EMPIRE$"
+ concept_awakened_empires:0 "Erwachte Reiche"
+ concept_awakened_empires_desc:0 "$COUNTRY_AWAKENED_FALLEN_EMPIRE_DESC$"
+
+ concept_marauder_empire:0 "Marodeur-Reich"
+ concept_marauder_empires:0 "Marodeur-Reiche"
+ concept_marauder_empires_desc:0 "Marodeur-Reiche sind Weltraumzivilisationen, die die meiste Zeit damit verbringen, untereinander zu kämpfen und ihre Nachbarn zu überfallen. Gelegentlich verlangen sie auch von anderen Reichen Tribut."
+
+ concept_technology:0 "Technologie"
+ concept_technologies:0 "Technologien"
+ concept_technology_desc:0 "Technologien sind von entscheidender Bedeutung, wenn es darum geht, die Stärke eines Reichs zu erhöhen. Sie sind in drei Studiengebiete aufgeteilt:\n\n$t$['concept_physics_research', £physics£ $concept_physics_research$]\n$t$['concept_society_research', £society£ $concept_society_research$]\n$t$['concept_engineering_research', £engineering£ $concept_engineering_research$]\n\nHauptsächlich werden §IForschungspunkte§! von £pops£ §IBewohnern§! in §IForschungslaboren§! oder von §IForschungsstationen§! im Orbit der zugehörigen Vorkommen generiert."
+
+ concept_tradition:0 "Tradition"
+ concept_traditions:0 "Traditionen"
+ concept_traditions_desc:0 "Traditionen bieten reichsweite Boni, die in Traditionsbäumen organisiert sind. Eine neue Tradition kann nur ausgewählt werden, wenn genug ['concept_unity', £unity£ $concept_unity$] vorhanden ist. Das Abschließen von Traditionsbäumen schaltet ['concept_ascension_perks'] frei."
+
+ concept_ascension_perk:0 "Aufstiegsvorteil"
+ concept_ascension_perks:0 "Aufstiegsvorteile"
+ concept_ascension_perks_desc:0 "Aufstiegsvorteile sind bedeutende reichsweite Boni, die die Spielweise eines Reichs radikal verändern können."
+
+ concept_physics_research:0 "Physik-Forschung"
+ concept_physics_research_desc:0 "Die Physik-Forschung ist eines der drei Hauptstudiengebiete für neue Technologien. Zu ihr gehören die Fachrichtungen §IInformatik§!, §IFeldmanipulation§! und §IPartikel§!."
+ concept_society_research:0 "Sozial-Forschung"
+ concept_society_research_desc:0 "Die Sozial-Forschung ist eines der drei Hauptstudiengebiete für neue Technologien. Zu ihr gehören die Fachrichtungen §IBiologie§!, §IStaatskunst§! und §IPsionik§!."
+ concept_engineering_research:0 "Ingenieur-Forschung"
+ concept_engineering_research_desc:0 "Die Ingenieur-Forschung ist eines der drei Hauptstudiengebiete für neue Technologien. Zu ihr gehören die Fachrichtungen §IIndustrie§!, §IAntrieb§! und §IWeltraumkunde§!."
+
+ concept_preftl_civilizations:0 "Zivilisation ohne ÜL-Technologie"
+ concept_preftl_civilizations_desc:0 "Zivilisationen ohne ÜL-Technologie sind Gesellschaften, die noch nicht schneller als das Licht reisen können. Ihr technologischer Stand reicht von der Steinzeit bis zum Raumfahrtzeitalter, und sie wissen in der Regel nicht, dass es in der Galaxie für sie fremdes Leben gibt."
+
+ concept_presapient_species:0 "Nicht-fühlende Spezies"
+ concept_presapient_species_desc:0 "Nicht-fühlende Spezies sind äußerst intelligente Lebewesen, die nur knapp nicht zu den fühlenden Wesen zählen. Mit den entsprechenden Technologien aus der ['concept_society_research', £society£ $concept_society_research$] können sie zu fühlenden Wesen erhoben oder in ['concept_alien_zoo',£building£ Alien-Zoos] vor dem Aussterben bewahrt werden."
+
+ concept_endgame_crisis:0 "Endspielkrise"
+ concept_endgame_crises:0 "Endspielkrisen"
+ concept_endgame_crisis_desc:0 "Ist eine Stellaris-Partie weit vorangeschritten, tritt eine Galaktische Krise auf. Diese Endspielkrisen können selbst für erfahrene Spieler eine extreme Herausforderung darstellen.\n\nEndspielkrisen treten normalerweise erst auf, nachdem das §IEndspielstartjahr§! erreicht wurde."
+
+ concept_machine_uprising:0 "Maschinenaufstand"
+ concept_machine_uprising_desc:0 "Der Maschinenaufstand ist eine Ereigniskette, in der Roboterdiener mit künstlicher Intelligenz versuchen können, sich gegen ihre Schöpfer aufzulehnen. Sie tritt in der Regel im Midgame auf und kann zur Bildung einer neuen §IMaschinenintelligenz§! in der Galaxie führen.$requires_syn_dawn$"
+
+ concept_great_khan:0 "Großkhan"
+ concept_great_khan_desc:0 "Der Großkhan ist eine Ereigniskette, in der die ungleichen Stämme eines ['concept_marauder_empires', $concept_marauder_empire$s] von einem mächtigen Anführer vereint werden. Als Marodeur-Khanat werden sie versuchen, andere Reiche zu erobern und sie zur Unterwerfung zwingen.$requires_apoc$"
+
+ concept_war_in_heaven:0 "Himmelskrieg"
+ concept_war_in_heaven_desc:0 "Zwei ['concept_fallen_empires', Gefallene Reiche], die uralte Feinde sind, können ['concept_awaken'] und um die Vorherrschaft in der Galaxie kämpfen.$requires_leviathans$"
+
+ concept_hyperlane:0 "Hyperraumroute"
+ concept_hyperlanes:0 "Hyperraumrouten"
+ concept_hyperlanes_desc:0 "Hyperraumrouten sind natürlich vorkommende Verbindungen durch den Hyperraum, die sich zwischen den Gravitationsfeldern zweier Sterne bilden. Die Nutzung von Hyperantrieben für die Reise entlang von Hyperraumrouten ist die wichtigste Methode für interstellare Reisen."
+
+ concept_gateway:0 "Sternentor"
+ concept_gateways:0 "Sternentore"
+ concept_gateways_desc:0 "Sternentore sind massive Bauwerke, die Hyperraumverbindungen erzeugen, um eine nahezu sofortige Reise zu einem anderen aktiven Sternentor innerhalb ihres Netzwerks zu ermöglichen."
+
+ concept_wormhole_pairs:0 "Wurmlochpaare"
+ concept_wormhole:0 "Wurmloch"
+ concept_wormholes:0 "Wurmlöcher"
+ concept_wormholes_desc:0 "Wurmlöcher sind natürlich vorkommende Risse in der Raumzeit. Sind sie stabil, ist es möglich, mit ihnen zu einem festen Punkt in der Galaxie zu reisen."
+
+ concept_l_gate:0 "L-Tor"
+ concept_l_gates:0 "L-Tore"
+ concept_l_gates_desc:0 "Ein mysteriöses Netzwerk von Sternentoren, die über ein separates Hyperraumnetz verbunden sind. Sie scheinen absichtlich ausgeschaltet worden zu sein."
+
+ concept_unity:0 "Einigkeit"
+ concept_unity_desc:0 "Eine immaterielle Ressource, die den inneren Zusammenhalt und den Willen einer Gesellschaft repräsentiert.\n\nEinigkeit wird für viele reichsinterne Entscheidungen verwendet, wie beispielsweise für die Einstellung von Anführern, die Umsiedlung von Bewohnern, die Umsetzung der meisten ['concept_edicts'] und die Freischaltung von ['concept_traditions'].\n\nDie häufigste Quelle für den Erhalt von Einigkeit sind Agenden von ['concept_factions'] oder £pops£ §IBewohner§!, die in Gebäuden wie §YVerwaltungsbüros§!, §YAutochthonen Monumenten§! oder §YTempeln§! arbeiten."
+
+ concept_edict:0 "Erlass"
+ concept_edicts:0 "Erlasse"
+ concept_edicts_desc:0 "Erlasse sind reichsweite Entscheidungen, die Ressourcen oder monatlichen Unterhalt kosten, um in Kraft gesetzt zu werden. Sie kosten normalerweise ['concept_unity', £unity£ $concept_unity$] oder werden aus dem ['concept_edict_fund'] bezahlt, doch einige Erlasse können auch andere Ressourcen kosten."
+
+ concept_edict_fund:0 "Erlassfond"
+ concept_edict_fund_desc:0 "Der Erlassfond ist ein separater und statischer Pool von £unity£ §IEinigkeit§!, der für den Unterhalt von §IErlassen§! verwendet wird.\n\nÜbersteigt der Unterhalt die Größe des Fonds, wird auch reguläre £unity£ §IEinigkeit§! verwendet."
+
+ concept_faction:0 "Fraktion"
+ concept_factions:0 "Fraktionen"
+ concept_factions_desc:0 "Fraktionen sind Gruppen von £pops£ §IBewohnern§!, die gemeinsame Forderungen stellen, wie das Reich geführt werden sollte.\n\n$POP_FACTIONS_APPROVAL_DESC$"
+
+ concept_xeno_compatibility:0 "$ap_xeno_compatibility$"
+ concept_xeno_compatibility_desc:0 "$allow_crossbreeding$\n\n§L$ap_xeno_compatibility_desc$§!"
+
+ concept_guaranteed_colonies:0 "$FE_GUARANTEED_COLONIES$"
+ concept_guaranteed_colonies_desc:0 "Dies legt fest, wie viele bewohnbare Planeten derselben Planetenklasse wie Eure Heimatwelt garantiert in der Nähe Eures Startsystems erscheinen. Deaktiviert Ihr diese Option, werden in der Nähe Eurer Heimatwelt keine bewohnbaren Welten vorhanden sein."
+
+ concept_policies:0 "Richtlinien"
+ concept_policy:0 "Richtlinie"
+ concept_policies_desc:0 "Neben anderen Dingen legen §IRichtlinien§! unter anderem fest, wie sich unser £empire£ §IReich§! gegenüber anderen Reichen verhalten wird, wie wir unsere £pops£ Bürger behandeln und welche Verhaltensweisen wir als akzeptabel betrachten."
+
+ concept_grand_admiral:0 "$DIFFICULTY_GRAND_ADMIRAL$"
+ concept_grand_admiral_desc:0 "$DIFFICULTY_GRAND_ADMIRAL_DESC$"
+
+ concept_alien_zoo:0 "$building_xeno_zoo$"
+ concept_alien_zoo_desc:0 "Jobs für £mod_job_entertainer_add£ $job_entertainer$: §G+1§!\nJobs für £mod_job_xeno_zoo_keeper_add£ $job_xeno_zoo_keeper$: §G+1§!\nJobs für £mod_job_livestock_zoo_animal_add£ $job_livestock_zoo_animal$: §G+3§!\n\n£job_xeno_zoo_keeper£ $job_xeno_zoo_keeper_plural$ machen aus $r_consumer_goods$ £society£ §YForschungspunkte§! und $r_amenities$.\n$t$Die Produktion von $r_amenities$ skaliert mit der Anzahl an £job_livestock_zoo_animal£ $job_livestock_zoo_animal$-Jobs.\n$job_entertainer_effect_desc$\n$job_livestock_zoo_animal_effect_desc$\n\n§L$building_xeno_zoo_desc$§!"
+
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ concept_test:0 "Lorem ipsum dolor sit amet, consectetur adipiscing elit [ 'concept_fallen_empire', §CFallen Empire§! ]. Vestibulum vitae efficitur nulla, et finibus augue. Praesent condimentum mollis nisi, volutpat luctus lorem viverra at. [ 'concept_fallen_empires' ] Morbi maximus lacus et tellus aliquam tempus. Ut dictum ante in enim ullamcorper, tincidunt sagittis ipsum efficitur. Fusce dictum massa id diam accumsan, ac tristique dui suscipit. Quisque rhoncus metus ac lectus pharetra convallis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque metus nulla, ullamcorper vel posuere vitae, tempus vehicula augue. Cras lacus neque, dictum vel malesuada in, sagittis non nulla. Vivamus tincidunt laoreet diam, et eleifend quam vulputate vitae. Sed nulla dui, venenatis et molestie eleifend, convallis ut lacus. In ac purus viverra, pharetra magna vel, tempor urna. Fusce id risus et ante cursus ultrices. Praesent finibus ipsum sit amet sem [ 'concept_fallen_empire' ] consectetur lacinia."
+ concept_fallen_empire_desc:0 "Lorem Ipsum is [ 'concept_test', Concept Test ] simply dummy text of the printing and typesetting industry. [ 'concept_fallen_empire']."

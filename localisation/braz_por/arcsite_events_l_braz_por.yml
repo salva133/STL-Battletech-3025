@@ -1,0 +1,133 @@
+﻿l_braz_por:
+####################
+# ARCHAEOLOGY SITES
+####################
+
+# Ice Trauma (by Gemma Thomson)
+ site_ice_trauma:0 "Sob o Gelo"
+ site_ice_trauma_desc:0 "As terras vastas e congeladas de [from.planet.GetName] já foram mares espalhados sobre uma abundância de profundos desfiladeiros vulcânicos. Embora o meio ambiente não seja mais capaz de suportar vida, detectamos as ruínas de antigos assentamentos submarinos em trincheiras congeladas próximas à superfície do planeta."
+
+ arcsite.1000.name:0 "Torres Fantasmagóricas"
+ arcsite.1000.desc:0 "Nossos [owner.GetScientistPlural] montaram acampamento nas margens de um lago congelado. Com luz suficiente, é possível ver torres espectrais abaixo. Elas disparam do leito do lago rumo à superfície como gavinhas resolutas.\n\nNossas tripulações menos experientes ainda estão se ajustando para trabalhar no frio extremo. Apesar disso, as escavações avançaram rapidamente. Conseguimos expor diversas travas herméticas, todas projetadas para embarcações submarinas primitivas, mas ainda não há sinal das naves em si. Quer os habitantes da torre tenham ficado ou fugido, todas as docas estavam vazias."
+ arcsite.1000.a:0 "Devemos investir mais nessas técnicas para quebrar o gelo."
+
+ arcsite.1005.name:0 "Alguns Rasgos e Desgastes"
+ arcsite.1005.desc:0 "Enquanto continuamos removendo grandes porções de gelo dos diversos habitats encobertos, nossos [owner.GetScientistPlural] na torre de acoplamento descobriram um terminal de computador primitivo. O invólucro de metal frágil parece ter sido... mastigado.\n\nO terminal inicializou corretamente após alguns pequenos reparos. Grande parte da rede de dados do habitat continua offline, mas foi possível inferir muito a partir de caches locais de manifestos, arquivos pessoais e o que parece ser um grupo de registros de missão."
+
+ arcsite.1010.name:0 "Acontecimentos Preocupantes"
+ arcsite.1010.desc:0 "Nosso conhecimento sobre o antigo assentamento em [from.planet.GetName] aumenta, assim como nossa apreensão. O que descobrimos são os restos de uma colônia de fronteira, resquícios de uma civilização esquecida há tanto tempo que nem mesmo conseguimos discernir seu nome.\n\nQuando os mares eram mais abundantes neste mundo, diversos grupos de colonizadores foram trazidos de seus locais de origem e recrutados para tripulações submarinas pioneiras. O objetivo: estabelecer colônias e explorar os recursos naturais do planeta. A realidade, no entanto, manifestou-se na forma de experimentos biológicos sem controle, mudanças políticas radicais e um risco significativo no combate a §Yfauna e flora hostis§!.\n\nOs registros dos sensores de uma boia de navegação parecem ter rastreado uma dessas tripulações a caminho de um entreposto próximo. Acreditamos que a embarcação ainda esteja lá, presa no gelo junto com um depósito de materiais úteis."
+ arcsite.1010.a:0 "Envie uma equipe de pesquisa imediatamente."
+ arcsite.1010.b:0 "Veja o que podemos descobrir sobre esses seres hostis do oceano."
+
+ arcsite.1016.name:0 "Fogo e Água"
+ arcsite.1016.desc:0 "Um gelo escurecido cerca a caverna onde encontramos os destroços incendiados de um submarino antigo. Abrigada do ciclo mais severo de congelamento e descongelamento do planeta, esta caverna chamuscada preservou evidências de diversas calamidades que se abateram sobre essa tripulação.\n\nO motor nuclear rudimentar do navio apresenta sinais de reparos apressados. Nos aposentos da tripulação, encontramos marcas de arranhões e resíduos de queimaduras químicas. Em algum momento, todos os transportes de fuga do submarino foram ejetados, mas apenas um ainda está por perto, pois ficou preso dentro de uma fissura vulcânica inativa.\n\nNão há muito mais o que aprender a partir desses destroços incendiados, mas o destino original da tripulação, um §Ydepósito de abastecimento§! colonial, permaneceu intacto. Nossa equipe de resgate conseguiu recuperar o que os submarinistas condenados não conseguiram."
+
+ arcsite.1017.name:0 "Submarino Soberano"
+ arcsite.1017.desc:0 "Cavamos túneis através de quantidades significativas de gelo para encontrar os destroços intactos de um submarino, preso dentro de uma caverna hermética. As condições de tundra há muito reduziram toda a matéria orgânica a pó, mas também preservaram uma riqueza de artefatos culturais.\n\nNossa inspeção antropológica sugere um foco de atividade política quando a tripulação deste submarino se separou da colônia próxima. Eles proclamaram diversas fronteiras soberanas dentro do casco do próprio submarino, adotando todo tipo de ideologia política. Surpreendentemente, esse partidarismo extremo parece ter fortalecido os laços sociais da tripulação em vez de distanciá-los. O assunto certamente provocará um debate acalorado entre nossos próprios cientistas políticos."
+ arcsite.1017.auth.a:0 "... Nos mantendo um passo à frente dos opositores."
+
+ arcsite.1018.name:0 "Legado Genético"
+ arcsite.1018.desc:0 "Esperávamos que um naufrágio tão antigo já tivesse sido esmagado há muito tempo. Em vez disso, constatamos que o casco avariado foi congelado, preservando sua superestrutura junto com os cadáveres de diversas criaturas. Algumas parecem ter sido fauna nativa: grandes, ferozes e certamente predadores por natureza. Os outros parecem suas presas: um pequeno grupo de seres sapientes vestindo trajes ambientais.\n\nEsses indivíduos (a tripulação do submarino) não eram originários de [fromfrom.planet.GetName]. Nossa autópsia sugere que, na verdade, esses alienígenas tinham se integrado ao material genético de formas de vida locais. Podemos apenas imaginar o que levou os colonizadores a se modificarem assim, mas não podemos negar: ao preservar esse material dentro de si mesmos, eles garantiram a sobrevivência de um valioso patrimônio genético."
+ arcsite.1018.phobe.a:0 "Que perversidade."
+
+ arcsite.1020.name:0 "Provações Congeladas"
+ arcsite.1020.desc.intro:0 "Após inspecionarem ao máximo o submarino naufragado e os habitats abandonados, nossas equipes em [from.planet.GetName] preparam-se para se reagrupar perto da superfície do planeta. Há muito que ainda não sabemos sobre esta colônia. A maior parte do que encontramos aponta apenas para um legado eclético da vida em uma fronteira um tanto solitária."
+ arcsite.1020.tech.desc:0 "$arcsite.1020.desc.intro$\n\nEmbora incapazes de viagens mais rápidas que a luz, esses submarinistas ancestrais nos levaram a descobertas notáveis em outras áreas. Eles fizeram essas descobertas graças às adversidades que enfrentaram, dificuldades estas que podemos nos empenhar para não vivenciarmos."
+ arcsite.1020.default.desc:0 "$arcsite.1020.desc.intro$\n\nEmbora a civilização deles ainda não possuísse tecnologia mais rápida que a luz, as adversidades parecem ter levado essa colônia submarina a algumas descobertas únicas na ciência e na economia, e agora temos a liberdade de explorá-las."
+ arcsite.1020.a:0 "Essas lições podem beneficiar nossos colonizadores."
+ arcsite.1020.b:0 "Habitats submersos são uma ideia interessante."
+ arcsite.1020.c:0 "Os armamentos daquele submarino poderiam ser bem úteis."
+ arcsite.1020.a.memorialist:0 "Vamos honrar a memória deles."
+ arcsite.1020.a.prospectors:0 "Um empreendimento curioso."
+
+ ice_trauma_insights_colony:0 "Legado dos Submarinistas Congelados" #modifier
+ ice_trauma_insights_engineering:0 "Engenhosidade dos Submarinistas Congelados" #modifier
+ ice_trauma_memorialist_unity:0 "Em Memória dos Submarinistas Congelados" #modifier
+
+# Engineered Species
+ site_engineered_species:0 "Fósseis Abundantes"
+ site_engineered_species_desc:1 "[from.planet.GetName] aparenta ser um planeta habitável comum, mas ao investigar mais de perto, nossa equipe de pesquisa avistou amplos depósitos de fósseis que parecem bem preservados. Curiosamente, os aglomerados maiores contêm vários espécimes na mesma camada, dando a entender que morreram ao mesmo tempo ou que foram colocados lá propositalmente. Investigar esses restos mortais nos dará a oportunidade de entender melhor o processo evolutivo das espécies que habitam este planeta."
+
+ arcsite.2000.name:0 "Montes de Ossos"
+ arcsite.2000.desc:0 "Nós analisamos a superfície e encontramos alguns depósitos promissores, repletos de restos de espécies variadas. Alguns se assemelham aos seres que ainda habitam a superfície, já outros são diferentes de tudo o que conhecemos.\n\nApesar do trabalho árduo e da vida selvagem agitar-se com a nossa presença, [leader.GetName] já fez descobertas extraordinárias e foi capaz de reconstituir algumas das espécies extintas. No entanto, isso provocou uma disputa entre a equipe de pesquisa. Enquanto uns querem colocar essas espécies em exposições, outros preferem estudar o material, pois são os fósseis mais bem preservados encontrados até hoje, e este sítio arqueológico está quase esgotado."
+ arcsite.2000.study:0 "Estude os fósseis."
+ arcsite.2000.use:0 "Coloque-os em uma exposição."
+ arcsite.2001.name:0 "Estudo de Fósseis" #Study
+ arcsite.2001.desc:0 "Realizamos pesquisas extensas para determinar a relação entre as espécies fossilizadas e a atual biosfera de [from.planet.GetName]. Parece que algumas delas pertencem ao mesmo gênero e compartilham muitas semelhanças. Estudos posteriores poderão revelar mais respostas."
+ arcsite.2002.name:0 "Mostra Interplanetária" #Use
+ arcsite.2002.desc:0 "Um bom número de pessoas veio para a nossa mostra. Mesmo não podendo usar o material coletado em nossas pesquisas, nós atraímos alguns patrocinadores generosos e enviamos os fósseis em uma exposição itinerante interplanetária. A aparência estranha das peças causou um pequeno aumento de pessoas interessadas em xenoarqueologia."
+
+ arcsite.2010.name:0 "Cavernícolas"
+ arcsite.2010.desc:0 "Após esgotarmos o primeiro sítio, decidimos ir até regiões mais remotas em busca de novos materiais para pesquisa. [leader.GetName] encontrou um bom local, uma caverna que servia de lar para uma espécie inteligente extinta. Análises cuidadosas revelaram algo peculiar: o que quer que tenha habitado a caverna usou um pigmento engenhoso que aparece quando exposto ao calor e à luz.\n\nNós identificamos dois tipos de pinturas: uma que conta o passado e outra que retrata atividades cotidianas. Infelizmente, nós perturbamos o delicado ecossistema que preservava as gravuras. A consequente reação em cadeia e a idade avançada do pigmento fizeram com que ele desbotasse e sumisse rapidamente. A equipe precisa agora decidir qual das pinturas deve ser salva."
+ arcsite.2010.study:0 "Preserve a história."
+ arcsite.2010.use:0 "Preserve as atividades cotidianas."
+ arcsite.2011.name:0 "História dos Cavernícolas" #Study
+ arcsite.2011.desc:0 "Registramos as gravuras relacionadas ao passado e aprendemos mais sobre a história da espécie. Aparentemente, estes cavernícolas entraram em contato com uma civilização avançada que influenciou um pouco a aparência e o desenvolvimento deles. Considerando as representações das criaturas, acreditamos que a espécie era propensa a rápidas mutações genéticas, e a aparência entre as gerações variava consideravelmente."
+ arcsite.2012.name:0 "Vida dos Cavernícolas" #Use
+ arcsite.2012.desc:0 "Registramos as gravuras relacionadas ao cotidiano e aprendemos mais sobre a história da espécie. Elas representam os cavernícolas como um conglomerado de espécies diferentes, mas de intelecto semelhante, que participavam de rituais complexos. [leader.GetName] acredita que as várias criaturas desfrutavam da luz de uma deidade, trabalhavam para ela e recebiam liberdade em troca."
+
+ arcsite.2020.name:0 "Estrutura Óssea"
+ arcsite.2020.desc:0 "Ao explorarmos mais as profundas fissuras da caverna, descobrimos uma gruta que contém uma estranha estrutura óssea. Dado o estado atual da estrutura, parece que ela desmoronou e afundou no solo, provavelmente como resultado de um terremoto. [Leader.GetName] ordenou que montássemos um acampamento, e nós já realizamos algumas análises perimetrais, mas o solo não está estável. Talvez não tenhamos tempo para examinar a estrutura completamente após entrarmos.\n\nO maior ganho em potencial para os nossos estudos está na construção em si. Podemos estudar o curioso material de caráter ósseo ou concentrar nossos esforços na exploração e vasculhar a estrutura em busca de mais pistas acerca dos alienígenas que a construíram e usaram no dia a dia."
+ arcsite.2020.study:0 "Estude a construção."
+ arcsite.2020.use:0 "Estude o interior da construção."
+ arcsite.2021.name:0 "Estrutura Viva" #Study
+ arcsite.2021.desc:0 "Após uma pesquisa sem ocorrências significativas, [Leader.GetName] concluiu que a construção estava... viva. Não hoje, mas há muitos anos, em algum momento durante a criação dela. Era uma massa de ossos e tecidos moldados juntos para erguer uma construção capaz de se reestruturar de acordo com o propósito desejado. Devido à forma como a estrutura desmoronou, é possível pressupor que esse foi um ato deliberado por parte dela.\n\nInfelizmente, nós danificamos a estrutura durante nossos estudos e ela ruiu ainda mais, perdendo a utilidade para pesquisas futuras. [Leader.GetName] ordenou que a equipe seguisse em frente."
+ arcsite.2022.name:0 "Civilização Subterrânea" #Use
+ arcsite.2022.desc:0 "O interior desta estrutura sinistra mostrou-se um labirinto de corredores parcialmente desmoronados, com o material de caráter ósseo espalhado por toda parte. Com alguma dificuldade, conseguimos extrair diversas ferramentas e objetos que sugerem que havia uma cultura complexa neste planeta. Eles nos darão um bom conhecimento sobre como era a vida para as espécies extintas.\n\nInfelizmente, nós danificamos a estrutura durante nossos estudos e ela ruiu ainda mais, perdendo a utilidade para pesquisas futuras. [Leader.GetName] ordenou que a equipe seguisse em frente."
+
+ arcsite.2030.name:0 "Instalação Subterrânea"
+ arcsite.2030.desc:0 "Nós finalmente alcançamos o final da caverna. Entramos em algo que parecia um velho bunker abandonado, construído no subterrâneo. A estrutura é diferente de tudo o que já vimos. Nossa hipótese é a de que visitantes alienígenas montaram um laboratório de pesquisa aqui embaixo. E a julgar pelos tanques deteriorados, ossadas variadas e fósseis espalhados pelo chão, eles estavam estudando estas espécies, assim como nós... Mas eles tiveram a chance de conduzir a pesquisa quando os espécimes ainda estavam vivos.\n\n[Leader.GetName] começou a trabalhar imediatamente para tentar reunir informações úteis do sítio e dos bancos de dados, assim que os ligarmos à fonte de energia."
+ arcsite.2030.proceed:0 "Que mistérios vamos descobrir?"
+
+ arcsite.2040.name:0 "Avanço"
+ arcsite.2040.revelation.desc:0 "Nós comparamos o conhecimento que obtivemos em estudos anteriores às informações nos bancos de dados e chegamos a uma conclusão desconcertante. Parece que há milhares de anos, uma civilização que viajava pelo espaço aterrissou neste mundo e adestrou facilmente os espécimes nativos com as técnicas de manipulação genética que conhecia. A princípio, essa civilização escravizou a população de autóctones inteligentes, ainda que não totalmente desenvolvidos, e conduziu vários experimentos com eles, que incluíam transformá-los em tecido vivo para serem usados nas construções, ou em escravos obedientes, ou em mascotes e gado.\n\nAs formas que encontramos anteriormente eram provavelmente indivíduos restantes dessas espécies antes de elas regredirem e se transformarem na biosfera não sapiente que agora prospera em [from.planet.GetName]. É um destino macabro para uma população que, um dia, poderia ter cruzado a galáxia como nós fizemos."
+ arcsite.2040.ignorance.desc:0 "Parece que há milhares de anos, uma civilização avançada achou que os espécimes que habitavam este lugar renderiam um estudo interessante. Ela ficou fascinada pela diversidade da biosfera. Os bancos de dados antigos ainda estão funcionais e repletos de estranhas conclusões e experimentos um pouco preocupantes. Eles contêm a composição genética básica das espécies e o modo como elas podem ter se desenvolvido no passado e no futuro.\n\nO que aconteceu como os pesquisadores? Eles regrediram para os cavernícolas que encontramos anteriormente? Ou foi o contrário: evoluíram a partir deles, deixando o planeta em algum momento? Isso nos faz querer saber que outros mistérios o universo esconde."
+ arcsite.2040.revelation:0 "Isso é horrível."
+ arcsite.2040.ignorance:0 "O universo é cheio de maravilhas."
+ arcsite.2040.phobe:0 "Isso prova que não podemos confiar em Xenos!"
+ arcsite.2040.phile:0 "Esses crimes nunca aconteceriam no nosso governo!"
+
+ engineered_species_revelation:0 "Verdade Dura" #modifier
+ engineered_species_revelation_desc:0 "Nós conseguimos obter o conhecimento sobre alienígenas mortos há muito tempo e as cobaias que usaram para manipulação genética, mas isso nos mostrou que o espaço não é um ambiente amistoso. É fácil ir de predador a presa."
+ engineered_species_ignorance:0 "Universo Misterioso" #modifier
+ engineered_species_ignorance_desc:0 "Explorar o universo é uma empreitada cheia de maravilhas. É incrível que a vida consiga prosperar até mesmo nos mais longínquos pontos da galáxia e sob condições tão adversas. Nosso povo, fascinado por histórias de criaturas diferentes vivendo juntas em harmonia, está pronto para desbravar os mistérios do universo."
+ engineered_species_ownway:0 "Pensamento Unificado"
+ engineered_species_ownway_desc:0 "O universo é um lugar hostil, mas devemos permanecer no nosso caminho para não repetirmos os erros daqueles que vieram antes de nós."
+
+ # Debris Belt
+ site_debris_belt:0 "Cinturão de Destroços"
+ site_debris_belt_desc:0 "Nossas análises do sistema [From.Planet.System.GetName] mostram que o cinturão de asteroides de lá é de uma variedade incomum. Em vez da mistura usual de rocha, gelo e entulhos espaciais, parece que ele é composto pelos restos de diversos habitats artificiais grandes. Eles devem ter sido destruídos com uma violência incrível em algum momento dos últimos milênios. Talvez haja segredos a serem descobertos nos campos de destroços, mas ele é tão grande que mapeá-lo pode levar bastante tempo."
+ r_odryskan_crystal:0 "Cristal de Odryskia"
+ r_odryskan_crystal_desc:0 "Um cristal inestimável. Dizem que o valor de um único fragmento é suficiente para levar mentes mortais à loucura."
+ r_odryskan_crystal_regular_effect:0 "Um de nossos cientistas pode obter a característica §YManíaco§!."
+ NAME_The_Cabin:0 "A Cabine"
+
+ arcsite.2500.name:0 "A Cabine"
+ arcsite.2500.desc:0 "Não somos os primeiros a descobrir o cinturão de destroços no sistema §Y[From.Planet.System.GetName]§!: uma nave, pequena a ponto de nossos [Root.Owner.GetResearchers] a chamarem de "cabana espacial", foi encontrada. Ela contém os restos mortais de um alienígena toxoide e uma quantidade considerável de cristais de dados. A julgar pelo nível de deterioração, nosso melhor palpite é que esse alienígena morreu há alguns séculos."
+ arcsite.2505.name:0 "Uma Longa Jornada"
+ arcsite.2505.desc:0 "Os cristais de dados descobertos na cabana espacial do alienígena contêm os registros da missão. Nossos [Root.Owner.GetResearchers] nos mandaram uma amostra com uma tradução preliminar. O conteúdo começa com um tom animado:\n\n"Esta é uma chance única. As ruínas dos lendários Odryskanos estão ao alcance. Meu novo lar não é muita coisa, mas serve para mim, e logo vou poder mandar créditos suficientes para pagar o tratamento da minha filha."\n\nUm pouco depois, porém, os registros ficam amargos:\n\n"Minha esposa e filha estão mortas. Não sobrou ninguém para lamentar a minha morte. O dinheiro que obtive ao vender itens recuperados no mercado negro não é suficiente para cobrir os custos de vida. Agora é tarde demais para voltar."\n\nNo total, o alienígena passou mais de cinco décadas vasculhando o cinturão em uma busca aparentemente fútil por riquezas."
+ arcsite.2505.A:0 "Com certeza ele encontrou algo nesses anos!"
+ arcsite.2515.name:0 "Sucumbindo à Loucura"
+ arcsite.2515.desc:0 "Não é verdade\nNão é verdade\nNão é verdade\nNão é verdade\n§RMENTIRAS!§!\n...\n...\n...\nMas, e se for verdade?\n\nOs registros se tornaram cada vez mais perturbadores à medida que o alienígena foi enlouquecendo."
+ arcsite.2520.name:0 "Enfim, Paz"
+ arcsite.2520.desc:0 "Nossos [Root.Owner.GetResearchers] terminaram de traduzir os cristais de dados. Eles contêm uma interpretação do último registro, no qual, pouco antes de morrer, o alienígena tem um momento raro de lucidez:\n\n"Eu finalmente achei o que estou procurando. Muitos me considerariam louco por continuar a busca por tanto tempo. Acho que provavelmente teriam razão. Estou velho agora, morrendo até, e minha espécie já se foi há muito tempo. Não há sentido em vender o artefato, mas talvez agora eu possa ter paz."\n\nOs registros indicam onde o alienígena escondeu o tesouro. Nós seguimos as coordenadas e encontramos uma enorme pedra preciosa de valor imensurável."
+ arcsite.2520.A:0 "Nossa preciosa..."
+
+################
+# RANDOM EVENTS
+################
+
+ arcsite.9000.name:0 "Vigília Solitária"
+ arcsite.9000.desc:0 "[leader.GetName], que chefia o setor de arqueologia, está se isolando cada vez mais nos últimos tempos. [leader.GetHeSheCap] parece ter menos interesse em nossos objetivos de pesquisa, optando por analisar obsessivamente os vários diários e registros que descobrimos até agora. [leader.GetHeSheCap] muitas vezes murmura sobre "quão solitárias essas pessoas devem ter sido".\n\nÉ possível que a desolação deste sítio arqueológico esteja cobrando o seu preço. Podemos providenciar acompanhamento psicológico para toda a equipe, ou então confiar que [leader.GetName] vai encontrar a solução em seu trabalho." #Uses he/she/they loc., i.e. 'She appears' vs. 'They appear'
+ arcsite.9000.a:0 "Tome providências. A saúde da nossa equipe é a prioridade."
+ arcsite.9000.b:0 "Deixe [leader.GetHimHer] a sós. Talvez [leader.GetHeShe] esteja no caminho certo."
+ arcsite.9001.desc:0 "[absconded_archaeologist.GetName], que chefia o setor de arqueologia, fugiu levando consigo uma porção considerável dos nossos dados antropológicos. A equipe relatou que há um veículo terrestre desaparecido, mas todos os nossos trajes ambientais estão na base.\n\nÉ possível que [absconded_archaeologist.GetName] tenha fugido para outro habitat submarino através da tundra, mas... sendo realistas, devemos presumir o pior."
+ arcsite.9001.a:0 "Profundamente lamentável."
+ arcsite.9002.desc:0 "Algo impactou bastante [leader.GetName], da arqueologia. Embora com uma aparência abatida, [leader.GetHeShe] voltou a fazer parte da equipe e apresentou uma hipótese convincente. Parece que tínhamos ignorado diversos detalhes sutis no acervo de documentos pessoais. Juntas, essas pistas fornecem exatamente o tipo de avanço que esperávamos."
+ arcsite.9002.a:0 "Mas a que custo?"
+
+ arcsite.9005.name:0 "Quebrando o Gelo"
+ arcsite.9005.desc:0 "A equipe de escavação em [fromfrom.planet.GetName] tem cooperado com nossos [owner.GetResearchers] em [owner.capital_scope.GetName], testando soluções inovadoras para o trabalho na tundra. A equipe implantou um protótipo de escavadeira cujo design tem como base técnicas de terraformação.\n\nOs primeiros testes indicam que essa máquina vai acelerar bastante o nosso trabalho aqui. No entanto, eles identificaram §Hdiversos riscos§!. Serão necessários fundos adicionais se quisermos tentar mitigá-los."
+ arcsite.9005.a:0 "Os riscos e o possível custo são altos demais."
+ arcsite.9005.tt.carefree:0 "adicionando §G4 pistas§! a §H$site_ice_trauma$§!\n§H[leader.GetName]§! ganha a característica:\n$t$§Y$leader_trait_carefree$§!\n$t$Experiência: +§G150§!" #directly follows loc string 'RANDOM_EFFECT'
+ arcsite.9005.tt.paranoid:0 "adicionando §R-2 pistas§! a §H$site_ice_trauma$§!\n§H[leader.GetName]§! ganha a característica:\n$t$§Y$leader_trait_paranoid$§!\n$t$Experiência: +§G50§!" #directly follows loc string 'RANDOM_EFFECT'

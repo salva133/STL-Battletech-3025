@@ -1,0 +1,134 @@
+﻿l_braz_por:
+ ########################
+ # Plantoids Species Pack
+ ########################
+
+ civic_idyllic_bloom:0 "Desabrochar Idílico"
+ civic_idyllic_bloom_desc:0 "Esta sociedade sempre se dedicou bastante a melhorar e cuidar do meio ambiente na tentativa de construir um verdadeiro paraíso para seus habitantes."
+ civic_hive_idyllic_bloom:0 "$civic_idyllic_bloom$"
+ civic_hive_idyllic_bloom_desc:0 "A Mente-Colmeia cuida do meio ambiente e constrói um paraíso para atingir uma perfeição sinérgica."
+ civic_tooltip_idyllic_bloom_effects:2 "Pode construir £building£ §Y$building_gaiaseeders$§! nos mundos ideais para a sua espécie inicial, sejam eles seus ou do seu vassalo.\n$building_gaiaseeders_all_desc$\nConforme você libera tecnologias de £society£ §YTerraformação§! melhores, os £building£ §Y$building_gaiaseeders$§! podem ser construídos em mais tipos de planeta."
+ civic_tooltip_not_idyllic_bloom:0 "NÃO possui o Componente Cívico §Y$civic_idyllic_bloom$§!"
+
+ disables_idyllic_bloom:0 "§REscolher esta Regalia da Ascensão desativará o Componente Cívico $civic_idyllic_bloom$.§!"
+
+ gaiaseeders_tomb_world:0 "$TRIGGER_FAIL$Requer £society£ §Y$tech_climate_restoration$§! para construir em §YMundos-Tumba§!."
+ gaiaseeders_same_climate_start:0 "$TRIGGER_FAIL$Requer £society£ §Y$tech_terrestrial_sculpting$§! para construir em"
+ gaiaseeders_different_climate_start:0 "$TRIGGER_FAIL$Requer £society£ §Y$tech_ecological_adaptation$§! para construir em"
+ gaiaseeders_wet:0 "§YÚmido§!"
+ gaiaseeders_dry:0 "§YSeco§!"
+ gaiaseeders_cold:0 "§YFrio§!"
+ gaiaseeders_same_climate_wet:0 "$gaiaseeders_same_climate_start$ $gaiaseeders_wet$ §YPlanetas§!."
+ gaiaseeders_same_climate_dry:0 "$gaiaseeders_same_climate_start$ $gaiaseeders_dry$ §YPlanetas§!."
+ gaiaseeders_same_climate_cold:0 "$gaiaseeders_same_climate_start$ $gaiaseeders_cold$ §YPlanetas§!."
+ gaiaseeders_different_climate_wet:0 "$gaiaseeders_different_climate_start$ $gaiaseeders_dry$ ou $gaiaseeders_cold$ §YPlanetas§!."
+ gaiaseeders_different_climate_dry:0 "$gaiaseeders_different_climate_start$ $gaiaseeders_same_climate_wet$ ou $gaiaseeders_cold$ §YPlanetas§!."
+ gaiaseeders_different_climate_cold:0 "$gaiaseeders_different_climate_start$ $gaiaseeders_same_climate_wet$ ou $gaiaseeders_same_climate_dry$ §YPlanetas§!."
+ gaiaseeders_special_habitability_preference:0 "$gaiaseeders_different_climate_start$ $gaiaseeders_wet$, $gaiaseeders_dry$ ou $gaiaseeders_cold$ §YPlanetas§!."
+
+ building_gaiaseeders:0 "Semeadores de Gaia"
+ building_gaiaseeders_1:0 "$building_gaiaseeders$ - Fase 1"
+ building_gaiaseeders_2:0 "$building_gaiaseeders$ - Fase 2"
+ building_gaiaseeders_3:0 "$building_gaiaseeders$ - Fase 3"
+ building_gaiaseeders_4:0 "$building_gaiaseeders$ - Última Fase"
+ building_gaiaseeders_all_desc:0 "Instalações espalhadas pelo planeta o aproximam cada vez mais de se tornar um §YMundo-Gaia§!, através das 4 fases de aprimoramento."
+ building_gaiaseeders_1_desc:0 "$building_gaiaseeders_all_desc$\n\nEsta é a fase inicial de crescimento estimulado."
+ building_gaiaseeders_2_desc:0 "$building_gaiaseeders_all_desc$\n\nEsta fase muda o foco para a habitabilidade."
+ building_gaiaseeders_3_desc:0 "$building_gaiaseeders_all_desc$\n\nEsta fase enfatiza a habitabilidade."
+ building_gaiaseeders_4_desc:0 "$building_gaiaseeders_all_desc$"
+ building_gaiaseeders_4_effect_desc:0 "Terraforma o planeta e o torna um §YMundo-Gaia§! após a conclusão."
+
+ plant.100.name:0 "Perfeição Idílica"
+ plant.100.desc:1 "Graças à nossa bioengenharia avançada, investimentos consideráveis e anos de trabalho árduo, nosso projeto Semeadura de Gaia em §Y[Root.GetName]§! deu resultados.\n\nA partir de hoje, o planeta §Y[Root.GetName]§! será considerado uma verdadeira joia para ser admirada ou talvez invejada."
+ plant.100.a:0 "Que comecem as comemorações!"
+ plant.100.b:0 "Fizemos um bom trabalho. Agora é hora de nos concentrarmos em outro lugar."
+
+ plant.105.desc:0 "Graças à nossa bioengenharia avançada, investimentos consideráveis e anos de trabalho árduo, nosso projeto Semeadura de Gaia em §Y[From.Planet.GetName]§! deu resultados.\n\nA partir de hoje, o planeta §Y[From.Planet.GetName]§! será considerado uma verdadeira joia para ser admirada ou talvez invejada. Temos certeza de que nossos vassalos apreciam os nossos esforços."
+
+ plant.110.desc:0 "Nosso Lorde Supremo terminou o projeto estranho dele em §Y[from.from.planet.GetName]§!, transformando tudo em um Mundo-Gaia. Graças a ele, podemos aproveitar o clima idílico e vastos espaços abertos desse paraíso."
+ plant.110.desc.hydrocentric:0 "Nosso Lorde Supremo terminou o projeto estranho dele em §Y[from.from.planet.GetName]§!. O planeta está arruinado! Ele cobriu os oceanos com planícies e colinas. A atmosfera, que era úmida, agora é árida. Pior ainda é que quando apresentamos nossas preocupações, ele fez pouco caso! O Lorde Supremo disse que deixou nosso mundo "mais bonito"."
+
+ plant.110.a:0 "Como ousa?"
+ plant.110.b:0 "Quanta consideração!"
+ plant.110.c:0 "Que decisão curiosa."
+
+ celebrate_idyllic_bloom:0 "Comemorando uma Transformação Idílica"
+ celebrate_idyllic_bloom_desc:0 "Uma celebração em escala planetária acontece após a bem-sucedida transformação deste mundo em um paraíso idílico."
+ terraformed_our_ocean_world:0 "Mundo Oceânico Terraformado"
+ terraformed_our_ocean_world_desc:0 "Nosso Lorde Supremo terraformou um lindo mundo oceânico, transformando-o em um horrível Mundo-Gaia. Que mau gosto."
+
+ thankful_for_gaia:0 "Gratos pelo Mundo-Gaia"
+ thankful_for_gaia_desc:0 "Recentemente, nosso Lorde Supremo transformou um dos nossos planetas em um Mundo-Gaia. Que gentil!"
+
+### Traits by Byron Aytoun
+
+ trait_plantoid_phototrophic:0 "Fototrofia"
+ trait_plantoid_phototrophic_desc:0 "§LEsta espécie é sustentada por uma combinação de comida e luz solar.§!\n"
+ TRAIT_PLANTOID_PHOTOTROPHIC_EFFECT:0 "Substitui §Y50%§! da Manutenção de £food£ §YComida§! Base por Manutenção de £energy£ §YEnergia§!."
+
+ trait_plantoid_radiotrophic:0 "Radiotrofia"
+ trait_plantoid_radiotrophic_desc:0 "§LEsta espécie é sustentada por uma combinação de comida e baixa radiação e por isso pode prosperar nos mundos mais inóspitos.§!"
+ TRAIT_PLANTOID_RADIOTROPHIC_EFFECT:1 "$TRAIT_PLANTOID_PHOTOTROPHIC_EFFECT$\nEsta Manutenção de £energy£ §YEnergia§! é removida para Pops que vivem em §YMundos-Tumba§!.\nVelocidade de Crescimento de Pop em §YMundos-Tumba§!: §G+10%§!\nHabitabilidade no Mundo-Tumba: §G+10%§!"
+ trait_harvested_radiotrophic:0 "$trait_plantoid_radiotrophic$"
+ trait_harvested_radiotrophic_desc:0 "$trait_plantoid_radiotrophic_desc$"
+ trait_lithoid_radiotrophic:0 "$trait_plantoid_radiotrophic$"
+ trait_lithoid_radiotrophic_desc:0 "$trait_plantoid_radiotrophic_desc$"
+ TRAIT_LITHOID_RADIOTROPHIC_EFFECT:1 "Substitui §Y50%§! da Manutenção de £minerals£ §YMinerais§! Base por Manutenção de £energy£ §YEnergia§!.\nEssa Manutenção de £energy£ §YEnergia§! é removida para Pops que vivem em §YMundos-Tumba§!.\nVelocidade de Crescimento de Pop em §YMundos-Tumba§!: §G+10%§!\nHabitabilidade no Mundo-Tumba: §G+10%§!"
+
+ trait_plantoid_budding:0 "Gemulação"
+ trait_plantoid_budding_desc:0 "§LEsta espécie é capaz de se reproduzir por meio de gemulação, além do modo mais comum de fertilização de sementes ou esporos.§!"
+ trait_lithoid_budding:0 "Cristalização"
+ trait_lithoid_budding_desc:0 "§LCom protuberâncias cristalinas, esta espécie é capaz de gerar treliças autorreplicantes de si, além dos modos mais comuns de reprodução.§!"
+ TRAIT_PLANTOID_BUDDING_EFFECT:1 "Cada pop trabalhando como escravo ou melhor produz 0.02 £mod_pop_growth_speed£ §Y$MOD_PLANET_POP_ASSEMBLY_ORGANIC_ADD$§!.\n\nIsso acumula com outras fontes de $MOD_PLANET_POP_ASSEMBLY_ORGANIC_ADD$, como £building£ §H$building_clone_vats$§! ou £job_spawning_drone£ §H$job_spawning_drone_plural$§!."
+ TRAIT_LITHOID_BUDDING_EFFECT:0 "$TRAIT_PLANTOID_BUDDING_EFFECT$\n\nA §HCaracterística $trait_lithoid$§! modifica os efeitos desta característica."
+
+ trait_advanced_phototrophic:0 "$trait_plantoid_phototrophic$"
+ trait_advanced_phototrophic_desc:0 "§LPor meio de engenharia genética avançada, esta espécie agora é parcialmente sustentada pela luz do sol.§!"
+ TRAIT_ADVANCED_PHOTOTROPHIC_EFFECT:0 "Substitui §Y50%§! da Manutenção de £food£ §YComida§! ou £minerals£ §YMinerais§! Base por Manutenção de £energy£ §YEnergia§!."
+
+ trait_advanced_radiotrophic:0 "$trait_plantoid_radiotrophic$"
+ trait_advanced_radiotrophic_desc:0 "§LPor meio de engenharia genética avançada, esta espécie agora é parcialmente sustentada por baixa radiação e, por isso, pode prosperar nos mundos mais inóspitos.§!"
+ TRAIT_ADVANCED_RADIOTROPHIC_EFFECT:0 "$TRAIT_PLANTOID_PHOTOTROPHIC_EFFECT$\nEsta Manutenção de £energy£ §YEnergia§! é removida para Pops que vivem em §YMundos-Tumba§!"
+ 
+ trait_advanced_budding:0 "$trait_plantoid_budding$"
+ trait_advanced_budding_desc:0 "§LMudanças na sequência de DNA desta espécie permitem que ela se reproduza por meio de gemulação e também pelos meios mais convencionais.§!"
+
+### Catalytic Processing by Byron Aytoun
+
+# Regular
+ civic_catalytic_processing:0 "Processamento Catalítico"
+ civic_catalytic_processing_desc:0 "Ao concentrar seus esforços industriais na química catalítica, esta civilização descobriu o segredo para a utilização de materiais orgânicos na construção de estruturas espaciais."
+ civic_tooltip_catalytic_processing_effects:0 "Substitui £job_foundry£ §Y$job_foundry_plural$§! por £job_catalytic_technician£ §Y$job_catalytic_technician_plural$§!. $job_catalytic_technician_effect_desc$."
+
+# Corporate
+ civic_corporate_catalytic_processing:1 "Recicladores Catalíticos"
+ civic_corporate_catalytic_processing_desc:0 "Esta Megacorporação quer aumentar os lucros através da reciclagem, transformando o excesso de matéria orgânica em recursos avançados e adequados para estruturas espaciais."
+ civic_tooltip_catalytic_processing_corporate_effects:0 "$civic_tooltip_catalytic_processing_effects$"
+
+# Hive Mind
+ civic_hive_catalytic_processing:1 "Reprocessamento Orgânico"
+ civic_hive_catalytic_processing_desc:0 "A Mente-Colmeia reprocessa o excesso de matéria orgânica e o transforma em recursos avançados e próprios para estruturas espaciais."
+ civic_tooltip_hive_catalytic_processing_effects:0 "Substitui £job_alloy_drone£ §Y$job_alloy_drone_plural$§! por £job_catalytic_drone£ §Y$job_catalytic_drone_plural$§!. $job_catalytic_drone_effect_desc$."
+
+# Machine Intelligence
+ civic_machine_catalytic_processing:1 "$civic_hive_catalytic_processing$"
+ civic_machine_catalytic_processing_desc:0 "A Inteligência Maquinária reprocessa matéria orgânica excedente e a transforma em recursos avançados e próprios para estruturas espaciais."
+ civic_tooltip_machine_catalytic_processing_effects:0 "Substitui £job_fabricator£ §Y$job_fabricator_plural$§! por £job_catalytic_drone£ §Y$job_catalytic_drone_plural$§!. $job_catalytic_drone_effect_desc$."
+
+# Regular & Corporate
+ job_catalytic_technician:0 "Técnico Catalítico"
+ job_catalytic_technician_plural:0 "Técnicos Catalíticos"
+ job_catalytic_technician_desc:0 "Trabalhadores bem treinados são necessários para transformar matéria bruta orgânica em ligas duráveis necessárias à construção avançada."
+ job_catalytic_technician_effect_desc:0 "£job_catalytic_technician£ $job_catalytic_technician_plural$ transformam £food£ §Y$food$§! em £alloys£ §Y$alloys$§!"
+ mod_job_catalytic_technician_add:0 "Empregos de $job_catalytic_technician$"
+ mod_job_catalytic_technician_per_pop:0 "§G+1§! Emprego de $job_catalytic_technician$ a cada $VALUE$ Pops"
+ mod_job_catalytic_technician_per_pop_short:0 "\n§G+1§! £mod_job_catalytic_technician_add£ a cada $VALUE$ £pop£"
+
+# Gestalt
+ job_catalytic_drone:0 "Drone Catalítico"
+ job_catalytic_drone_plural:0 "Drones Catalíticos"
+ job_catalytic_drone_desc:0 "Compostos orgânicos valiosos são processados e transformados em ligas duráveis para desenvolvimento naval e construção avançada feitos por Drones Catalíticos altamente especializados."
+ job_catalytic_drone_effect_desc:0 "£job_catalytic_drone£ $job_catalytic_drone_plural$ transformam £food£ §Y$food$§! em £alloys£ §Y$alloys$§!"
+ mod_job_catalytic_drone_add:0 "Empregos de $job_catalytic_drone$"
+ mod_job_catalytic_drone_per_pop:0 "§G+1§! Emprego de $job_catalytic_drone$ a cada $VALUE$ Pops"
+ mod_job_catalytic_drone_per_pop_short:0 "\n§G+1§! £mod_job_catalytic_drone_add£ a cada $VALUE$ £pop£"

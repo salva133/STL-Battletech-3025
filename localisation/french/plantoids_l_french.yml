@@ -1,0 +1,140 @@
+﻿l_french:
+ ########################
+ # Plantoids Species Pack
+ ########################
+
+ civic_idyllic_bloom:0 "Fleuraison idyllique"
+ civic_idyllic_bloom_desc:0 "Cette société a toujours consacré beaucoup de temps à préserver et améliorer son environnement, visant à rien moins que construire un véritable paradis pour ses membres."
+ civic_hive_idyllic_bloom:0 "$civic_idyllic_bloom$"
+ civic_hive_idyllic_bloom_desc:0 "La Conscience fait tout pour préserver son environnement, construisant un véritable paradis afin d'atteindre la perfection synergique."
+ civic_tooltip_idyllic_bloom_effects:2 "Permet de construire des £building£§Yensemenceurs Gaïa§! sur les mondes et ceux des vassales dont la classe est idéale pour l'espèce fondatrice.\n$building_gaiaseeders_all_desc$\nÀ mesure que des £society£technologies liées à la §Yterraformation§! seront découvertes, des £building£§Yensemenceurs Gaïa§! pourront être construits sur de nouvelles classes de mondes."
+ civic_tooltip_not_idyllic_bloom:0 "N'a PAS le civisme §Y$civic_idyllic_bloom$§!"
+
+ disables_idyllic_bloom:0 "§RChoisir cet atout de l'ascension revient à renoncer au civisme §Y$civic_idyllic_bloom$§!.§!"
+
+ gaiaseeders_tomb_world:0 "$TRIGGER_FAIL$ La construction sur des §Ymondes morts§! nécessite la technologie £society£§Y$tech_climate_restoration$§!."
+ gaiaseeders_same_climate_start:0 "$TRIGGER_FAIL$ Nécessite la technologie £society£§Y$tech_terrestrial_sculpting$§! pour être construit sur des §Ymondes§!"
+ gaiaseeders_different_climate_start:0 "$TRIGGER_FAIL$ Nécessite la technologie £society£§Y$tech_ecological_adaptation$§! pour être construit sur des §Ymondes§!"
+ gaiaseeders_wet:0 "§Yhumides§!"
+ gaiaseeders_dry:0 "§Ysecs§!"
+ gaiaseeders_cold:0 "§Yglaciaires§!"
+ gaiaseeders_same_climate_wet:0 "$TRIGGER_FAIL$ La construction sur des §Ymondes humides§! nécessite la technologie £society£§Y$tech_terrestrial_sculpting$§!."
+ gaiaseeders_same_climate_dry:0 "$TRIGGER_FAIL$ La construction sur des §Ymondes secs§! nécessite la technologie £society£ §Y$tech_terrestrial_sculpting$§!."
+ gaiaseeders_same_climate_cold:0 "$TRIGGER_FAIL$ La construction sur des §Ymondes glaciaires§! nécessite la technologie £society£ §Y$tech_terrestrial_sculpting$§!."
+ gaiaseeders_different_climate_wet:0 "$TRIGGER_FAIL$ La construction sur des §Ymondes secs§! ou §Yglaciaires§! nécessite la technologie £society£§Y$tech_ecological_adaptation$§!."
+ gaiaseeders_different_climate_dry:0 "$TRIGGER_FAIL$ La construction sur des §Ymondes humides§! ou §Yglaciaires§! nécessite la technologie £society£§Y$tech_ecological_adaptation$§!."
+ gaiaseeders_different_climate_cold:0 "$TRIGGER_FAIL$ La construction sur des §Ymondes humides§! ou §Ysecs§! nécessite la technologie £society£§Y$tech_ecological_adaptation$§!."
+ gaiaseeders_special_habitability_preference:0 "$TRIGGER_FAIL$ La construction sur des §Ymondes humides§!, §Ysecs§! ou §Yglaciaires§! nécessite la technologie £society£§Y$tech_ecological_adaptation$§!."
+
+ building_gaiaseeders:0 "Ensemenceurs Gaïa"
+ building_gaiaseeders_1:0 "$building_gaiaseeders$, phase 1"
+ building_gaiaseeders_2:0 "$building_gaiaseeders$, phase 2"
+ building_gaiaseeders_3:0 "$building_gaiaseeders$, phase 3"
+ building_gaiaseeders_4:0 "$building_gaiaseeders$, phase finale"
+ building_gaiaseeders_all_desc:0 "Des complexes sont répartis sur toute la surface du monde, conçus pour en faire progressivement un §Ymonde Gaïa§! accessible en 4 phases successives."
+ building_gaiaseeders_1_desc:0 "$building_gaiaseeders_all_desc$\n\nCette phase est celle du lancement de la procédure."
+ building_gaiaseeders_2_desc:0 "$building_gaiaseeders_all_desc$\n\nCette phase s'oriente vers l'habitabilité."
+ building_gaiaseeders_3_desc:0 "$building_gaiaseeders_all_desc$\n\nCette phase met l'accent sur l'habitabilité."
+ building_gaiaseeders_4_desc:0 "$building_gaiaseeders_all_desc$"
+ building_gaiaseeders_4_effect_desc:0 "Terraforme le monde en un §Ymonde Gaïa§! lorsque le processus est achevé."
+
+ plant.100.name:0 "Perfection idyllique"
+ plant.100.desc:1 "Grâce aux performances de la bio-ingénierie [Root.GetSpeciesName], à des investissements considérables et à des années d'un labeur acharné, le projet d'ensemenceurs Gaïa lancé sur §Y[Root.GetName]§! a atteint son objectif.\n\nDésormais, cette [Root.GetPlanetMoon] sera un véritable joyau de la galaxie, que tous admireront. Et jalouseront sans doute."
+ plant.100.a:0 "Que les réjouissances commencent !"
+ plant.100.b:0 "Magnifique, passons maintenant à la suite !"
+
+ plant.105.desc:0 "Grâce aux performances de la bio-ingénierie [Root.GetSpeciesName], à des investissements considérables et à des années d'un labeur acharné, le projet d'ensemenceurs Gaïa lancé sur §Y[From.Planet.GetName]§! a atteint son objectif.\n\nDésormais, cette [From.Planet.GetPlanetMoon] sera un véritable joyau de la galaxie, que tous admireront, et jalouseront sans doute. Espérons que la [From.Planet.Owner.GetName] appréciera tous les efforts faits pour elle."
+
+ plant.110.desc:0 "La [Root.Overlord.GetName] a mené à bien son étrange projet sur §Y[From.From.Planet.GetName]§!, la terraformant ainsi en un monde Gaïa. Désormais, un climat idyllique baigne sa surface, et de vastes territoires paradisiaques s'y étendent."
+ plant.110.desc.hydrocentric:0 "La [Root.Overlord.GetName] a mené à bien son projet sur §Y[From.From.Planet.GetName]§!. Inutile de le dire, la [From.From.Planet.GetPlanetMoon] n'a plus la moindre valeur en l'état. Le magnifique océan qui couvrait autrefois sa surface a été remplacé par des plaines et des collines verdoyantes. L'atmosphère autrefois détrempée est au mieux humide, au pire desséchée.\n\nNous n'avons jamais masqué aux [Root.Overlord.GetSpeciesNamePlural] nos inquiétudes, et les avons encore confrontés aux résultats catastrophiques de leur projet, mais leur réponse reste toujours la même : « Mais ce monde est tellement plus joli comme cela, vous ne trouvez pas ? »"
+
+ plant.110.a:0 "Sales... !"
+ plant.110.b:0 "C'est un présent magnifique !"
+ plant.110.c:0 "Ces [Root.Overlord.GetSpeciesNamePlural] sont décidément étranges..."
+
+ celebrate_idyllic_bloom:0 "Célébrations de la transformation idyllique"
+ celebrate_idyllic_bloom_desc:0 "Une célébration se déroule sur [Root.GetName] pour fêter sa transformation en un paradis parfaitement idyllique."
+ terraformed_our_ocean_world:0 "A terraformé notre monde océanique"
+ terraformed_our_ocean_world_desc:0 "Notre suzeraine a terraformé un magnifique monde océanique en un vilain monde Gaïa. Sans doute voulait-elle ainsi démontrer à toute la galaxie son manque de goût et de bon sens..."
+
+ thankful_for_gaia:0 "Magnifique monde Gaïa"
+ thankful_for_gaia_desc:0 "Notre suzeraine a terraformé l'un de nos mondes en un monde Gaïa. C'est là un présent magnifique, dont nous lui serons éternellement reconnaissants !"
+
+### Traits by Byron Aytoun
+
+ trait_plantoid_phototrophic:0 "Phototrophe"
+ trait_plantoid_phototrophic_desc:0 "§LCette espèce s'alimente autant par la nourriture que par les rayonnements solaires.§!\n"
+ TRAIT_PLANTOID_PHOTOTROPHIC_EFFECT:0 "Remplace §Y50%§! de l'entretien en £food£§Ynourriture§! par de l'entretien en £energy£§Yénergie§!."
+
+ trait_plantoid_radiotrophic:0 "Radiotrophe"
+ trait_plantoid_radiotrophic_desc:0 "§LCette espèce s'alimente autant par la nourriture que par les radiations à basse énergie, ce qui lui permet de vivre jusque sur les mondes les plus inhospitaliers.§!"
+ TRAIT_PLANTOID_RADIOTROPHIC_EFFECT:1 "$TRAIT_PLANTOID_PHOTOTROPHIC_EFFECT$\n(Ce coût en £energy£§Yénergie§! disparaît pour les £pop£pops vivant sur les §Ymondes morts§!.)\nDéveloppement des £pop£pops sur les §Ymondes morts§! : §G+10%§!\nHabitabilité des §Ymondes morts§! : §G+10%§!"
+ trait_harvested_radiotrophic:0 "$trait_plantoid_radiotrophic$"
+ trait_harvested_radiotrophic_desc:0 "$trait_plantoid_radiotrophic_desc$"
+ trait_lithoid_radiotrophic:0 "$trait_plantoid_radiotrophic$"
+ trait_lithoid_radiotrophic_desc:0 "$trait_plantoid_radiotrophic_desc$"
+ TRAIT_LITHOID_RADIOTROPHIC_EFFECT:1 "Remplace §Y50%§! de l'entretien de base en £minerals£§Yminéraux§! par un entretien en £energy£§Yénergie§!.\n(Ce coût en £energy£§Yénergie§! disparaît pour les £pop£pops vivant sur les §Ymondes morts§!.)\nVit. de développement des £pop£pops sur les §Ymondes morts§! : §G+10%§!\n$mod_pc_nuked_habitability$: §G+10%§!"
+
+ trait_plantoid_budding:0 "Bourgeonnement"
+ trait_plantoid_budding_desc:0 "§LOutre la fertilisation plus commune par les graines ou les spores, cette espèce est capable de se reproduire par bourgeonnement.§!"
+ trait_lithoid_budding:0 "Cristallisation"
+ trait_lithoid_budding_desc:0 "§LOutre les méthodes de reproduction plus habituelles, cette espèce est capable de générer des copies autoréplicantes d'elle-même par cristallisation.§!"
+ TRAIT_PLANTOID_BUDDING_EFFECT:1 "Pour chaque £pop£pop ayant au moins le statut d'£pop_cat_slave£esclaves : £mod_pop_growth_speed£$MOD_PLANET_POP_ASSEMBLY_ORGANIC_ADD$: +0.02\n\nCela s'ajoute aux autres sources d'assemblage mensuel des pops organiques, telles que les £building£§Hcuves à clones§! ou les £job_spawning_drone£§Hdrones de reproduction§!."
+ TRAIT_LITHOID_BUDDING_EFFECT:0 "$TRAIT_PLANTOID_BUDDING_EFFECT$\n\nLe trait §H$trait_lithoid$§! modifie les effets de celui-ci."
+
+ trait_advanced_phototrophic:0 "$trait_plantoid_phototrophic$"
+ trait_advanced_phototrophic_desc:0 "§LGrâce aux avancées en ingénierie génétique, cette espèce s'alimente désormais en partie par les rayonnements stellaires.§!"
+ TRAIT_ADVANCED_PHOTOTROPHIC_EFFECT:0 "Remplace §Y50%§! de l'entretien en £food£§Ynourriture§! ou £minerals£§Yminéraux§! par de l'entretien en £energy£§Yénergie§!."
+
+ trait_advanced_radiotrophic:0 "$trait_plantoid_radiotrophic$"
+ trait_advanced_radiotrophic_desc:0 "§LGrâce aux avancées en ingénierie génétique, cette espèce s'alimente désormais en partie par les radiations à basse énergie, ce qui lui permet de vivre jusque sur les mondes les plus inhospitaliers.§!"
+ TRAIT_ADVANCED_RADIOTROPHIC_EFFECT:0 "$TRAIT_PLANTOID_PHOTOTROPHIC_EFFECT$\n(Ce coût en £energy£§Yénergie§! disparaît pour les £pop£pops vivant sur les §Ymondes morts§!.)"
+ 
+ trait_advanced_budding:0 "$trait_plantoid_budding$"
+ trait_advanced_budding_desc:0 "§LOutre des méthodes plus conventionnelles, les changements apportés à son ADN permettent à cette espèce de se reproduire par bourgeonnement.§!"
+
+### Catalytic Processing by Byron Aytoun
+
+# Regular
+ civic_catalytic_processing:0 "Processus catalytiques"
+ civic_catalytic_processing_desc:0 "En orientant la recherche industrielle sur la chimie catalytique, cette civilisation a trouvé le moyen de construire des structures spatiales au moyen de matériaux organiques."
+ civic_tooltip_catalytic_processing_effects:0 "Remplace les £job_foundry£§Ymétallurgistes§! par des £job_catalytic_technician£§Ytechniciens catalyseurs§!. $job_catalytic_technician_effect_desc$."
+
+# Corporate
+ civic_corporate_catalytic_processing:1 "Recycleurs catalytiques"
+ civic_corporate_catalytic_processing_desc:0 "Cette mégacorporation fait tout pour assurer des profits maximaux en recyclant la matière organique en des ressources avancées utilisables pour la construction de structures spatiales."
+ civic_tooltip_catalytic_processing_corporate_effects:0 "$civic_tooltip_catalytic_processing_effects$"
+
+# Hive Mind
+ civic_hive_catalytic_processing:1 "Retraitement organique"
+ civic_hive_catalytic_processing_desc:0 "La Conscience transforme la matière organique en excès en des ressources avancées utilisables pour la construction de structures spatiales."
+ civic_tooltip_hive_catalytic_processing_effects:0 "Remplace les £job_alloy_drone£§Ydrones fondeurs§! par des £job_catalytic_drone£§Ydrones catalyseurs§!. $job_catalytic_drone_effect_desc$."
+
+# Machine Intelligence
+ civic_machine_catalytic_processing:1 "$civic_hive_catalytic_processing$"
+ civic_machine_catalytic_processing_desc:0 "L'intelligence mécanique transforme la matière organique en excès en des ressources avancées utilisables pour la construction de structures spatiales."
+ civic_tooltip_machine_catalytic_processing_effects:0 "Remplace les £job_fabricator£§Yfabricateurs§! par des £job_catalytic_drone£ §Ydrones catalyseurs§!. $job_catalytic_drone_effect_desc$."
+
+# Regular & Corporate
+ job_catalytic_technician:0 "$job_catalytic_technician_plural$"
+ job_catalytic_technician_plural:0 "Techniciens catalyseurs"
+ job_catalytic_technician_desc:0 "Pour transformer la matière organique brute en alliages durables indispensables à la construction avancée, des travailleurs hautement formés sont indispensables."
+ job_catalytic_technician_effect_desc:0 "(les £job_catalytic_technician£techniciens catalyseurs transforment la £food£§Ynourriture§! en £alloys£§Yalliages§!)"
+ mod_job_catalytic_technician_add:0 "Emplois de £job_catalytic_technician£techniciens catalyseurs "
+ mod_job_catalytic_technician_per_pop:0 "§G+1§! emploi de £job_catalytic_technician£technicien catalyseur par palier de $VALUE$ pops"
+ mod_job_catalytic_technician_per_pop_short:0 "\n§G+1§! £mod_job_catalytic_technician_add£ pour $VALUE$£pop£"
+
+# Gestalt
+ job_catalytic_drone:0 "$job_catalytic_drone_plural$"
+ job_catalytic_drone_plural:0 "Drones catalyseurs"
+ job_catalytic_drone_desc:0 "Les drones catalyseurs, hautement spécialisés, transforment les composés organiques de valeur en alliages durables pour le développement de la flotte et la construction avancée."
+ job_catalytic_drone_effect_desc:0 "(les £job_catalytic_drone£drones catalyseurs transforment la £food£§Ynourriture§! en £alloys£§Yalliages§!)"
+ mod_job_catalytic_drone_add:0 "Emplois de £job_catalytic_drone£drones catalyseurs "
+ mod_job_catalytic_drone_per_pop:0 "§G+1§! emploi de £job_catalytic_drone£drone catalyseur par palier de $VALUE$ pops"
+ mod_job_catalytic_drone_per_pop_short:0 "\n§G+1§! £mod_job_catalytic_drone_add£ pour $VALUE$£pop£"
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ catalytic_technician_ms_FR:0 "technicien catalyseur"
+ catalytic_technician_fs_FR:0 "technicienne catalyseuse"
+ catalytic_drone_ms_FR:0 "un des drones catalyseurs"
+ catalytic_drone_fs_FR:0 "une des drones catalyseurs"

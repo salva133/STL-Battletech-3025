@@ -1,0 +1,134 @@
+﻿l_japanese:
+ ########################
+ # Plantoids Species Pack
+ ########################
+
+ civic_idyllic_bloom:0 "のどかな開花"
+ civic_idyllic_bloom_desc:0 "この社会は環境の改善とケアに多くの時間を費やし、 住民のための真の楽園を築くことを追求してきた。"
+ civic_hive_idyllic_bloom:0 "$civic_idyllic_bloom$"
+ civic_hive_idyllic_bloom_desc:0 "この集合意識は環境を大切にし、 相乗完全性を追求して楽園を築いている。"
+ civic_tooltip_idyllic_bloom_effects:2 "ゲーム開始時に選択した種族にとって理想的な (自国および属国の) 惑星に£building£ §Y$building_gaiaseeders$§!を建設できる。\n$building_gaiaseeders_all_desc$\n改良された£society£ §Yテラフォーミング§!技術をアンロックすると、 ほかの惑星種類に£building£ §Y$building_gaiaseeders$§!を建設できるようになる。"
+ civic_tooltip_not_idyllic_bloom:0 "§Y$civic_idyllic_bloom$§!の国是を保持していない"
+
+ disables_idyllic_bloom:0 "§Rこのアセンションパークを選択すると、 $civic_idyllic_bloom$の国是が解除される。 §!"
+
+ gaiaseeders_tomb_world:0 "$TRIGGER_FAIL$§Y死の惑星§!に建設するには£society£ §Y$tech_climate_restoration$§!が必要。"
+ gaiaseeders_same_climate_start:0 "$TRIGGER_FAIL$次の惑星に建設するには£society£ §Y$tech_terrestrial_sculpting$§!が必要："
+ gaiaseeders_different_climate_start:0 "$TRIGGER_FAIL$次の惑星に建設するには£society£ §Y$tech_ecological_adaptation$§!が必要："
+ gaiaseeders_wet:0 "§Y湿潤§!"
+ gaiaseeders_dry:0 "§Y乾燥§!"
+ gaiaseeders_cold:0 "§Y寒冷§!"
+ gaiaseeders_same_climate_wet:0 "$gaiaseeders_same_climate_start$ $gaiaseeders_wet$§Y惑星§!。"
+ gaiaseeders_same_climate_dry:0 "$gaiaseeders_same_climate_start$ $gaiaseeders_dry$§Y惑星§!。"
+ gaiaseeders_same_climate_cold:0 "$gaiaseeders_same_climate_start$ $gaiaseeders_cold$§Y惑星§!。"
+ gaiaseeders_different_climate_wet:0 "$gaiaseeders_different_climate_start$ $gaiaseeders_dry$または$gaiaseeders_cold$§Y惑星§!。"
+ gaiaseeders_different_climate_dry:0 "$gaiaseeders_different_climate_start$ $gaiaseeders_same_climate_wet$または$gaiaseeders_cold$§Y惑星§!。"
+ gaiaseeders_different_climate_cold:0 "$gaiaseeders_different_climate_start$ $gaiaseeders_same_climate_wet$または$gaiaseeders_same_climate_dry$§Y惑星§!。"
+ gaiaseeders_special_habitability_preference:0 "$gaiaseeders_different_climate_start$ $gaiaseeders_wet$、 $gaiaseeders_dry$または$gaiaseeders_cold$§Y惑星§!。"
+
+ building_gaiaseeders:0 "ガイア播種装置"
+ building_gaiaseeders_1:0 "$building_gaiaseeders$ - 第1段階"
+ building_gaiaseeders_2:0 "$building_gaiaseeders$ - 第2段階"
+ building_gaiaseeders_3:0 "$building_gaiaseeders$ - 第3段階"
+ building_gaiaseeders_4:0 "$building_gaiaseeders$ - 最終段階"
+ building_gaiaseeders_all_desc:0 "惑星全体に配置された施設は4段階のアップグレードを経て、 徐々に§Yガイア型惑星§!に近づけていく。"
+ building_gaiaseeders_1_desc:0 "$building_gaiaseeders_all_desc$\n\nこれは初期の成長促進段階だ。"
+ building_gaiaseeders_2_desc:0 "$building_gaiaseeders_all_desc$\n\nこの段階では居住性の向上に移行する。"
+ building_gaiaseeders_3_desc:0 "$building_gaiaseeders_all_desc$\n\nこの段階では居住性を高める。"
+ building_gaiaseeders_4_desc:0 "$building_gaiaseeders_all_desc$"
+ building_gaiaseeders_4_effect_desc:0 "完了時に惑星を§Yガイア型惑星§!にテラフォームする。"
+
+ plant.100.name:0 "田園の完成"
+ plant.100.desc:1 "我々の優れた生物工学と多額の投資、 長年の努力により、 §Y[Root.GetName]§!におけるガイア播種計画は結実した。\n\n今日から§Y[Root.GetName]§!は、 数ある惑星のなかでも真の宝石と見なされ、 賞賛され、 あるいは羨望の的となるだろう。"
+ plant.100.a:0 "祝宴を始めよう！"
+ plant.100.b:0 "我々はよくやった。 次は別の惑星に目を向けよう。"
+
+ plant.105.desc:0 "我々の優れた生物工学と多額の投資、 長年の努力により、 §Y[From.Planet.GetName]§!におけるガイア播種計画は結実した。\n\n今日から§Y[From.Planet.GetName]§!は、 数ある惑星のなかでも真の宝石と見なされ、 賞賛され、 あるいは羨望の的となるだろう。 属国も我らの努力に感謝するに違いない。"
+
+ plant.110.desc:0 "わが国の宗主国が、 §Y[from.from.planet.GetName]§!をガイア型惑星に変えるという前代未聞のプロジェクトを完了させた。 彼らのおかげで、 この楽園ののどかな気候と広大な敷地を活用できるようになった。"
+ plant.110.desc.hydrocentric:0 "宗主国が§Y[from.from.planet.GetName]§!で前代未聞のプロジェクトを完了させた。 しかし、 惑星はめちゃくちゃにされてしまった！  彼らは海を平原と丘陵で覆ってしまい、 かつて湿潤だった大気は不毛で乾燥したものとなった。 しかも我々が懸念を伝えたとき、 彼らは聞く耳を持たなかったのだ！  それでもなお、 宗主国はこの惑星を「より美しく」変えたと主張している。"
+
+ plant.110.a:0 "よくもこんなことを！"
+ plant.110.b:0 "ありがたいことだ！"
+ plant.110.c:0 "なんとも興味深い決断だ。"
+
+ celebrate_idyllic_bloom:0 "田園完成を祝して"
+ celebrate_idyllic_bloom_desc:0 "この世界をのどかな楽園に変えることに成功したため、 惑星全体で祝賀が行われている。"
+ terraformed_our_ocean_world:0 "テラフォームされた海洋型惑星"
+ terraformed_our_ocean_world_desc:0 "わが国の宗主国が、美しい海洋型惑星を不快なガイア型惑星に変えてしまった。 趣味が悪すぎる。"
+
+ thankful_for_gaia:0 "ガイア型惑星への感謝"
+ thankful_for_gaia_desc:0 "わが国の宗主国が、我々の惑星の1つをガイア型惑星にテラフォームしてくれた。 感謝してもしきれない！"
+
+### Traits by Byron Aytoun
+
+ trait_plantoid_phototrophic:0 "光栄養生物"
+ trait_plantoid_phototrophic_desc:0 "§Lこの種族は、 食料と日光の組み合わせによって維持されている。 §!\n"
+ TRAIT_PLANTOID_PHOTOTROPHIC_EFFECT:0 "基本£food£ §Y食料§!維持費の§Y50%§!を£energy£ §Yエネルギー§!維持費に置き換える。"
+
+ trait_plantoid_radiotrophic:0 "放射線栄養生物"
+ trait_plantoid_radiotrophic_desc:0 "§Lこの種族は、 食料と低エネルギー放射線の組み合わせによって維持されているため、 最も過酷な惑星でも繁栄できる。 §!"
+ TRAIT_PLANTOID_RADIOTROPHIC_EFFECT:1 "$TRAIT_PLANTOID_PHOTOTROPHIC_EFFECT$\n§Y死の惑星§!に住むPOPは、 この£energy£ §Yエネルギー§!維持費が免除される。\n§Y死の惑星§!でのPOPの成長速度§G+10%§!\n死の惑星の居住性：§G+10%§!"
+ trait_harvested_radiotrophic:0 "$trait_plantoid_radiotrophic$"
+ trait_harvested_radiotrophic_desc:0 "$trait_plantoid_radiotrophic_desc$"
+ trait_lithoid_radiotrophic:0 "$trait_plantoid_radiotrophic$"
+ trait_lithoid_radiotrophic_desc:0 "$trait_plantoid_radiotrophic_desc$"
+ TRAIT_LITHOID_RADIOTROPHIC_EFFECT:1 "£minerals£ §Y鉱物§!の基本維持費の§Y50%§!を£energy£ §Yエネルギー§!維持費に置き換える。\n§Y死の惑星§!に住むPOPは、 この£energy£ §Yエネルギー§!維持費が免除される。\n§Y死の惑星§!でのPOPの成長速度§G+10%§!\n死の惑星の居住性：§G+10%§!"
+
+ trait_plantoid_budding:0 "出芽"
+ trait_plantoid_budding_desc:0 "§Lこの種族は、 種子や胞子による通常の受精に加えて、 出芽による繁殖が可能である。 §!"
+ trait_lithoid_budding:0 "結晶化"
+ trait_lithoid_budding_desc:0 "§L結晶の成長に伴い、 この種族は通常の生殖手段に加えて、 自己複製格子の生成が可能になる。§!"
+ TRAIT_PLANTOID_BUDDING_EFFECT:1 "奴隷以上の仕事に就いている1つのPOPにつき、 £mod_pop_growth_speed£ §Y$MOD_PLANET_POP_ASSEMBLY_ORGANIC_ADD$§!0.02を得る。\n\nこれは£building£ §H$building_clone_vats$§!や£job_spawning_drone£ §H$job_spawning_drone_plural$§!などの、 その他の$MOD_PLANET_POP_ASSEMBLY_ORGANIC_ADD$の発生源と重複する。"
+ TRAIT_LITHOID_BUDDING_EFFECT:0 "$TRAIT_PLANTOID_BUDDING_EFFECT$\n\nこの特性の効果は、 §H$trait_lithoid$の特性§!の補正を受ける。"
+
+ trait_advanced_phototrophic:0 "$trait_plantoid_phototrophic$"
+ trait_advanced_phototrophic_desc:0 "§Lこの種族は高度な遺伝子操作により、 ある程度は太陽光で生存できるようになった。§!"
+ TRAIT_ADVANCED_PHOTOTROPHIC_EFFECT:0 "基本£food£ §Y食料§!維持費、 または基本£minerals£ §Y鉱物§!維持費の§Y50%§!を、 £energy£ §Yエネルギー§!維持費に置き換える。"
+
+ trait_advanced_radiotrophic:0 "$trait_plantoid_radiotrophic$"
+ trait_advanced_radiotrophic_desc:0 "§Lこの種族は高度な遺伝子操作により、 食料と低エネルギー放射線の組み合わせによってある程度生存できるため、 最も過酷な惑星でも繁栄できる。§!"
+ TRAIT_ADVANCED_RADIOTROPHIC_EFFECT:0 "$TRAIT_PLANTOID_PHOTOTROPHIC_EFFECT$\n§Y死の惑星§!に住むPOPは、 この£energy£ §Yエネルギー§!維持費が免除される。"
+ 
+ trait_advanced_budding:0 "$trait_plantoid_budding$"
+ trait_advanced_budding_desc:0 "§Lこの種族はDNA配列の変更により、 従来の方法に加えて出芽による繁殖が可能になった。§!"
+
+### Catalytic Processing by Byron Aytoun
+
+# Regular
+ civic_catalytic_processing:0 "触媒処理"
+ civic_catalytic_processing_desc:0 "触媒化学へ産業努力を傾けることで、 この文明は宇宙構造物の建設に有機材料を利用するための鍵を解き明かした。"
+ civic_tooltip_catalytic_processing_effects:0 "£job_foundry£ §Y$job_foundry_plural$§!を£job_catalytic_technician£ §Y$job_catalytic_technician_plural$§!に置き換える。 $job_catalytic_technician_effect_desc$。"
+
+# Corporate
+ civic_corporate_catalytic_processing:1 "触媒リサイクル装置"
+ civic_corporate_catalytic_processing_desc:0 "この巨大企業は、 余剰の有機物を宇宙構造物に適した発展資源へとリサイクルすることで、 利益の最大化を図っている。"
+ civic_tooltip_catalytic_processing_corporate_effects:0 "$civic_tooltip_catalytic_processing_effects$"
+
+# Hive Mind
+ civic_hive_catalytic_processing:1 "有機物再処理"
+ civic_hive_catalytic_processing_desc:0 "この集合意識は、 余剰の有機物を宇宙構造物に適した発展資源へと再加工する。"
+ civic_tooltip_hive_catalytic_processing_effects:0 "£job_alloy_drone£ §Y$job_alloy_drone_plural$§!を£job_catalytic_drone£ §Y$job_catalytic_drone_plural$§!に置き換える。 $job_catalytic_drone_effect_desc$。"
+
+# Machine Intelligence
+ civic_machine_catalytic_processing:1 "$civic_hive_catalytic_processing$"
+ civic_machine_catalytic_processing_desc:0 "この機械知性は、 余剰の有機物を宇宙構造物に適した発展資源へと再加工する。"
+ civic_tooltip_machine_catalytic_processing_effects:0 "£job_fabricator£ §Y$job_fabricator_plural$§!を£job_catalytic_drone£ §Y$job_catalytic_drone_plural$§!に置き換える。 $job_catalytic_drone_effect_desc$。"
+
+# Regular & Corporate
+ job_catalytic_technician:0 "触媒技術者"
+ job_catalytic_technician_plural:0 "触媒技術者"
+ job_catalytic_technician_desc:0 "未加工の有機物を、 高度な構造物に必要な耐久性のある合金に変えるには、 質の高い訓練を受けた労働者が必要だ。"
+ job_catalytic_technician_effect_desc:0 "£job_catalytic_technician£ $job_catalytic_technician_plural$は、 £food£ §Y$food$§!を消費して £alloys£ §Y$alloys$§!を産出する"
+ mod_job_catalytic_technician_add:0 "$job_catalytic_technician$の職業枠"
+ mod_job_catalytic_technician_per_pop:0 "$VALUE$POPにつき$job_catalytic_technician$の職業枠§G+1§!"
+ mod_job_catalytic_technician_per_pop_short:0 "\n$VALUE$ £pop£ につき £mod_job_catalytic_technician_add£ §G+1§!"
+
+# Gestalt
+ job_catalytic_drone:0 "触媒ドローン"
+ job_catalytic_drone_plural:0 "触媒ドローン"
+ job_catalytic_drone_desc:0 "貴重な有機化合物は、 高度に専門化された触媒ドローンによって、 艦船の建造や高度な建造物のための耐久性のある合金に加工される。"
+ job_catalytic_drone_effect_desc:0 "£job_catalytic_drone£ $job_catalytic_drone_plural$は、 £food£ §Y$food$§!を消費して £alloys£ §Y$alloys$§!を産出する"
+ mod_job_catalytic_drone_add:0 "$job_catalytic_drone$の職業枠"
+ mod_job_catalytic_drone_per_pop:0 "$VALUE$POPにつき$job_catalytic_drone$の職業枠§G+1§!"
+ mod_job_catalytic_drone_per_pop_short:0 "\n$VALUE$ £pop£ につき £mod_job_catalytic_drone_add£ §G+1§!"

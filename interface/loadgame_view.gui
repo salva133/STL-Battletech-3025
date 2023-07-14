@@ -30,7 +30,7 @@ guiTypes = {
 			maxWidth = 300
 			maxHeight = 16
 			text = "MAIN_LOAD"
-		}	
+		}
 		
 		buttonType = {
 			name = "hide"

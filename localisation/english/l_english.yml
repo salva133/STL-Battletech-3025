@@ -2345,6 +2345,7 @@
  MAIN_VIEW_PP:0 "View Privacy Policy"
  MAIN_QUIT:1 "Exit to Desktop"
  MAIN_LOAD:0 "Load Game"
+ MAIN_SCENARIOS:0 "Scenarios"
  ABANDON_GAME:0 "Quit"
  CONTINUE:0 "Continue"
  topbar_button_dropdown_instant:0 "§HMore§!"

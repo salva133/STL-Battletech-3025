@@ -71,27 +71,27 @@ guiTypes = {
 				alwaystransparent = yes
 			}
 
-			buttonType =
-			{
-				id = "scenarios"
-				name = "scenarios"
-				quadTextureSprite = "GFX_standard_button_large_211_40"
-				position = { x= -115 y = 180  }
-				buttonText = "MAIN_SCENARIOS"
-				buttonFont = "malgun_goth_24"
-				Orientation = "CENTER_UP"
-				oversound = mouse_over
-				navUp = "save"
-				navDown = "settings"
-			}
+			# buttonType =
+			#{
+			#	id = "scenarios"
+			#	name = "scenarios"
+			#	quadTextureSprite = "GFX_standard_button_large_211_40"
+			#	position = { x= -115 y = 180  }
+			#	buttonText = "MAIN_SCENARIOS"
+			#	buttonFont = "malgun_goth_24"
+			#	Orientation = "CENTER_UP"
+			#	oversound = mouse_over
+			#	navUp = "save"
+			#	navDown = "settings"
+			#}
 
-			iconType = {
-				name = "ironman_icon_scenarios"
-				spriteType = "GFX_ironman_icon"
-				position = { x= 80 y = 194 }
-				Orientation = "CENTER_UP"
-				alwaystransparent = yes
-			}
+			#iconType = {
+			#	name = "ironman_icon_scenarios"
+			#	spriteType = "GFX_ironman_icon"
+			#	position = { x= 80 y = 194 }
+			#	Orientation = "CENTER_UP"
+			#	alwaystransparent = yes
+			#}
 
 			buttonType =
 			{

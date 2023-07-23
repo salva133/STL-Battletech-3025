@@ -1,0 +1,1185 @@
+###############
+#### Clans ####
+###############
+
+
+### Clan Wolf
+CWolf={
+	key="Clan Wolf"
+	ship_prefix={
+		key=""
+		literal=yes
+	}
+	species={
+		class="HUM"
+		portrait="human"
+		species_name={
+			key="Wolf"
+			literal=yes
+		}
+		species_plural={
+			key="Wolves"
+			literal=yes
+		}
+		species_adjective={
+			key="Wolf"
+			literal=yes
+		}
+		species_bio="The Wolves are known for their belief in the Warden philosophy, and their role is to guide and protect the Inner Sphere. They are a strong military power, known for their strategic flexibility and adaptability on the battlefield."
+		name_list="HUMAN2"
+		gender=not_set
+		trait="trait_intelligent"
+		trait="trait_strong"
+		trait="trait_unruly"
+		trait="trait_communal"
+	}
+	name={
+		key="Clan Wolf"
+		literal=yes
+	}
+	adjective={
+		key="%ADJ%"
+		variables={
+			{
+				key="adjective"
+				value={
+					key="Wolf"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_dictatorial"
+	government="gov_martial_dictatorship"
+	advisor_voice_type="l_the_soldier"
+	planet_name={
+		key="Strana Mechty"
+		literal=yes
+	}
+	planet_class="pc_tundra"
+	system_name={
+		key="Strana Mechty"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="BattleTech"
+			file="Clan_Wolf.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"black"
+			"red"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name={
+			full_names={
+				key="Jerome Winson"
+				literal=yes
+			}
+		}
+		portrait="human_male_01"
+		texture=0
+		attachment=30
+		clothes=1
+		ruler_title={
+			key="Khan"
+			literal=yes
+		}
+		ruler_title_female={
+			key="Khan"
+			literal=yes
+		}
+		custom_biography={
+			key="Jerome Winson is a visionary and strategic leader, leading Clan Wolf through complex political and military challenges with wisdom and determination."
+			literal=yes
+		}
+		trait="trait_ruler_warlike"
+		leader_class="general"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_honorbound_warriors_room"
+	spawn_enabled=always
+	ethic="ethic_authoritarian"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
+	civics={
+		"civic_warrior_culture"
+		"civic_nationalistic_zeal"
+	}
+	origin="origin_default"
+}
+### Clan Jade Falcon
+CJadeFalcon={
+	key="Clan Jade Falcon"
+	ship_prefix={
+		key=""
+		literal=yes
+	}
+	species={
+		class="HUM"
+		portrait="human"
+		species_name={
+			key="Jade Falcon"
+			literal=yes
+		}
+		species_plural={
+			key="Jade Falcons"
+			literal=yes
+		}
+		species_adjective={
+			key="Jade Falcon"
+			literal=yes
+		}
+		species_bio="The Jade Falcons are known for their fierce warriors and strict adherence to the Clan honor code. They are characterized by their aggressive tactics and their unwavering belief in the right of the Clans to rule over all of humanity."
+		name_list="HUMAN2"
+		gender=not_set
+		trait="trait_intelligent"
+		trait="trait_strong"
+		trait="trait_unruly"
+		trait="trait_communal"
+	}
+	name={
+		key="Clan Jade Falcon"
+		literal=yes
+	}
+	adjective={
+		key="%ADJ%"
+		variables={
+			{
+				key="adjective"
+				value={
+					key="Jade Falcon"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_dictatorial"
+	government="gov_martial_dictatorship"
+	advisor_voice_type="l_the_soldier"
+	planet_name={
+		key="Ironhold"
+		literal=yes
+	}
+	planet_class="pc_desert"
+	system_name={
+		key="Ironhold"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="BattleTech"
+			file="Clan_Jade_Falcon.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"black"
+			"green"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name={
+			full_names={
+				key="Elizabeth Hazen"
+				literal=yes
+			}
+		}
+		portrait="human_female_01"
+		texture=0
+		attachment=0
+		clothes=1
+		ruler_title={
+			key="Khan"
+			literal=yes
+		}
+		ruler_title_female={
+			key="Khan"
+			literal=yes
+		}
+		custom_biography={
+			key="Elizabeth Hazen is a renowned MechWarrior and a tactical genius, known for leading her warriors with a firm hand and a clear vision. Her uncompromising attitude has won her the respect of her peers and enemies alike."
+			literal=yes
+		}
+		trait="trait_ruler_warlike"
+		leader_class="general"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_honorbound_warriors_room"
+	spawn_enabled=always
+	ethic="ethic_authoritarian"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
+	civics={
+		"civic_warrior_culture"
+		"civic_nationalistic_zeal"
+	}
+	origin="origin_default"
+}
+### Clan Ghost Bear
+CGhostBear={
+	key="Clan Ghost Bear"
+	ship_prefix={
+		key=""
+		literal=yes
+	}
+	species={
+		class="HUM"
+		portrait="human"
+		species_name={
+			key="Ghost Bear"
+			literal=yes
+		}
+		species_plural={
+			key="Ghost Bears"
+			literal=yes
+		}
+		species_adjective={
+			key="Ghost Bear"
+			literal=yes
+		}
+		species_bio="Ghost Bears are known for their strong sense of unity and loyalty. They value honor above all, and are known for their slow but inexorable style of warfare."
+		name_list="HUMAN2"
+		gender=not_set
+		trait="trait_intelligent"
+		trait="trait_strong"
+		trait="trait_unruly"
+		trait="trait_communal"
+	}
+	name={
+		key="Clan Ghost Bear"
+		literal=yes
+	}
+	adjective={
+		key="%ADJ%"
+		variables={
+			{
+				key="adjective"
+				value={
+					key="Ghost Bear"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_dictatorial"
+	government="gov_martial_dictatorship"
+	advisor_voice_type="l_the_soldier"
+	planet_name={
+		key="Alshain"
+		literal=yes
+	}
+	planet_class="pc_arctic"
+	system_name={
+		key="Alshain"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="BattleTech"
+			file="Clan_Ghost_Bear.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"black"
+			"ice_turquoise"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name={
+			full_names={
+				key="Sandra Tseng"
+				literal=yes
+			}
+		}
+		portrait="human_female_02"
+		texture=0
+		attachment=0
+		clothes=1
+		ruler_title={
+			key="Khan"
+			literal=yes
+		}
+		ruler_title_female={
+			key="Khan"
+			literal=yes
+		}
+		custom_biography={
+			key="Sandra Tseng is a determined and stalwart leader. She is known for her unyielding determination and strategic acumen in guiding Clan Ghost Bear."
+			literal=yes
+		}
+		trait="trait_ruler_warlike"
+		leader_class="general"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_honorbound_warriors_room"
+	spawn_enabled=always
+	ethic="ethic_authoritarian"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
+	civics={
+		"civic_warrior_culture"
+		"civic_nationalistic_zeal"
+	}
+	origin="origin_default"
+}
+### Clan Smoke Jaguar
+CSmokeJaguar={
+	key="Clan Smoke Jaguar"
+	ship_prefix={
+		key=""
+		literal=yes
+	}
+	species={
+		class="HUM"
+		portrait="human"
+		species_name={
+			key="Smoke Jaguar"
+			literal=yes
+		}
+		species_plural={
+			key="Smoke Jaguars"
+			literal=yes
+		}
+		species_adjective={
+			key="Smoke Jaguar"
+			literal=yes
+		}
+		species_bio="Smoke Jaguars are aggressive and brutal, often favoring direct and confrontational strategies. They are known for their lack of political maneuvering, preferring to let their military prowess speak for itself."
+		name_list="HUMAN2"
+		gender=not_set
+		trait="trait_intelligent"
+		trait="trait_strong"
+		trait="trait_unruly"
+		trait="trait_communal"
+	}
+	name={
+		key="Clan Smoke Jaguar"
+		literal=yes
+	}
+	adjective={
+		key="%ADJ%"
+		variables={
+			{
+				key="adjective"
+				value={
+					key="Smoke Jaguar"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_dictatorial"
+	government="gov_martial_dictatorship"
+	advisor_voice_type="l_the_soldier"
+	planet_name={
+		key="Huntress"
+		literal=yes
+	}
+	planet_class="pc_tropical"
+	system_name={
+		key="Huntress"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="BattleTech"
+			file="Clan_Smoke_Jaguar.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"black"
+			"grey"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name={
+			full_names={
+				key="Leo Showers"
+				literal=yes
+			}
+		}
+		portrait="human_male_04"
+		texture=0
+		attachment=0
+		clothes=1
+		ruler_title={
+			key="Khan"
+			literal=yes
+		}
+		ruler_title_female={
+			key="Khan"
+			literal=yes
+		}
+		custom_biography={
+			key="Leo Showers is known for his aggressive tactics and fierce determination. His leadership has shaped Clan Smoke Jaguar into a formidable military force."
+			literal=yes
+		}
+		trait="trait_ruler_warlike"
+		leader_class="general"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_honorbound_warriors_room"
+	spawn_enabled=always
+	ethic="ethic_authoritarian"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
+	civics={
+		"civic_warrior_culture"
+		"civic_nationalistic_zeal"
+	}
+	origin="origin_default"
+}
+### Clan Diamond Shark
+CDiamondShark={
+	key="Clan Diamond Shark"
+	ship_prefix={
+		key=""
+		literal=yes
+	}
+	species={
+		class="HUM"
+		portrait="human"
+		species_name={
+			key="Diamond Shark"
+			literal=yes
+		}
+		species_plural={
+			key="Diamond Sharks"
+			literal=yes
+		}
+		species_adjective={
+			key="Diamond Shark"
+			literal=yes
+		}
+		species_bio="The Diamond Sharks are known for their adaptability and their strong mercantile traditions. They value flexibility and cunning, making them skilled negotiators and tacticians."
+		name_list="HUMAN2"
+		gender=not_set
+		trait="trait_intelligent"
+		trait="trait_strong"
+		trait="trait_unruly"
+		trait="trait_communal"
+	}
+	name={
+		key="Clan Diamond Shark"
+		literal=yes
+	}
+	adjective={
+		key="%ADJ%"
+		variables={
+			{
+				key="adjective"
+				value={
+					key="Diamond Shark"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_dictatorial"
+	government="gov_martial_dictatorship"
+	advisor_voice_type="l_the_soldier"
+	planet_name={
+		key="Babylon"
+		literal=yes
+	}
+	planet_class="pc_continental"
+	system_name={
+		key="Babylon"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="BattleTech"
+			file="Clan_Diamond_Shark.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"black"
+			"blue"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name={
+			full_names={
+				key="Barbara Sennet"
+				literal=yes
+			}
+		}
+		portrait="human_female_03"
+		texture=0
+		attachment=0
+		clothes=1
+		ruler_title={
+			key="Khan"
+			literal=yes
+		}
+		ruler_title_female={
+			key="Khan"
+			literal=yes
+		}
+		custom_biography={
+			key="Barbara Sennet is a cunning and resourceful leader. She is known for her diplomatic acumen and her ability to navigate the complex political landscape of the Clans."
+			literal=yes
+		}
+		trait="trait_ruler_warlike"
+		leader_class="general"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_honorbound_warriors_room"
+	spawn_enabled=always
+	ethic="ethic_authoritarian"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
+	civics={
+		"civic_warrior_culture"
+		"civic_nationalistic_zeal"
+	}
+	origin="origin_default"
+}
+### Clan Nova Cat
+CNovaCat={
+	key="Clan Nova Cat"
+	ship_prefix={
+		key=""
+		literal=yes
+	}
+	species={
+		class="HUM"
+		portrait="human"
+		species_name={
+			key="Nova Cat"
+			literal=yes
+		}
+		species_plural={
+			key="Nova Cats"
+			literal=yes
+		}
+		species_adjective={
+			key="Nova Cat"
+			literal=yes
+		}
+		species_bio="The Nova Cats are known for their mysticism and spiritual practices. They are skilled warriors who place a high value on honor and tradition."
+		name_list="HUMAN2"
+		gender=not_set
+		trait="trait_intelligent"
+		trait="trait_strong"
+		trait="trait_unruly"
+		trait="trait_communal"
+	}
+	name={
+		key="Clan Nova Cat"
+		literal=yes
+	}
+	adjective={
+		key="%ADJ%"
+		variables={
+			{
+				key="adjective"
+				value={
+					key="Nova Cat"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_dictatorial"
+	government="gov_martial_dictatorship"
+	advisor_voice_type="l_the_soldier"
+	planet_name={
+		key="Zara"
+		literal=yes
+	}
+	planet_class="pc_tropical"
+	system_name={
+		key="Zara"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="BattleTech"
+			file="Clan_Nova_Cat_(old).dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"black"
+			"shadow_purple"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name={
+			full_names={
+				key="Severen Leroux"
+				literal=yes
+			}
+		}
+		portrait="human_male_02"
+		texture=0
+		attachment=0
+		clothes=1
+		ruler_title={
+			key="Khan"
+			literal=yes
+		}
+		ruler_title_female={
+			key="Khan"
+			literal=yes
+		}
+		custom_biography={
+			key="Severen Leroux is a visionary leader with a deep sense of spirituality. He is known for his wisdom and commitment to the traditions and beliefs of Clan Nova Cat."
+			literal=yes
+		}
+		trait="trait_ruler_warlike"
+		leader_class="general"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_honorbound_warriors_room"
+	spawn_enabled=always
+	ethic="ethic_authoritarian"
+	ethic="ethic_militarist"
+	ethic="ethic_spiritualist"
+	civics={
+		"civic_warrior_culture"
+		"civic_nationalistic_zeal"
+	}
+	origin="origin_default"
+}
+### Clan Steel Viper
+CSteelViper={
+	key="Clan Steel Viper"
+	ship_prefix={
+		key=""
+		literal=yes
+	}
+	species={
+		class="HUM"
+		portrait="human"
+		species_name={
+			key="Steel Viper"
+			literal=yes
+		}
+		species_plural={
+			key="Steel Vipers"
+			literal=yes
+		}
+		species_adjective={
+			key="Steel Viper"
+			literal=yes
+		}
+		species_bio="The Steel Vipers are known for their strict adherence to the Clan's martial philosophy. They are formidable warriors who believe in the superiority of the Clans."
+		name_list="HUMAN2"
+		gender=not_set
+		trait="trait_intelligent"
+		trait="trait_strong"
+		trait="trait_unruly"
+		trait="trait_communal"
+	}
+	name={
+		key="Clan Steel Viper"
+		literal=yes
+	}
+	adjective={
+		key="%ADJ%"
+		variables={
+			{
+				key="adjective"
+				value={
+					key="Steel Viper"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_dictatorial"
+	government="gov_martial_dictatorship"
+	advisor_voice_type="l_the_soldier"
+	planet_name={
+		key="New Kent"
+		literal=yes
+	}
+	planet_class="pc_continental"
+	system_name={
+		key="New Kent"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="BattleTech"
+			file="Clan_Steel_Viper.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"black"
+			"dark_grey"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name={
+			full_names={
+				key="Ellie Kinnison"
+				literal=yes
+			}
+		}
+		portrait="human_female_05"
+		texture=0
+		attachment=0
+		clothes=1
+		ruler_title={
+			key="Khan"
+			literal=yes
+		}
+		ruler_title_female={
+			key="Khan"
+			literal=yes
+		}
+		custom_biography={
+			key="Ellie Kinnison is a stern and unyielding leader. She is known for her strategic acumen and her unwavering commitment to the principles of Clan Steel Viper."
+			literal=yes
+		}
+		trait="trait_ruler_warlike"
+		leader_class="general"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_honorbound_warriors_room"
+	spawn_enabled=always
+	ethic="ethic_authoritarian"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
+	civics={
+		"civic_warrior_culture"
+		"civic_nationalistic_zeal"
+	}
+	origin="origin_default"
+}
+### Clan Ice Hellion
+CIceHellion={
+	key="Clan Ice Hellion"
+	ship_prefix={
+		key=""
+		literal=yes
+	}
+	species={
+		class="HUM"
+		portrait="human"
+		species_name={
+			key="Ice Hellion"
+			literal=yes
+		}
+		species_plural={
+			key="Ice Hellions"
+			literal=yes
+		}
+		species_adjective={
+			key="Ice Hellion"
+			literal=yes
+		}
+		species_bio="The Ice Hellions are known for their speed and mobility in battle. They are aggressive and daring, often favoring fast and unpredictable tactics."
+		name_list="HUMAN2"
+		gender=not_set
+		trait="trait_intelligent"
+		trait="trait_strong"
+		trait="trait_unruly"
+		trait="trait_communal"
+	}
+	name={
+		key="Clan Ice Hellion"
+		literal=yes
+	}
+	adjective={
+		key="%ADJ%"
+		variables={
+			{
+				key="adjective"
+				value={
+					key="Ice Hellion"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_dictatorial"
+	government="gov_martial_dictatorship"
+	advisor_voice_type="l_the_soldier"
+	planet_name={
+		key="Hector"
+		literal=yes
+	}
+	planet_class="pc_arctic"
+	system_name={
+		key="Hector"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="BattleTech"
+			file="Clan_Ice_Hellion.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"black"
+			"ice_turquoise"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name={
+			full_names={
+				key="Asa Taney"
+				literal=yes
+			}
+		}
+		portrait="human_male_02"
+		texture=0
+		attachment=0
+		clothes=1
+		ruler_title={
+			key="Khan"
+			literal=yes
+		}
+		ruler_title_female={
+			key="Khan"
+			literal=yes
+		}
+		custom_biography={
+			key="Asa Taney is a daring and aggressive leader. He is known for his innovative tactics and his determination to push Clan Ice Hellion to new heights."
+			literal=yes
+		}
+		trait="trait_ruler_warlike"
+		leader_class="general"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_honorbound_warriors_room"
+	spawn_enabled=always
+	ethic="ethic_authoritarian"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
+	civics={
+		"civic_warrior_culture"
+		"civic_nationalistic_zeal"
+	}
+	origin="origin_default"
+}
+### Clan Fire Mandrill
+CFireMandrill={
+	key="Clan Fire Mandrill"
+	ship_prefix={
+		key=""
+		literal=yes
+	}
+	species={
+		class="HUM"
+		portrait="human"
+		species_name={
+			key="Fire Mandrill"
+			literal=yes
+		}
+		species_plural={
+			key="Fire Mandrills"
+			literal=yes
+		}
+		species_adjective={
+			key="Fire Mandrill"
+			literal=yes
+		}
+		species_bio="The Fire Mandrills are known for their fiery temper and fractious politics. They are formidable warriors, but their lack of unity often hampers their efforts."
+		name_list="HUMAN2"
+		gender=not_set
+		trait="trait_intelligent"
+		trait="trait_strong"
+		trait="trait_unruly"
+		trait="trait_communal"
+	}
+	name={
+		key="Clan Fire Mandrill"
+		literal=yes
+	}
+	adjective={
+		key="%ADJ%"
+		variables={
+			{
+				key="adjective"
+				value={
+					key="Fire Mandrill"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_dictatorial"
+	government="gov_martial_dictatorship"
+	advisor_voice_type="l_the_soldier"
+	planet_name={
+		key="Shadow"
+		literal=yes
+	}
+	planet_class="pc_desert"
+	system_name={
+		key="Shadow"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="BattleTech"
+			file="Clan_Fire_Mandrill.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"black"
+			"intense_orange"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name={
+			full_names={
+				key="Amanda Carrol"
+				literal=yes
+			}
+		}
+		portrait="human_female_04"
+		texture=0
+		attachment=0
+		clothes=1
+		ruler_title={
+			key="Khan"
+			literal=yes
+		}
+		ruler_title_female={
+			key="Khan"
+			literal=yes
+		}
+		custom_biography={
+			key="Amanda Carrol is a strong-willed leader who strives to unite the fractious kindraa of Clan Fire Mandrill. She is known for her fiery determination and strategic acumen."
+			literal=yes
+		}
+		trait="trait_ruler_warlike"
+		leader_class="general"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_honorbound_warriors_room"
+	spawn_enabled=always
+	ethic="ethic_authoritarian"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
+	civics={
+		"civic_warrior_culture"
+		"civic_nationalistic_zeal"
+	}
+	origin="origin_default"
+}
+### Clan Hell's Horses
+CHellsHorses={
+	key="Clan Hell's Horses"
+	ship_prefix={
+		key=""
+		literal=yes
+	}
+	species={
+		class="HUM"
+		portrait="human"
+		species_name={
+			key="Hell's Horse"
+			literal=yes
+		}
+		species_plural={
+			key="Hell's Horses"
+			literal=yes
+		}
+		species_adjective={
+			key="Hell's Horse"
+			literal=yes
+		}
+		species_bio="The Hell's Horses are known for their combined-arms approach to warfare. They value strength and tenacity, and have a strong affinity for their eponymous battlemechs."
+		name_list="HUMAN2"
+		gender=not_set
+		trait="trait_intelligent"
+		trait="trait_strong"
+		trait="trait_unruly"
+		trait="trait_communal"
+	}
+	name={
+		key="Clan Hell's Horses"
+		literal=yes
+	}
+	adjective={
+		key="%ADJ%"
+		variables={
+			{
+				key="adjective"
+				value={
+					key="Hell's Horses"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_dictatorial"
+	government="gov_martial_dictatorship"
+	advisor_voice_type="l_the_soldier"
+	planet_name={
+		key="Niles"
+		literal=yes
+	}
+	planet_class="pc_continental"
+	system_name={
+		key="Niles"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="BattleTech"
+			file="Clan_Hell's_Horses.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"black"
+			"intense_red"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name={
+			full_names={
+				key="Malavai Fletcher"
+				literal=yes
+			}
+		}
+		portrait="human_male_05"
+		texture=0
+		attachment=0
+		clothes=1
+		ruler_title={
+			key="Khan"
+			literal=yes
+		}
+		ruler_title_female={
+			key="Khan"
+			literal=yes
+		}
+		custom_biography={
+			key="Malavai Fletcher is a pragmatic and tenacious leader. He is known for his focus on strength and resilience, and for his commitment to the combined-arms philosophy of Clan Hell's Horses."
+			literal=yes
+		}
+		trait="trait_ruler_warlike"
+		leader_class="general"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_honorbound_warriors_room"
+	spawn_enabled=always
+	ethic="ethic_authoritarian"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
+	civics={
+		"civic_warrior_culture"
+		"civic_nationalistic_zeal"
+	}
+	origin="origin_default"
+}

@@ -14,9 +14,12 @@ Custom empire designs for each house, clan, and other factions, including unique
 
 To install the BattleTech 3025 Mod for Stellaris, simply place the mod files in your Stellaris mod directory. Usually, this is located in "Documents\Paradox Interactive\Stellaris\mod".
 
+### Scenario setup
+The scenario folder is located under "Documents\Paradox Interactive\Stellaris\mod\save games". Copy it into your save games folder under "Documents\Paradox Interactive\Stellaris\save games".
+
 ## Usage
 
-Once installed, you can select the mod in the Stellaris launcher. After starting a new game, you'll be able to select any of the BattleTech houses or clans as your empire. Each house and clan has unique traits and characteristics, so choose the one that best fits your play style.
+Once installed, you can select the mod in the Stellaris launcher. After starting a new game, you'll be able to select any of the BattleTech factions as your empire. Each faction has unique traits and characteristics, so choose the one that best fits your play style.
 
 Please note that the mod is still a work in progress and some features may not be fully implemented or balanced.
 

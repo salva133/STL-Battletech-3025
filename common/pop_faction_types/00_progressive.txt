@@ -18,7 +18,7 @@ progressive = {
 	}
 
 	is_potential = {
-		is_faction_allowed = yes
+		is_faction_allowed = no
 	}
 
 	parameters = {

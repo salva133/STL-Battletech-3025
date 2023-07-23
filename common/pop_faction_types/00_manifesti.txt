@@ -20,6 +20,7 @@ manifesti = {
 	}
 
 	is_potential = {
+		is_faction_allowed = no
 		years_passed > 10
 		is_ai = no
 		has_country_flag = manifesti_faction

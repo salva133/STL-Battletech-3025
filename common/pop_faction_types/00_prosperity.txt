@@ -11,7 +11,7 @@ prosperity = {
 	support_multiplier = 1
 
 	is_potential = {
-		is_faction_allowed = yes
+		is_faction_allowed = no
 	}
 
 	parameters = {

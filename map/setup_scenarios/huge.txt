@@ -1,6 +1,6 @@
 setup_scenario = {
 	name = "huge"
-	priority = 4					#priority decides in which order the scenarios are listed
+	priority = 0					#priority decides in which order the scenarios are listed
 	default = yes
 	num_stars = 1000
 	radius = 459					#should be less than 500, preferably less than ~460

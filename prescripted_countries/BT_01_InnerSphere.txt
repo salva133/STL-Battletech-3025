@@ -1,4 +1,10 @@
-"ComStar"={
+#########################
+#### Other IS States ####
+#########################
+
+
+### ComStar
+ComStar={
 	key="ComStar"
 	ship_prefix={
 		key="CS"
@@ -122,7 +128,9 @@
 	}
 	origin="origin_default"
 }
-"Free Rasalhague Republic"={
+
+### Free Rasalhague Republic
+RasalFRR={
 	key="Free Rasalhague Republic"
 	ship_prefix={
 		key="FRR"
@@ -245,7 +253,9 @@
 	}
 	origin="origin_default"
 }
-"Republic of the Sphere"={
+
+### Republic of the Sphere
+ROTS={
 	key="Republic of the Sphere"
 	ship_prefix={
 		key="RS"

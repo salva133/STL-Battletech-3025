@@ -1,4 +1,10 @@
-"Clan Wolf"={
+###############
+#### Clans ####
+###############
+
+
+### Clan Wolf
+CWolf={
 	key="Clan Wolf"
 	ship_prefix={
 		key=""
@@ -115,7 +121,8 @@
 	}
 	origin="origin_default"
 }
-"Clan Jade Falcon"={
+### Clan Jade Falcon
+CJadeFalcon={
 	key="Clan Jade Falcon"
 	ship_prefix={
 		key=""
@@ -232,7 +239,8 @@
 	}
 	origin="origin_default"
 }
-"Clan Ghost Bear"={
+### Clan Ghost Bear
+CGhostBear={
 	key="Clan Ghost Bear"
 	ship_prefix={
 		key=""
@@ -349,7 +357,8 @@
 	}
 	origin="origin_default"
 }
-"Clan Smoke Jaguar"={
+### Clan Smoke Jaguar
+CSmokeJaguar={
 	key="Clan Smoke Jaguar"
 	ship_prefix={
 		key=""
@@ -466,7 +475,8 @@
 	}
 	origin="origin_default"
 }
-"Clan Diamond Shark"={
+### Clan Diamond Shark
+CDiamondShark={
 	key="Clan Diamond Shark"
 	ship_prefix={
 		key=""
@@ -583,7 +593,8 @@
 	}
 	origin="origin_default"
 }
-"Clan Nova Cat"={
+### Clan Nova Cat
+CNovaCat={
 	key="Clan Nova Cat"
 	ship_prefix={
 		key=""
@@ -700,7 +711,8 @@
 	}
 	origin="origin_default"
 }
-"Clan Steel Viper"={
+### Clan Steel Viper
+CSteelViper={
 	key="Clan Steel Viper"
 	ship_prefix={
 		key=""
@@ -817,7 +829,8 @@
 	}
 	origin="origin_default"
 }
-"Clan Ice Hellion"={
+### Clan Ice Hellion
+CIceHellion={
 	key="Clan Ice Hellion"
 	ship_prefix={
 		key=""
@@ -934,7 +947,8 @@
 	}
 	origin="origin_default"
 }
-"Clan Fire Mandrill"={
+### Clan Fire Mandrill
+CFireMandrill={
 	key="Clan Fire Mandrill"
 	ship_prefix={
 		key=""
@@ -1051,7 +1065,8 @@
 	}
 	origin="origin_default"
 }
-"Clan Hell's Horses"={
+### Clan Hell's Horses
+CHellsHorses={
 	key="Clan Hell's Horses"
 	ship_prefix={
 		key=""

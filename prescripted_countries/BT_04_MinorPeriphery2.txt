@@ -1,4 +1,9 @@
-"Marian Hegemony"={
+################################
+#### Minor Periphery States ####
+################################
+
+### Marian Hegemony
+MarHeg={
 	key="Marian Hegemony"
 	ship_prefix={
 		key="MH"
@@ -129,7 +134,8 @@
 	}
 	origin="origin_default"
 }
-"Lothian League"={
+### Lothian League
+LotLea={
 	key="Lothian League"
 	ship_prefix={
 		key="LLS"
@@ -261,7 +267,8 @@
 	}
 	origin="origin_default"
 }
-"Illyrian Palatinate"={
+### Illyrian Palatinate
+IllPal={
 	key="Illyrian Palatinate"
 	ship_prefix={
 		key="IP"
@@ -392,7 +399,8 @@
 	}
 	origin="origin_default"
 }
-"Circinus Federation"={
+### Circinus Federation
+CirFed={
 	key="Circinus Federation"
 	ship_prefix={
 		key="CF"
@@ -523,7 +531,8 @@
 	}
 	origin="origin_default"
 }
-"Morgraine's Valkyrate"={
+### Morgraine's Valkyrate
+MorVal={
 	key="Morgraine's Valkyrate"
 	ship_prefix={
 		key="VNV"
@@ -645,7 +654,8 @@
 	}
 	origin="origin_default"
 }
-"Chainelane Isles"={
+### Chainelane Isles
+ChaIsl={
 	key="Chainelane Isles"
 	ship_prefix={
 		key="CI"
@@ -768,7 +778,8 @@
 	}
 	origin="origin_default"
 }
-"Oberon Confederation"={
+### Oberon Confederation
+ObeCon={
 	key="Oberon Confederation"
 	ship_prefix={
 		key="OC"
@@ -891,7 +902,8 @@
 	}
 	origin="origin_default"
 }
-"Elysian Fields"={
+### Elysian Fields
+ElyFie={
 	key="Elysian Fields"
 	ship_prefix={
 		key="EF"
@@ -1013,7 +1025,8 @@
 	}
 	origin="origin_default"
 }
-"Tortuga Dominions"={
+### Tortuga Dominions
+TorDom={
 	key="Tortuga Dominions"
 	ship_prefix={
 		key="TD"
@@ -1136,7 +1149,8 @@
 	}
 	origin="origin_default"
 }
-"JàrnFòlk Worlds"={
+### JàrnFòlk Worlds
+JarWor={
 	key="JàrnFòlk Worlds"
 	ship_prefix={
 		key="JWS"

@@ -1,4 +1,10 @@
-"Federated Suns"={
+######################
+#### Great Houses ####
+######################
+
+
+### Federated Suns
+FedSuns={
 	key="Federated Suns"
 	ship_prefix={
 		key="FS"
@@ -122,7 +128,9 @@
 	}
 	origin="origin_default"
 }
-"Draconis Combine"={
+
+### Draconis Combine
+DracComb={
 	key="Draconis Combine"
 	ship_prefix={
 		key="DC"
@@ -255,7 +263,9 @@
 	}
 	origin="origin_default"
 }
-"Capellan Confederation"={
+
+### Capellan Confederation
+CapCon={
 	key="Capellan Confederation"
 	ship_prefix={
 		key="CCS"
@@ -388,7 +398,9 @@
 	}
 	origin="origin_default"
 }
-"Lyran Commonwealth"={
+
+### Lyran Commonwealth
+LyrCom={
 	key="Lyran Commonwealth"
 	ship_prefix={
 		key="LC"
@@ -522,7 +534,9 @@
 	}
 	origin="origin_default"
 }
-"Free Worlds League"={
+
+### Free Worlds League
+FWL={
 	key="Free Worlds League"
 	ship_prefix={
 		key="FWLS"

@@ -1,4 +1,9 @@
-"Aurigan Coalition"={
+################################
+#### Major Periphery States ####
+################################
+
+### Aurigan Coalition
+AurCoa={
 	key="Aurigan Coalition"
 	ship_prefix={
 		key="AC"
@@ -130,7 +135,8 @@
 	}
 	origin="origin_default"
 }
-"Magistracy of Canopus"={
+### Magistracy of Canopus
+MagCan={
 	key="Magistracy of Canopus"
 	ship_prefix={
 		key="MC"
@@ -249,7 +255,8 @@
 	}
 	origin="origin_default"
 }
-"Taurian Concordat"={
+### Taurian Concordat
+TauCon={
 	key="Taurian Concordat"
 	ship_prefix={
 		key="TC"
@@ -372,7 +379,8 @@
 	}
 	origin="origin_default"
 }
-"Outworlds Alliance"={
+### Outworlds Alliance
+OutAll={
 	key="Outworlds Alliance"
 	ship_prefix={
 		key="OAS"

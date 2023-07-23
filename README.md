@@ -30,6 +30,7 @@ We welcome contributions from the community. If you'd like to help improve the m
 ### Changelog
 
 0.1.6
+
     - added interface data for adaption  
     - added all localisation files because for the hell of it why not. I cannot find shit in the interface files  
     - modified scenario names  
@@ -40,10 +41,12 @@ We welcome contributions from the community. If you'd like to help improve the m
     - modified prescripted_countries  
 
 0.1.5
+
     - Added scenario file
     - Added minor periphery states
 
 0.1.4
+
     - Added map options
     - Merged BattleTech Great House Flags into the project
 

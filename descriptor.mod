@@ -5,4 +5,4 @@ tags={
 	"MechWarrior"
 }
 name="BattleTech 3025"
-supported_version="3.10"
+supported_version="3.10.0"

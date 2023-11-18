@@ -27,46 +27,9 @@ Please note that the mod is still a work in progress and some features may not b
 
 We welcome contributions from the community. If you'd like to help improve the mod or add new features, please feel free to make a pull request.
 
-### Changelog
+### Credits
 
-0.1.6
-
-    - added interface data for adaption  
-    - added all localisation files because for the hell of it why not. I cannot find shit in the interface files  
-    - modified scenario names  
-    - deactivated scenario button for now  
-    - changed scenario priorities  
-    - added faction types  
-    - deactivated some factions  
-    - modified prescripted_countries  
-
-0.1.5
-
-    - Added scenario file
-    - Added minor periphery states
-
-0.1.4
-
-    - Added map options
-    - Merged BattleTech Great House Flags into the project
-
-0.1.3
-
-    - Added the Periphery States
-
-0.1.1
-
-    - Added the Free Rasalhague Republic
-    - Added the Clans
-
-0.1.0
-
-    - Initial release
-    - Added the Great Houses
-
-Credits
-
-    Toni: Initial work, ongoing development and maintenance
+    Salva133: Initial work, ongoing development and maintenance
 
 ### Disclaimer
 

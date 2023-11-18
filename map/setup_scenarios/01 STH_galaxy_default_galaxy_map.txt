@@ -2,7 +2,7 @@
 ### This map must NOT include the zeta aquilae system, otherwise game will identify map as alpha/beta quadrant map.
 ### This map must include the Signum system, initializer signum_mm, which is used to identify the map.
 static_galaxy_scenario = {
-	name = "STH_galaxy_default_galaxy_map"
+	name = "BTT_galaxy_default_galaxy_map"
 	colonizable_planet_odds = 0.80
 	priority = 0
 	num_empires = { min = 0 max = 0 }

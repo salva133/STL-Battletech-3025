@@ -282,8 +282,8 @@ manifesti = {
 						is_federation_leader = yes
 					}
 					NOT = {
-						any_envoy = {
-							has_envoy_task = { task = federation }
+						any_owned_leader = {
+							is_assigned_to_federation = yes
 						}
 					}
 				}
@@ -292,8 +292,8 @@ manifesti = {
 						is_galactic_community_member = yes
 					}
 					NOT = {
-						any_envoy = {
-							has_envoy_task = { task = galactic_community }
+						any_owned_leader = {
+							is_assigned_to_galcom = yes
 						}
 						is_proposing_resolution = any
 					}

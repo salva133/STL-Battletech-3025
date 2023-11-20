@@ -1345,7 +1345,6 @@ system = { id = "1309" name = "" position = { x = -241.1053 y = 416.7995 }  }
 system = { id = "1310" name = "Taurus" position = { x = -218.1874 y = 412.4348 } initializer = taurian_concordat_homeworld spawn_weight = { base = 1 }  }
 system = { id = "1311" name = "" position = { x = -189.8129 y = 410.2518 }  }
 system = { id = "1312" name = "" position = { x = -242.1966 y = 398.2476 }  }
-system = { id = "1313" name = "" position = { x = -612.1569 y = -4.452896 }  }
 system = { id = "1315" name = "Morgan's Holdfast" position = { x = -491.7872 y = 325.1283 }  }
 system = { id = "1316" name = "Fletcher's Feast" position = { x = -490.6957 y = 345.8631 }  }
 system = { id = "1317" name = "New Gascony" position = { x = -489.486 y = 383.0795 }  }

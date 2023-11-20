@@ -70,7 +70,7 @@ FedSuns={
 		key="New Avalon"
 		literal=yes
 	}
-	initializer=""
+	initializer="davion_homeworld"
 	graphical_culture="humanoid_01"
 	city_graphical_culture="humanoid_01"
 	empire_flag={
@@ -196,7 +196,7 @@ DracComb={
 		key="Luthien"
 		literal=yes
 	}
-	initializer=""
+	initializer="kurita_homeworld"
 	graphical_culture="humanoid_01"
 	city_graphical_culture="humanoid_01"
 	empire_flag={
@@ -331,7 +331,7 @@ CapCon={
 		key="Sian"
 		literal=yes
 	}
-	initializer=""
+	initializer="liao_homeworld"
 	graphical_culture="humanoid_01"
 	city_graphical_culture="humanoid_01"
 	empire_flag={
@@ -467,7 +467,7 @@ LyrCom={
 		key="Tharkad"
 		literal=yes
 	}
-	initializer=""
+	initializer="steiner_homeworld"
 	graphical_culture="humanoid_01"
 	city_graphical_culture="humanoid_01"
 	empire_flag={
@@ -603,7 +603,7 @@ FWL={
 		key="Atreus"
 		literal=yes
 	}
-	initializer=""
+	initializer="marik_homeworld"
 	graphical_culture="humanoid_01"
 	city_graphical_culture="humanoid_01"
 	empire_flag={

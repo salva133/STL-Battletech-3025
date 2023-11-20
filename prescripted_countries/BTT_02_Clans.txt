@@ -62,7 +62,7 @@ CWolf={
 		key="Strana Mechty"
 		literal=yes
 	}
-	initializer=""
+	initializer="wolf_homeworld"
 	graphical_culture="humanoid_01"
 	city_graphical_culture="humanoid_01"
 	empire_flag={
@@ -180,7 +180,7 @@ CJadeFalcon={
 		key="Ironhold"
 		literal=yes
 	}
-	initializer=""
+	initializer="jade_falcons_homeworld"
 	graphical_culture="humanoid_01"
 	city_graphical_culture="humanoid_01"
 	empire_flag={
@@ -290,15 +290,15 @@ CGhostBear={
 	government="gov_martial_dictatorship"
 	advisor_voice_type="l_the_soldier"
 	planet_name={
-		key="Alshain"
+		key="Bearclaw"
 		literal=yes
 	}
 	planet_class="pc_arctic"
 	system_name={
-		key="Alshain"
+		key="Bearclaw"
 		literal=yes
 	}
-	initializer=""
+	initializer="ghost_bear_homeworld"
 	graphical_culture="humanoid_01"
 	city_graphical_culture="humanoid_01"
 	empire_flag={
@@ -416,7 +416,7 @@ CSmokeJaguar={
 		key="Huntress"
 		literal=yes
 	}
-	initializer=""
+	initializer="smoke_jaguars_homeworld"
 	graphical_culture="humanoid_01"
 	city_graphical_culture="humanoid_01"
 	empire_flag={
@@ -534,7 +534,7 @@ CDiamondShark={
 		key="Babylon"
 		literal=yes
 	}
-	initializer=""
+	initializer="diamond_shark_homeworld"
 	graphical_culture="humanoid_01"
 	city_graphical_culture="humanoid_01"
 	empire_flag={
@@ -644,15 +644,15 @@ CNovaCat={
 	government="gov_martial_dictatorship"
 	advisor_voice_type="l_the_soldier"
 	planet_name={
-		key="Zara"
+		key="New Barcella"
 		literal=yes
 	}
 	planet_class="pc_tropical"
 	system_name={
-		key="Zara"
+		key="Barcella"
 		literal=yes
 	}
-	initializer=""
+	initializer="nova_cat_homeworld"
 	graphical_culture="humanoid_01"
 	city_graphical_culture="humanoid_01"
 	empire_flag={
@@ -770,7 +770,7 @@ CSteelViper={
 		key="New Kent"
 		literal=yes
 	}
-	initializer=""
+	initializer="steel_vipers_homeworld"
 	graphical_culture="humanoid_01"
 	city_graphical_culture="humanoid_01"
 	empire_flag={
@@ -888,7 +888,7 @@ CIceHellion={
 		key="Hector"
 		literal=yes
 	}
-	initializer=""
+	initializer="ice_hellions_homeworld"
 	graphical_culture="humanoid_01"
 	city_graphical_culture="humanoid_01"
 	empire_flag={
@@ -1124,7 +1124,7 @@ CHellsHorses={
 		key="Niles"
 		literal=yes
 	}
-	initializer=""
+	initializer="hells_horses_homeworld"
 	graphical_culture="humanoid_01"
 	city_graphical_culture="humanoid_01"
 	empire_flag={

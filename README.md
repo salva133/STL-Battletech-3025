@@ -61,12 +61,8 @@ We welcome contributions from the community. If you'd like to help improve the m
 
 0.1.0
 
-    - Initial release
     - Added the Great Houses
-
-Credits
-
-    Toni: Initial work, ongoing development and maintenance
+    - Initial release
 
 ### Disclaimer
 

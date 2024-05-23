@@ -29,7 +29,41 @@ We welcome contributions from the community. If you'd like to help improve the m
 
 ### Credits
 
-    Salva133: Initial work, ongoing development and maintenance
+0.1.6
+
+    - added interface data for adaption  
+    - added all localisation files because for the hell of it why not. I cannot find shit in the interface files  
+    - modified scenario names  
+    - deactivated scenario button for now  
+    - changed scenario priorities  
+    - added faction types  
+    - deactivated some factions  
+    - modified prescripted_countries  
+
+0.1.5
+
+    - Added scenario file
+    - Added minor periphery states
+
+0.1.4
+
+    - Added map options
+    - Merged BattleTech Great House Flags into the project
+
+0.1.3
+
+    - Added the Periphery States
+
+0.1.1
+
+    - Added the Free Rasalhague Republic
+    - Added the Clans
+
+0.1.0
+
+    - Added the Great Houses
+    - Initial release
+
 
 ### Disclaimer
 

@@ -3,7 +3,7 @@
 /workspace.xml
 /.idea/
 
-/loadingscreens/BT_LS_originals
+gfx/loadingscreens/BT_LS_originals
 flags/BattleTech/clan_emblems_originals
 
 *.py

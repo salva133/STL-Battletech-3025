@@ -66,13 +66,13 @@ FedSuns = {
 		key = "New Avalon"
 		literal = yes
 	}
-	initializer = ""
-	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
-	empire_flag = {
-		icon = {
-			category = "BattleTech"
-			file = "davion.dds"
+	initializer="davion_homeworld"
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="BattleTech"
+			file="davion.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -190,13 +190,13 @@ DracComb = {
 		key = "Luthien"
 		literal = yes
 	}
-	initializer = ""
-	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
-	empire_flag = {
-		icon = {
-			category = "BattleTech"
-			file = "kurita.dds"
+	initializer="kurita_homeworld"
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="BattleTech"
+			file="kurita.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -323,13 +323,13 @@ CapCon = {
 		key = "Sian"
 		literal = yes
 	}
-	initializer = ""
-	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
-	empire_flag = {
-		icon = {
-			category = "BattleTech"
-			file = "liao.dds"
+	initializer="liao_homeworld"
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="BattleTech"
+			file="liao.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -457,13 +457,13 @@ LyrCom = {
 		key = "Tharkad"
 		literal = yes
 	}
-	initializer = ""
-	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
-	empire_flag = {
-		icon = {
-			category = "BattleTech"
-			file = "steiner.dds"
+	initializer="steiner_homeworld"
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="BattleTech"
+			file="steiner.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -591,13 +591,13 @@ FWL = {
 		key = "Atreus"
 		literal = yes
 	}
-	initializer = ""
-	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
-	empire_flag = {
-		icon = {
-			category = "BattleTech"
-			file = "marik.dds"
+	initializer="marik_homeworld"
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="BattleTech"
+			file="marik.dds"
 		}
 		background = {
 			category = "backgrounds"

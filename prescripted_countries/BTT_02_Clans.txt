@@ -59,13 +59,13 @@ CWolf = {
 		key = "Strana Mechty"
 		literal = yes
 	}
-	initializer = ""
-	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
-	empire_flag = {
-		icon = {
-			category = "BattleTech"
-			file = "Clan_Wolf.dds"
+	initializer="wolf_homeworld"
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="BattleTech"
+			file="Clan_Wolf.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -177,13 +177,13 @@ CJadeFalcon = {
 		key = "Ironhold"
 		literal = yes
 	}
-	initializer = ""
-	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
-	empire_flag = {
-		icon = {
-			category = "BattleTech"
-			file = "Clan_Jade_Falcon.dds"
+	initializer="jade_falcons_homeworld"
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="BattleTech"
+			file="Clan_Jade_Falcon.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -283,25 +283,25 @@ CGhostBear = {
 			}
 		}
 	}
-	authority = "auth_dictatorial"
-	government = "gov_martial_dictatorship"
-	advisor_voice_type = "l_the_soldier"
-	planet_name = {
-		key = "Alshain"
-		literal = yes
+	authority="auth_dictatorial"
+	government="gov_martial_dictatorship"
+	advisor_voice_type="l_the_soldier"
+	planet_name={
+		key="Bearclaw"
+		literal=yes
 	}
-	planet_class = "pc_arctic"
-	system_name = {
-		key = "Alshain"
-		literal = yes
+	planet_class="pc_arctic"
+	system_name={
+		key="Bearclaw"
+		literal=yes
 	}
-	initializer = ""
-	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
-	empire_flag = {
-		icon = {
-			category = "BattleTech"
-			file = "Clan_Ghost_Bear.dds"
+	initializer="ghost_bear_homeworld"
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="BattleTech"
+			file="Clan_Ghost_Bear.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -413,13 +413,13 @@ CSmokeJaguar = {
 		key = "Huntress"
 		literal = yes
 	}
-	initializer = ""
-	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
-	empire_flag = {
-		icon = {
-			category = "BattleTech"
-			file = "Clan_Smoke_Jaguar.dds"
+	initializer="smoke_jaguars_homeworld"
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="BattleTech"
+			file="Clan_Smoke_Jaguar.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -531,13 +531,13 @@ CDiamondShark = {
 		key = "Babylon"
 		literal = yes
 	}
-	initializer = ""
-	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
-	empire_flag = {
-		icon = {
-			category = "BattleTech"
-			file = "Clan_Diamond_Shark.dds"
+	initializer="diamond_shark_homeworld"
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="BattleTech"
+			file="Clan_Diamond_Shark.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -637,25 +637,25 @@ CNovaCat = {
 			}
 		}
 	}
-	authority = "auth_dictatorial"
-	government = "gov_martial_dictatorship"
-	advisor_voice_type = "l_the_soldier"
-	planet_name = {
-		key = "Zara"
-		literal = yes
+	authority="auth_dictatorial"
+	government="gov_martial_dictatorship"
+	advisor_voice_type="l_the_soldier"
+	planet_name={
+		key="New Barcella"
+		literal=yes
 	}
-	planet_class = "pc_tropical"
-	system_name = {
-		key = "Zara"
-		literal = yes
+	planet_class="pc_tropical"
+	system_name={
+		key="Barcella"
+		literal=yes
 	}
-	initializer = ""
-	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
-	empire_flag = {
-		icon = {
-			category = "BattleTech"
-			file = "Clan_Nova_Cat_(old).dds"
+	initializer="nova_cat_homeworld"
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="BattleTech"
+			file="Clan_Nova_Cat_(old).dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -767,13 +767,13 @@ CSteelViper = {
 		key = "New Kent"
 		literal = yes
 	}
-	initializer = ""
-	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
-	empire_flag = {
-		icon = {
-			category = "BattleTech"
-			file = "Clan_Steel_Viper.dds"
+	initializer="steel_vipers_homeworld"
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="BattleTech"
+			file="Clan_Steel_Viper.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -885,13 +885,13 @@ CIceHellion = {
 		key = "Hector"
 		literal = yes
 	}
-	initializer = ""
-	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
-	empire_flag = {
-		icon = {
-			category = "BattleTech"
-			file = "Clan_Ice_Hellion.dds"
+	initializer="ice_hellions_homeworld"
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="BattleTech"
+			file="Clan_Ice_Hellion.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -1121,13 +1121,13 @@ CHellsHorses = {
 		key = "Niles"
 		literal = yes
 	}
-	initializer = ""
-	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
-	empire_flag = {
-		icon = {
-			category = "BattleTech"
-			file = "Clan_Hell's_Horses.dds"
+	initializer="hells_horses_homeworld"
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="BattleTech"
+			file="Clan_Hell's_Horses.dds"
 		}
 		background = {
 			category = "backgrounds"

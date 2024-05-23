@@ -65,13 +65,13 @@ AurCoa = {
 		key = "Coromodir"
 		literal = yes
 	}
-	initializer = ""
-	graphical_culture = "mammalian_01"
-	city_graphical_culture = "humanoid_01"
-	empire_flag = {
-		icon = {
-			category = "domination"
-			file = "domination_9.dds"
+	initializer="aurigan_coalition_homeworld"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="domination"
+			file="domination_9.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -197,13 +197,13 @@ MagCan = {
 		key = "Canopus"
 		literal = yes
 	}
-	initializer = ""
-	graphical_culture = "mammalian_01"
-	city_graphical_culture = "humanoid_01"
-	empire_flag = {
-		icon = {
-			category = "human"
-			file = "flag_human_4.dds"
+	initializer="magistracy_canopus_homeworld"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="human"
+			file="flag_human_4.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -316,13 +316,13 @@ TauCon = {
 		key = "Taurus"
 		literal = yes
 	}
-	initializer = ""
-	graphical_culture = "mammalian_01"
-	city_graphical_culture = "humanoid_01"
-	empire_flag = {
-		icon = {
-			category = "zoological"
-			file = "flag_zoological_24.dds"
+	initializer="taurian_concordat_homeworld"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="zoological"
+			file="flag_zoological_24.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -376,124 +376,126 @@ TauCon = {
 }
 
 ### Outworlds Alliance
-OutAll = {
-	key = "Outworlds Alliance"
-	ship_prefix = {
-		key = "OAS"
-		literal = yes
-	}
-	species = {
-		class = "HUM"
-		portrait = "human"
-		species_name = {
-			key = "Outworlder"
-			literal = yes
-		}
-		species_plural = {
-			key = "Outworlders"
-			literal = yes
-		}
-		species_adjective = {
-			key = "%ADJECTIVE%"
-			variables = {
-				{
-					key = "adjective"
-					value = {
-						key = "Outworlder"
-						literal = yes
-					}
-				}
-			}
-		}
-		species_bio = "The Outworlders are a diverse people known for their mix of cultures, high value on education, and semi-communal lifestyle."
-		name_list = "HUMAN1"
-		gender = not_set
-		trait = "trait_intelligent"
-		trait = "trait_traditional"
-		trait = "trait_deviants"
-	}
-	name = {
-		key = "Outworlds Alliance"
-		literal = yes
-	}
-	adjective = {
-		key = "%ADJ%"
-		variables = {
-			{
-				key = "adjective"
-				value = {
-					key = "Outworlder"
-					literal = yes
-				}
-			}
-		}
-	}
-	authority = "auth_democratic"
-	government = "gov_moral_democracy"
-	planet_name = {
-		key = "Alpheratz"
-		literal = yes
-	}
-	planet_class = "pc_arid"
-	system_name = {
-		key = "Alpheratz"
-		literal = yes
-	}
-	initializer = ""
-	graphical_culture = "mammalian_01"
-	city_graphical_culture = "humanoid_01"
-	empire_flag = {
-		icon = {
-			category = "human"
-			file = "flag_human_8.dds"
-		}
-		background = {
-			category = "backgrounds"
-			file = "circle.dds"
-		}
-		colors = {
-			"dark_green"
-			"white"
-			"orange"
-			"null"
-		}
-	}
-	ruler = {
-		gender = male
-		name = {
-			full_names = {
-				key = "Mitchell Avellar"
-				literal = yes
-			}
-		}
-		portrait = "human_male_04"
-		texture = 2
-		attachment = 77
-		clothes = 0
-		ruler_title = {
-			key = "President"
-			literal = yes
-		}
-		ruler_title_female = {
-			key = "President"
-			literal = yes
-		}
-		custom_biography = {
-			key = "Mitchell Avellar leads the Outworlds Alliance with a focus on education, cultural diversity, and peaceful resolution of conflicts."
-			literal = yes
-		}
-		trait = "trait_ruler_industrialist"
-		leader_class = "governor"
-	}
-	spawn_as_fallen = no
-	ignore_portrait_duplication = no
-	room = "personality_migrating_flock_room"
-	spawn_enabled = always
-	ethic = "ethic_fanatic_egalitarian"
-	ethic = "ethic_pacifist"
-	civics = {
-		"civic_beacon_of_liberty"
-		"civic_idealistic_foundation"
-	}
-	origin = "origin_default"
-}
+# OutAll={
+# 	key="Outworlds Alliance"
+# 	ship_prefix={
+# 		key="OAS"
+# 		literal=yes
+# 	}
+# 	species={
+# 		class="HUM"
+# 		portrait="human"
+# 		species_name={
+# 			key="Outworlder"
+# 			literal=yes
+# 		}
+# 		species_plural={
+# 			key="Outworlders"
+# 			literal=yes
+# 		}
+# 		species_adjective={
+# 			key="%ADJECTIVE%"
+# 			variables={
+# 				{
+# 					key="adjective"
+# 					value={
+# 						key="Outworlder"
+# 						literal=yes
+# 					}
+# 				}
+ 
+# 			}
+# 		}
+# 		species_bio="The Outworlders are a diverse people known for their mix of cultures, high value on education, and semi-communal lifestyle."
+# 		name_list="HUMAN1"
+# 		gender=not_set
+# 		trait="trait_intelligent"
+# 		trait="trait_traditional"
+# 		trait="trait_deviants"
+# 	}
+# 	name={
+# 		key="Outworlds Alliance"
+# 		literal=yes
+# 	}
+# 	adjective={
+# 		key="%ADJ%"
+# 		variables={
+# 			{
+# 				key="adjective"
+# 				value={
+# 					key="Outworlder"
+# 					literal=yes
+# 				}
+# 			}
+ 
+# 		}
+# 	}
+# 	authority="auth_democratic"
+# 	government="gov_moral_democracy"
+# 	planet_name={
+# 		key="Alpheratz"
+# 		literal=yes
+# 	}
+# 	planet_class="pc_arid"
+# 	system_name={
+# 		key="Alpheratz"
+# 		literal=yes
+# 	}
+# 	initializer=""
+# 	graphical_culture="mammalian_01"
+# 	city_graphical_culture="humanoid_01"
+# 	empire_flag={
+# 		icon={
+# 			category="human"
+# 			file="flag_human_8.dds"
+# 		}
+# 		background={
+# 			category="backgrounds"
+# 			file="circle.dds"
+# 		}
+# 		colors={
+# 			"dark_green"
+# 			"white"
+# 			"orange"
+# 			"null"
+# 		}
+# 	}
+# 	ruler={
+# 		gender=male
+# 		name={
+# 			full_names={
+# 				key="Mitchell Avellar"
+# 				literal=yes
+# 			}
+# 		}
+# 		portrait="human_male_04"
+# 		texture=2
+# 		attachment=77
+# 		clothes=0
+# 		ruler_title={
+# 			key="President"
+# 			literal=yes
+# 		}
+# 		ruler_title_female={
+# 			key="President"
+# 			literal=yes
+# 		}
+# 		custom_biography={
+# 			key="Mitchell Avellar leads the Outworlds Alliance with a focus on education, cultural diversity, and peaceful resolution of conflicts."
+# 			literal=yes
+# 		}
+# 		trait="trait_ruler_industrialist"
+# 		leader_class="governor"
+# 	}
+# 	spawn_as_fallen=no
+# 	ignore_portrait_duplication=no
+# 	room="personality_migrating_flock_room"
+# 	spawn_enabled=always
+# 	ethic="ethic_fanatic_egalitarian"
+# 	ethic="ethic_pacifist"
+# 	civics={
+# 		"civic_beacon_of_liberty"
+# 		"civic_idealistic_foundation"
+# 	}
+# 	origin="origin_default"
+# }

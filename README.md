@@ -27,7 +27,7 @@ Please note that the mod is still a work in progress and some features may not b
 
 We welcome contributions from the community. If you'd like to help improve the mod or add new features, please feel free to make a pull request.
 
-### Changelog
+### Credits
 
 0.1.6
 
@@ -63,6 +63,7 @@ We welcome contributions from the community. If you'd like to help improve the m
 
     - Added the Great Houses
     - Initial release
+
 
 ### Disclaimer
 

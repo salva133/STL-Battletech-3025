@@ -1,0 +1,11 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+/.idea/
+
+gfx/loadingscreens/BT_LS_originals
+flags/BattleTech/clan_emblems_originals
+
+*.py
+*.jpg
+*.png

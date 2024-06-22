@@ -1,0 +1,3 @@
+# Previously held ruined megastructures, leaving variable incase it is used somewhere else. - Klyria
+
+# @base_moon_distance = 10
